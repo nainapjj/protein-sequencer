@@ -1,9 +1,10 @@
 import numpy as np
 import numpy
 import itertools
-import constants
 
-dict = {'GLY': 'G', 'PRO': 'P', 'ALA': 'A', 'VAL': 'V', 'LEU': 'L', 'ILE': 'I', 'AILE': 'I', 'BILE': 'I', 'MET': 'M', 'CYS': 'C', 'PHE': 'F', 'TYR': 'Y', 'TRP': 'W', 'HIS': 'H', 'LYS': 'K', 'ARG': 'R', 'GLN': 'Q', 'ASN': 'N', 'GLU': 'E', 'ASP': 'D', 'SER': 'S', 'THR': 'T', 'ATHR': 'T', 'BTHR': 'T', 'ACYS': 'C', 'BCYS': 'C', 'CCYS': 'C', 'ASER': 'S', 'BSER': 'S', 'AVAL': 'V', 'BVAL': 'V', 'AARG': 'R', 'BARG': 'R', 'AASN': 'N', 'BASN': 'N', 
+import Constants
+
+dict = {'GLY': 'G', 'PRO': 'P', 'ALA': 'A', 'VAL': 'V', 'LEU': 'L', 'ILE': 'I', 'AILE': 'I', 'BILE': 'I', 'MET': 'M', 'CYS': 'C', 'PHE': 'F', 'TYR': 'Y', 'TRP': 'W', 'HIS': 'H', 'LYS': 'K', 'ARG': 'R', 'GLN': 'Q', 'ASN': 'N', 'GLU': 'E', 'ASP': 'D', 'SER': 'S', 'THR': 'T', 'ATHR': 'T', 'BTHR': 'T', 'ACYS': 'C', 'BCYS': 'C', 'CCYS': 'C', 'ASER': 'S', 'BSER': 'S', 'AVAL': 'V', 'BVAL': 'V', 'AARG': 'R', 'BARG': 'R', 'AASN': 'N', 'BASN': 'N',
 'AGLN': 'Q', 'BGLN': 'Q', 'ALYS': 'K', 'BLYS': 'K'}
 
 pitchdict = {'G': 1, 'P': 2, 'A': 3, 'V': 4, 'L': 5, 'I': 6, 'M': 7, 'C': 8, 'F': 9, 'Y': 10, 'W': 11, 'H': 12, 'K': 13, 'R': 14, 'Q': 15, 'N': 16, 'E': 17, 'D': 18, 'S': 19, 'T': 20}
@@ -20,7 +21,7 @@ def indexator((a, b, c, d)):
     M=[]
     volume = round(volume, 7)
     return volume
-    
+
 def ParVol((a,  b,  c,  d)):
     listing = [a,  b,  c,  d]
     listing = list(listing)
@@ -33,11 +34,11 @@ def ParVol((a,  b,  c,  d)):
     return newnum
 
 # Creates a list with FORMAT: ((ind1, ind2, ind3, ind4), "am1am2am3am4")
-def findAllPossibleMotifs():   
-    candidate = constants.pdbFile
+def findAllPossibleMotifs():
+    candidate = Constants.pdbFile
     filename= open(candidate, "r")
     datalist = []
-    
+
     # Reads the PDB file.
     while True:
         line=filename.readline()
@@ -55,17 +56,18 @@ def findAllPossibleMotifs():
         if line[0]=='ENDMDL':
             break
     filename.close()
-    
+
     # Generates all of the combinations of Amino Acids (to find all
     # possible motifs)
     datacombo = list(itertools.combinations(datalist, 4))
-    
-    # Creates a list with FORMAT: ((ind1, ind2, ind3, ind4), "am1am2am3am4")
+
+    # Creates a list with FORMAT: ({"index": ind1, ind2, ind3, ind4),
+    # "amino": "am1am2am3am4"})
     dataformat = []
     for i in datacombo:
         index = i[0][1], i[1][1], i[2][1], i[3][1]
         amino = i[0][0] + i[1][0] + i[2][0] + i[3][0]
         amino = ''.join(sorted(amino))
-        dataformat.append((index, amino))
-        
+        dataformat.append({"index": index, "amino": amino})
+
     return dataformat
