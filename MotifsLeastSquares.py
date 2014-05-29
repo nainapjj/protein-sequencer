@@ -24,11 +24,11 @@ def generateAminoAcidsDifferenceList():
 
 # Attempt to obtain the least squares function
 # the matrix in question.
-def getCoordinatesByAminoAcidIndex(indexList, tetraCoordinates):
-    v0 = int(indexList[0] - 1)
-    v1 = int(indexList[1] - 1)
-    v2 = int(indexList[2] - 1)
-    v3 = int(indexList[3] - 1)
+def getCoordinatesByAminoAcidIndex(indexList, tetraCoordinates, usedAmino):
+    v0 = usedAmino.index(indexList[0])
+    v1 = usedAmino.index(indexList[1])
+    v2 = usedAmino.index(indexList[2])
+    v3 = usedAmino.index(indexList[3])
     aa1Coordinates = (tetraCoordinates[v0 * 3 + 0], tetraCoordinates[v0 * 3 + 1],
                       tetraCoordinates[v0 * 3 + 2])
     aa2Coordinates = (tetraCoordinates[v1 * 3 + 0], tetraCoordinates[v1 * 3 + 1],
@@ -39,11 +39,11 @@ def getCoordinatesByAminoAcidIndex(indexList, tetraCoordinates):
                       tetraCoordinates[v3 * 3 + 2])
     return (aa1Coordinates, aa2Coordinates, aa3Coordinates, aa4Coordinates)
 
-def getTetraIndicesByAminoAcidIndex(indexList):
-    v0 = indexList[0] - 1
-    v1 = indexList[1] - 1
-    v2 = indexList[2] - 1
-    v3 = indexList[3] - 1
+def getTetraIndicesByAminoAcidIndex(indexList, usedAmino):
+    v0 = usedAmino.index(indexList[0])
+    v1 = usedAmino.index(indexList[1])
+    v2 = usedAmino.index(indexList[2])
+    v3 = usedAmino.index(indexList[3])
 
     return (v0 * 3 + 0, v0 * 3 + 1, v0 * 3 + 2, v1 * 3 + 0, v1 * 3 + 1, v1 * 3 + 2,
             v2 * 3 + 0, v2 * 3 + 1, v2 * 3 + 2, v3 * 3 + 0, v3 * 3 + 1, v3 * 3 + 2,)
@@ -53,7 +53,7 @@ def findVolumeByCoordinates(((a, b, c), (d, e, f), (g, h, i), (p, q, r))):
     return (1.0 / 6.0) * scipy.linalg.det(scipy.matrix([[a, d, g, p], [b, e, h, q], [c, f, i, r], [1, 1, 1, 1]]))
 
 
-def calculateJacobian(tetraCoordinates, motifList):
+def calculateJacobian(tetraCoordinates, motifList, usedAmino):
 
     jMatrix = scipy.zeros((len(motifList), len(tetraCoordinates)))
 
@@ -61,10 +61,10 @@ def calculateJacobian(tetraCoordinates, motifList):
     for motif in motifList:
         ((x1, x2, x3), (x4, x5, x6),
          (x7, x8, x9), (x10, x11, x12)) = getCoordinatesByAminoAcidIndex(motif["index"],
-            tetraCoordinates)
+            tetraCoordinates, usedAmino)
         (dx1loc, dx2loc, dx3loc, dx4loc,
          dx5loc, dx6loc, dx7loc, dx8loc,
-         dx9loc, dx10loc, dx11loc, dx12loc) = getTetraIndicesByAminoAcidIndex(motif["index"])
+         dx9loc, dx10loc, dx11loc, dx12loc) = getTetraIndicesByAminoAcidIndex(motif["index"], usedAmino)
 
         #import pdb; pdb.set_trace()
 
@@ -104,7 +104,7 @@ def calculateJacobian(tetraCoordinates, motifList):
 
 # Function that is passed into the scipy.optimize function to find the
 # possible errors of the tetrahedron volumes
-def findResiduals(tetraCoordinates, motifList):
+def findResiduals(tetraCoordinates, motifList, usedAmino):
 
     errors = scipy.array([])
     errors = errors.astype(scipy.float64)
@@ -118,7 +118,7 @@ def findResiduals(tetraCoordinates, motifList):
         # Extract the volume from the motif.
         measuredVolume = motif["nVol"]
         calculatedVolume = findVolumeByCoordinates(
-            getCoordinatesByAminoAcidIndex(motif["index"], tetraCoordinates))
+            getCoordinatesByAminoAcidIndex(motif["index"], tetraCoordinates, usedAmino))
         errors = scipy.append(errors, calculatedVolume - measuredVolume)
 
         #motifCount += 1
@@ -159,7 +159,7 @@ def generateInitialValues(sizeOfProtein):
 
     return x0
 
-def findCoordinates(motifList, sizeOfProtein):
+def findCoordinates(motifList, usedAmino):
     #scipy.set_printoptions(threshold=scipy.nan)
     #x0 = ([0.0] * 3)
     #x0.extend([1.0] * ((sizeOfAminoAcid*3) - 3))
@@ -171,17 +171,17 @@ def findCoordinates(motifList, sizeOfProtein):
     #    x0.extend([i]*3)
     #x0 = scipy.arange(sizeOfAminoAcid*3)**2
 
-    x0 = scipy.array(generateInitialValues(sizeOfProtein))
+    x0 = scipy.array(generateInitialValues(len(usedAmino)))
 
-    return scipy.optimize.leastsq(findResiduals, x0, args=(motifList),
+    return scipy.optimize.leastsq(findResiduals, x0, args=(motifList, usedAmino),
                                   Dfun=calculateJacobian)[0]
                                   #xtol=0.01, gtol=0.01)
 
-def generateTenCoordinates(motifList, sizeOfProtein):
+def generateTenCoordinates(motifList, usedAmino):
     coordinates = []
     for j in range(10):
         currentCoordinates = []
-        answer = findCoordinates(motifList, sizeOfProtein)
+        answer = findCoordinates(motifList, usedAmino)
         for i in range(0, len(answer), 3):
             currentCoordinates.append((answer[i], answer[i+1], answer[i+2]))
         coordinates.append(currentCoordinates)

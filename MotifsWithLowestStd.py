@@ -62,15 +62,18 @@ def findListOfMotifsWithVolumes():
 def filterOutUnneededMotifs(listOfMotifsWithVolumes, sizeOfProtein):
     newMotifList = []
     unvisitedAA = []
+    visitedAA = []
 
     # First, sort all of the list of motifs by std deviation
     sortedMotifs = sorted(listOfMotifsWithVolumes, key=lambda motif: motif["std"])
-
+    
+    # Keep only the first part of the motifs list.
+    sortedMotifs = sortedMotifs[:Constants.NUMBER_OF_TOP_MOTIFS]
 
     # Create a list of size, size of polypeptide
     hasVisitedAA = numpy.zeros(sizeOfProtein)
 
-    # Create a list to store used motifs
+    # Create a list to store used motifs and unused motifs
     unusedMotifs = []
 
     motifIndex = 0
@@ -88,9 +91,13 @@ def filterOutUnneededMotifs(listOfMotifsWithVolumes, sizeOfProtein):
         motifIndex += 1
 
     # Pass through the has visited AA list to see which AA have not been visited.
-    aaIndex = 0
+    aaIndex = 1
     for aa in hasVisitedAA:
-        if aa == 0: unvisitedAA.append(aaIndex)
+        if aa <= Constants.MIN_NUMBER_OF_MOTIFS_PER_AA: 
+            unvisitedAA.append(aaIndex)
+        else:
+            visitedAA.append(aaIndex)
+            
         aaIndex += 1
 
     # Now, pass through the motif list again, add unused motifs so that newMotifList has
@@ -101,4 +108,4 @@ def filterOutUnneededMotifs(listOfMotifsWithVolumes, sizeOfProtein):
             break
         newMotifList.append(sortedMotifs[motif])
 
-    return {"motifs": newMotifList, "unvisited": unvisitedAA}
+    return {"motifs": newMotifList, "unvisited": unvisitedAA, "visited": visitedAA}
