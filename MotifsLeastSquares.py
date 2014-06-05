@@ -159,6 +159,43 @@ def generateInitialValues(sizeOfProtein):
 
     return x0
 
+def generateInitialValuesFromBackbone(sizeOfProtein, backboneIndices, backboneCoordinates):
+    x0 = []
+    listOfDifferences = \
+        generateAminoAcidsDifferenceList()
+    
+    # First, instantiate all coordinates to -1 and keep track of
+    # how many amino acids have coordinates
+    x0 = [-1] * sizeOfProtein
+    
+    # Iterate through the backbone indices and add the backbone 
+    # coordinates
+    for i in xrange(backboneIndices):
+        x0[backboneIndices[i]] = scipy.array(backboneCoordinates[i])
+    
+    # Iterate through backbone indices again, and this time 
+    # attempt to add coordinates to the backbone by traveling forward
+    # and traveling backwards
+    for index in backboneIndices:
+        # First, iterate backwards
+        currentIndex = index - 1
+        while index >= 0:
+            if (x0[index] == -1):
+                nextIndex = random.randrange(0, sizeOfProtein)
+                diffVector = scipy.array(listOfDifferences[nextIndex])
+                x0[index] = x0[index + 1] + diffVector
+        
+        # Next, iterate forwards
+        currentIndex = index + 1
+        while index < sizeOfProtein:
+            if (x0[index] == 1):
+                nextIndex = random.randrange(0, sizeOfProtein)
+                diffVector = scipy.array(listOfDifferences[nextIndex])
+                x0[index] = x0[index + 1] + diffVector
+    
+    return x0
+    
+
 def findCoordinates(motifList, usedAmino):
     #scipy.set_printoptions(threshold=scipy.nan)
     #x0 = ([0.0] * 3)
@@ -177,6 +214,12 @@ def findCoordinates(motifList, usedAmino):
                                   Dfun=calculateJacobian)[0]
                                   #xtol=0.01, gtol=0.01)
 
+def findCoordinatesFromBackbone(motifList, sizeOfProtein, backboneIndices, backboneCoordinates):
+    x0 = generateInitialValuesFromBackbone(sizeOfProtein, backboneIndices, backboneCoordinates)
+    
+    return scipy.optimize.leastsq(findResiduals, x0, args=(motifList, xrange(sizeOfProtein)),
+                                  Dfun=calculateJacobian)[0]
+
 def generateTenCoordinates(motifList, usedAmino):
     coordinates = []
     for j in range(10):
@@ -187,6 +230,15 @@ def generateTenCoordinates(motifList, usedAmino):
         coordinates.append(currentCoordinates)
     return coordinates
 
+def generateTenCoordinatesWithBackbone(motifList, sizeOfProtein, backboneIndices, backboneCoordinates):
+    coordinates = []
+    for j in range(10):
+        currentCoordinates = []
+        answer = findCoordinates(motifList, sizeOfProtein, backboneIndices, backboneCoordinates)
+        for i in range(0, len(answer), 3):
+            currentCoordinates.append((answer[i], answer[i+1], answer[i+2]))
+        coordinates.append(currentCoordinates)
+    return coordinates
 
 #def findCoordinates2(sizeOfAminoAcid):
 #    x0 = scipy.zeros(sizeOfAminoAcid*3)
