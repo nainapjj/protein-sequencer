@@ -263,7 +263,10 @@ def generateCoordinatesFromInitial(motifList, usedAmino, initialCoordinateSet):
             initialCoordinatesStraight.extend(initialCoordinatesGroup)
 
         answer = findCoordinatesFromInitial(motifList, usedAmino, initialCoordinatesStraight)
-
+        
+        if Constants.USE_MINIMIZE:
+            return answer
+        
         for i in range(0, len(answer), 3):
             currentCoordinates.append((answer[i], answer[i+1], answer[i+2]))
 
