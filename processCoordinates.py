@@ -1,6 +1,6 @@
 import ReadCoordinatesFile
 
-COORDINATES_FILE = "500Motifs.txt"
+COORDINATES_FILE = "GeneratedFromInitialNoGradient.txt"
 
 if __name__ == "__main__":
     coordFileOutput = ReadCoordinatesFile.readCoordinateFile(COORDINATES_FILE)    

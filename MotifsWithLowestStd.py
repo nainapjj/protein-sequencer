@@ -37,9 +37,6 @@ def getStdDevMeanFromFile(filename):
 
     return currentDict
 
-# if __name__ == "__main__":
-#     print getStdDevMeanFromFile(sys.argv[1])
-
 def findListOfMotifsWithVolumes():
     motifDict = getStdDevMeanFromFile(Constants.meansAndStdDevFile)
     allMotifs = StuartFindAllPossibleMotifs.findAllPossibleMotifs()

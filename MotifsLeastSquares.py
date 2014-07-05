@@ -135,6 +135,10 @@ def findResiduals(tetraCoordinates, motifList, usedAmino):
 
     return errors
 
+def findResidualsSquared(tetraCoordinates, motifList, usedAmino):
+    errors = findResiduals(tetraCoordinates, motifList, usedAmino)
+    return reduce(lambda acc, next: acc + next**2, errors)
+
 #def squareOfResiduals(tetraCoordinates):
 #    global listOfMotifsWithVolumes
 #    return scipy.sum(scipy.square(findResiduals(tetraCoordinates, listOfMotifsWithVolumes)))
@@ -170,28 +174,32 @@ def generateInitialValuesFromBackbone(sizeOfProtein, backboneIndices, backboneCo
     
     # Iterate through the backbone indices and add the backbone 
     # coordinates
-    for i in xrange(backboneIndices):
-        x0[backboneIndices[i]] = scipy.array(backboneCoordinates[i])
+    for i in xrange(len(backboneIndices)):
+        x0[backboneIndices[i]-1] = scipy.array(backboneCoordinates[i])
     
     # Iterate through backbone indices again, and this time 
     # attempt to add coordinates to the backbone by traveling forward
-    # and traveling backwards
+    # and traveling backwards  
+    
     for index in backboneIndices:
+        # Convert index to an array index
+        index = index - 1        
+        
         # First, iterate backwards
         currentIndex = index - 1
-        while index >= 0:
-            if (x0[index] == -1):
-                nextIndex = random.randrange(0, sizeOfProtein)
-                diffVector = scipy.array(listOfDifferences[nextIndex])
-                x0[index] = x0[index + 1] + diffVector
+        while currentIndex >= 0 and isinstance(x0[currentIndex], int):
+            nextIndex = random.randrange(0, sizeOfProtein)
+            diffVector = scipy.array(listOfDifferences[nextIndex])
+            x0[currentIndex] = x0[currentIndex + 1] + diffVector
+            currentIndex -= 1
         
         # Next, iterate forwards
         currentIndex = index + 1
-        while index < sizeOfProtein:
-            if (x0[index] == 1):
-                nextIndex = random.randrange(0, sizeOfProtein)
-                diffVector = scipy.array(listOfDifferences[nextIndex])
-                x0[index] = x0[index + 1] + diffVector
+        while currentIndex < sizeOfProtein and isinstance(x0[currentIndex], int):
+            nextIndex = random.randrange(0, sizeOfProtein)
+            diffVector = scipy.array(listOfDifferences[nextIndex])
+            x0[currentIndex] = x0[currentIndex - 1] + diffVector
+            currentIndex += 1
     
     return x0
     
@@ -210,15 +218,59 @@ def findCoordinates(motifList, usedAmino):
 
     x0 = scipy.array(generateInitialValues(len(usedAmino)))
 
-    return scipy.optimize.leastsq(findResiduals, x0, args=(motifList, usedAmino),
-                                  Dfun=calculateJacobian)[0]
-                                  #xtol=0.01, gtol=0.01)
+    if Constants.USE_MINIMIZE:
+        return scipy.optimize.minimize(findResidualsSquared, x0, args=(motifList, usedAmino),
+                                       options={"disp":True})
+    elif Constants.USE_OUR_GRADIENT:
+        return scipy.optimize.leastsq(findResiduals, x0, args=(motifList, usedAmino),
+                                      Dfun=calculateJacobian)[0]
+                                      #xtol=0.01, gtol=0.01)
+    else:
+        return scipy.optimize.leastsq(findResiduals, x0, args=(motifList, usedAmino),
+                                      ftol=0.01, xtol=0.01)[0]
 
-def findCoordinatesFromBackbone(motifList, sizeOfProtein, backboneIndices, backboneCoordinates):
-    x0 = generateInitialValuesFromBackbone(sizeOfProtein, backboneIndices, backboneCoordinates)
-    
-    return scipy.optimize.leastsq(findResiduals, x0, args=(motifList, xrange(sizeOfProtein)),
-                                  Dfun=calculateJacobian)[0]
+def findCoordinatesFromInitial(motifList, usedAmino, initialCoordinatesStraight):
+    if Constants.USE_MINIMIZE:
+        return scipy.optimize.minimize(findResidualsSquared, initialCoordinatesStraight, args=(motifList, usedAmino),
+                                       options={"disp":True}, method='Nelder-Mead')
+    elif Constants.USE_OUR_GRADIENT:
+        return scipy.optimize.leastsq(findResiduals, initialCoordinatesStraight, args=(motifList, usedAmino),
+                                Dfun=calculateJacobian)[0]
+    else:
+        return scipy.optimize.leastsq(findResiduals, initialCoordinatesStraight, args=(motifList, usedAmino),
+                                      ftol=0.01, xtol=0.01)[0]
+
+def findCoordinatesFromBackbone(motifList, usedAmino, backboneIndices, backboneCoordinates):
+    # If len(usedAmino) != sizeOfProtein, this might return an error
+    x0 = generateInitialValuesFromBackbone(len(usedAmino), backboneIndices, backboneCoordinates)
+
+    if Constants.USE_MINIMIZE:
+        return scipy.optimize.minimize(findResidualsSquared, x0, args=(motifList, usedAmino),
+                                       options={"disp":True})
+    if Constants.USE_OUR_GRADIENT:
+        return scipy.optimize.leastsq(findResiduals, x0, args=(motifList, usedAmino),
+                                      Dfun=calculateJacobian)[0]
+    else:
+        return scipy.optimize.leastsq(findResiduals, x0, args=(motifList, usedAmino), ftol=0.01, xtol=0.01)[0]
+
+def generateCoordinatesFromInitial(motifList, usedAmino, initialCoordinateSet):
+    coordinates = []
+
+    for initialCoordinatesGrouped in initialCoordinateSet:
+        currentCoordinates = []
+        initialCoordinatesStraight = []
+        for initialCoordinatesGroup in initialCoordinatesGrouped:
+            initialCoordinatesStraight.extend(initialCoordinatesGroup)
+
+        answer = findCoordinatesFromInitial(motifList, usedAmino, initialCoordinatesStraight)
+
+        for i in range(0, len(answer), 3):
+            currentCoordinates.append((answer[i], answer[i+1], answer[i+2]))
+
+        coordinates.append(currentCoordinates)
+
+    return coordinates
+
 
 def generateTenCoordinates(motifList, usedAmino):
     coordinates = []
@@ -230,11 +282,11 @@ def generateTenCoordinates(motifList, usedAmino):
         coordinates.append(currentCoordinates)
     return coordinates
 
-def generateTenCoordinatesWithBackbone(motifList, sizeOfProtein, backboneIndices, backboneCoordinates):
+def generateTenCoordinatesWithBackbone(motifList, usedAmino, backboneIndices, backboneCoordinates):
     coordinates = []
     for j in range(10):
         currentCoordinates = []
-        answer = findCoordinates(motifList, sizeOfProtein, backboneIndices, backboneCoordinates)
+        answer = findCoordinatesFromBackbone(motifList, usedAmino, backboneIndices, backboneCoordinates)
         for i in range(0, len(answer), 3):
             currentCoordinates.append((answer[i], answer[i+1], answer[i+2]))
         coordinates.append(currentCoordinates)

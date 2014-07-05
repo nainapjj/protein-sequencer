@@ -1,8 +1,8 @@
 import ReadCoordinatesFile
 import Constants
 
-COORDINATES_FILE = "tenCoordinates.txt"
-GENERATED_PDB_FILE = "tenCoordinates_1.pdb"
+COORDINATES_FILE = "GeneratedFromInitialNoGradient.txt"
+GENERATED_PDB_FILE = "GeneratedFromInitialNoGradient.pdb"
 
 def readAminoAcidFile(aminoFile):
     with open(aminoFile, 'rU') as f:
@@ -26,6 +26,9 @@ def generatePdbFile(coordinateSeq, aminoSeq):
     return pdbString
 
 if __name__ == "__main__":
-    firstCoords = ReadCoordinatesFile.readCoordinateFileOld(COORDINATES_FILE)[0]
+    firstCoords = ReadCoordinatesFile.readCoordinateFile(COORDINATES_FILE)["coordSet"][0]
     aminSeq = readAminoAcidFile(Constants.aminoFile)
-    print generatePdbFile(firstCoords, aminSeq)
+    fileString = generatePdbFile(firstCoords, aminSeq)
+    
+    with open(GENERATED_PDB_FILE, 'w') as f:
+        f.write(fileString)
