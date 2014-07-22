@@ -43,6 +43,7 @@ def findListOfMotifsWithVolumes():
 
     listOfMotifsWithVolumes = []
 
+    print "Matching each motif with its corresponding normalized (? not sure) volume and std. deviation..."
     for motif in allMotifs:
         # Check to see motif is in the dictionary of smallest
         # std. deviations of the file.

@@ -1,0 +1,1 @@
+(a - j)(e - k)(i - l) + (d - j)(h-k)(c-l) + (g - j)(b - k)(f - l) - ( (c - l)(e - k)(g-j) + (f - l)(h - k)(a - j) + (i - l)(b - k)(d - j) )

@@ -1,6 +1,6 @@
 import ReadCoordinatesFile
 
-COORDINATES_FILE = "GeneratedFromInitialNoGradient.txt"
+COORDINATES_FILE = "data/GeneratedFromPdb.txt"
 
 if __name__ == "__main__":
     coordFileOutput = ReadCoordinatesFile.readCoordinateFile(COORDINATES_FILE)    

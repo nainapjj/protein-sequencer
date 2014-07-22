@@ -1,7 +1,7 @@
-meansAndStdDevFile = "loweststd.txt"
-differenceInAminoFile = "differenceInAmino.txt"
-pdbFile = "3ZOB.pdb"
-aminoFile = "ListOfAminoNames.txt"
+meansAndStdDevFile = "data/loweststd.txt"
+differenceInAminoFile = "data/differenceInAmino.txt"
+pdbFile = "data/3ZOB.pdb"
+aminoFile = "data/ListOfAminoNames.txt"
 
 # Our current Amino Acid Count
 sizeOfProtein = 67
@@ -17,4 +17,4 @@ MIN_NUMBER_OF_MOTIFS_PER_AA = 0
 # Determines whether we use our own gradient function or not
 USE_OUR_GRADIENT = True
 
-USE_MINIMIZE = True
+USE_MINIMIZE = False

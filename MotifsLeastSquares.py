@@ -22,21 +22,19 @@ def generateAminoAcidsDifferenceList():
             listOfAminoDifferences.append((x, y, z))
     return listOfAminoDifferences
 
-# Attempt to obtain the least squares function
-# the matrix in question.
-def getCoordinatesByAminoAcidIndex(indexList, tetraCoordinates, usedAmino):
-    v0 = usedAmino.index(indexList[0])
-    v1 = usedAmino.index(indexList[1])
-    v2 = usedAmino.index(indexList[2])
-    v3 = usedAmino.index(indexList[3])
-    aa1Coordinates = (tetraCoordinates[v0 * 3 + 0], tetraCoordinates[v0 * 3 + 1],
-                      tetraCoordinates[v0 * 3 + 2])
-    aa2Coordinates = (tetraCoordinates[v1 * 3 + 0], tetraCoordinates[v1 * 3 + 1],
-                      tetraCoordinates[v1 * 3 + 2])
-    aa3Coordinates = (tetraCoordinates[v2 * 3 + 0], tetraCoordinates[v2 * 3 + 1],
-                      tetraCoordinates[v2 * 3 + 2])
-    aa4Coordinates = (tetraCoordinates[v3 * 3 + 0], tetraCoordinates[v3 * 3 + 1],
-                      tetraCoordinates[v3 * 3 + 2])
+def getCoordinatesByAminoAcidIndex(aminoIndices, coordinates, usedAmino):
+    v0 = usedAmino.index(aminoIndices[0])
+    v1 = usedAmino.index(aminoIndices[1])
+    v2 = usedAmino.index(aminoIndices[2])
+    v3 = usedAmino.index(aminoIndices[3])
+    aa1Coordinates = (coordinates[v0 * 3 + 0], coordinates[v0 * 3 + 1],
+                      coordinates[v0 * 3 + 2])
+    aa2Coordinates = (coordinates[v1 * 3 + 0], coordinates[v1 * 3 + 1],
+                      coordinates[v1 * 3 + 2])
+    aa3Coordinates = (coordinates[v2 * 3 + 0], coordinates[v2 * 3 + 1],
+                      coordinates[v2 * 3 + 2])
+    aa4Coordinates = (coordinates[v3 * 3 + 0], coordinates[v3 * 3 + 1],
+                      coordinates[v3 * 3 + 2])
     return (aa1Coordinates, aa2Coordinates, aa3Coordinates, aa4Coordinates)
 
 def getTetraIndicesByAminoAcidIndex(indexList, usedAmino):
@@ -104,7 +102,7 @@ def calculateJacobian(tetraCoordinates, motifList, usedAmino):
 
 # Function that is passed into the scipy.optimize function to find the
 # possible errors of the tetrahedron volumes
-def findResiduals(tetraCoordinates, motifList, usedAmino):
+def findResiduals(currentCoordinates, motifList, usedAmino):
 
     errors = scipy.array([])
     errors = errors.astype(scipy.float64)
@@ -118,7 +116,7 @@ def findResiduals(tetraCoordinates, motifList, usedAmino):
         # Extract the volume from the motif.
         measuredVolume = motif["nVol"]
         calculatedVolume = findVolumeByCoordinates(
-            getCoordinatesByAminoAcidIndex(motif["index"], tetraCoordinates, usedAmino))
+            getCoordinatesByAminoAcidIndex(motif["index"], currentCoordinates, usedAmino))
         errors = scipy.append(errors, calculatedVolume - measuredVolume)
 
         #motifCount += 1
@@ -132,7 +130,6 @@ def findResiduals(tetraCoordinates, motifList, usedAmino):
 
     #print errors
     #raw_input()
-
     return errors
 
 def findResidualsSquared(tetraCoordinates, motifList, usedAmino):
@@ -205,17 +202,6 @@ def generateInitialValuesFromBackbone(sizeOfProtein, backboneIndices, backboneCo
     
 
 def findCoordinates(motifList, usedAmino):
-    #scipy.set_printoptions(threshold=scipy.nan)
-    #x0 = ([0.0] * 3)
-    #x0.extend([1.0] * ((sizeOfAminoAcid*3) - 3))
-
-    # Generate the random initial value conditions for the
-    # motifs.
-    #x0 = []
-    #for i in range(sizeOfAminoAcid):
-    #    x0.extend([i]*3)
-    #x0 = scipy.arange(sizeOfAminoAcid*3)**2
-
     x0 = scipy.array(generateInitialValues(len(usedAmino)))
 
     if Constants.USE_MINIMIZE:
@@ -231,14 +217,20 @@ def findCoordinates(motifList, usedAmino):
 
 def findCoordinatesFromInitial(motifList, usedAmino, initialCoordinatesStraight):
     if Constants.USE_MINIMIZE:
-        return scipy.optimize.minimize(findResidualsSquared, initialCoordinatesStraight, args=(motifList, usedAmino),
+        results =  scipy.optimize.minimize(findResidualsSquared, initialCoordinatesStraight, args=(motifList, usedAmino),
                                        options={"disp":True}, method='Nelder-Mead')
+        print results
+        return results
     elif Constants.USE_OUR_GRADIENT:
-        return scipy.optimize.leastsq(findResiduals, initialCoordinatesStraight, args=(motifList, usedAmino),
-                                Dfun=calculateJacobian)[0]
+        results = scipy.optimize.leastsq(findResiduals, initialCoordinatesStraight, args=(motifList, usedAmino),
+                                Dfun=calculateJacobian)
+        print results
+        return results[0]
     else:
-        return scipy.optimize.leastsq(findResiduals, initialCoordinatesStraight, args=(motifList, usedAmino),
-                                      ftol=0.01, xtol=0.01)[0]
+        results = scipy.optimize.leastsq(findResiduals, initialCoordinatesStraight, args=(motifList, usedAmino),
+                                      ftol=0.01, xtol=0.01)
+        print results
+        return results[0]
 
 def findCoordinatesFromBackbone(motifList, usedAmino, backboneIndices, backboneCoordinates):
     # If len(usedAmino) != sizeOfProtein, this might return an error
