@@ -20,5 +20,7 @@ if __name__ == "__main__":
     with open(GENERATED_COORDINATES_FILE, 'w') as f:
         f.write(str(filteredOutput["visited"]) + "\n")
         f.write(str(coordinates) + "\n")
+        
+
     
     
