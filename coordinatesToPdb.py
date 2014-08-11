@@ -1,8 +1,8 @@
 import ReadCoordinatesFile
 import Constants
 
-COORDINATES_FILE = "data/GeneratedFromPdb.txt"
-GENERATED_PDB_FILE = "data/GeneratedFromPdb.pdb"
+COORDINATES_FILE = "data/InitialCoordinates-New.txt"
+GENERATED_PDB_FILE = "data/InitialCoordinates-New.pdb"
 
 def readAminoAcidFile(aminoFile):
     with open(aminoFile, 'rU') as f:

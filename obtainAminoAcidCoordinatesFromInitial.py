@@ -3,8 +3,8 @@ import MotifsWithLowestStd
 import MotifsLeastSquares
 import ReadCoordinatesFile
 
-INITIAL_COORDINATES_FILE = "InitialCoordinates.txt"
-GENERATED_COORDINATES_FILE = "GeneratedFromInitialFromMinimum.txt"
+INITIAL_COORDINATES_FILE = "data/InitialCoordinates-New.txt"
+GENERATED_COORDINATES_FILE = "data/GeneratedFromInitial-NewWithoutGradient.txt"
 
 if __name__ == "__main__":
     listOfMotifsWithVolumes = MotifsWithLowestStd.findListOfMotifsWithVolumes()
