@@ -58,6 +58,7 @@ def findListOfMotifsWithVolumes():
     return listOfMotifsWithVolumes
 
 def filterOutUnneededMotifs(listOfMotifsWithVolumes, sizeOfProtein):
+    
     newMotifList = []
     unvisitedAA = []
     visitedAA = []
@@ -69,22 +70,26 @@ def filterOutUnneededMotifs(listOfMotifsWithVolumes, sizeOfProtein):
     sortedMotifs = sortedMotifs[:Constants.NUMBER_OF_TOP_MOTIFS]
 
     # Create a list of size, size of polypeptide
-    hasVisitedAA = numpy.zeros(sizeOfProtein)
+    hasVisitedAA = numpy.zeros(1000) # <-- Temporary fix
 
     # Create a list to store used motifs and unused motifs
     unusedMotifs = []
 
+    print "Choosing the bottom portion of the motifs to perform least squares on..."
     motifIndex = 0
     for motif in sortedMotifs:
-        if hasVisitedAA[motif["index"][0]-1] < 6 or hasVisitedAA[motif["index"][1]-1] < 6 or \
-            hasVisitedAA[motif["index"][2]-1] < 6 or hasVisitedAA[motif["index"][3]-1] < 6:
-                newMotifList.append(motif)
-                hasVisitedAA[motif["index"][0]-1] += 1
-                hasVisitedAA[motif["index"][1]-1] += 1
-                hasVisitedAA[motif["index"][2]-1] += 1
-                hasVisitedAA[motif["index"][3]-1] += 1
-        else:
-            unusedMotifs.append(motifIndex)
+        try:
+            if hasVisitedAA[motif["index"][0]-1] < 6 or hasVisitedAA[motif["index"][1]-1] < 6 or \
+                hasVisitedAA[motif["index"][2]-1] < 6 or hasVisitedAA[motif["index"][3]-1] < 6:
+                    newMotifList.append(motif)
+                    hasVisitedAA[motif["index"][0]-1] += 1
+                    hasVisitedAA[motif["index"][1]-1] += 1
+                    hasVisitedAA[motif["index"][2]-1] += 1
+                    hasVisitedAA[motif["index"][3]-1] += 1
+            else:
+                unusedMotifs.append(motifIndex)
+        except Exception:
+            import pdb; pdb.set_trace()
 
         motifIndex += 1
 

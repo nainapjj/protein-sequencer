@@ -38,6 +38,7 @@ def findAllPossibleMotifs():
     print "Finding all possible motifs within the protein..."
 
     candidate = Constants.pdbFile
+    
     filename= open(candidate, "r")
     datalist = []
 
