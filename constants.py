@@ -15,6 +15,6 @@ NUMBER_OF_TOP_MOTIFS = 1000000
 MIN_NUMBER_OF_MOTIFS_PER_AA = 0
 
 # Determines whether we use our own gradient function or not
-USE_OUR_GRADIENT = True
+USE_OUR_GRADIENT = False
 
 USE_MINIMIZE = False

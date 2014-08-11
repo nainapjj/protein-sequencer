@@ -153,7 +153,7 @@ def generateInitialValues(sizeOfProtein):
     x0.extend(currentCoordinates.tolist())
 
     for i in range(sizeOfProtein - 1):
-        nextIndex = random.randrange(0, sizeOfProtein)
+        nextIndex = random.randrange(0, len(listOfDifferences))
         diffVector = scipy.array(listOfDifferences[nextIndex])
         currentCoordinates = currentCoordinates + diffVector
         x0.extend(currentCoordinates)
