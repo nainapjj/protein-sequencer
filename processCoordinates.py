@@ -1,6 +1,6 @@
 import ReadCoordinatesFile
 
-COORDINATES_FILE = "data/GeneratedFromInitial-New.txt"
+COORDINATES_FILE = "data/GeneratedFromInitial-NewWith1D.txt"
 
 if __name__ == "__main__":
     coordFileOutput = ReadCoordinatesFile.readCoordinateFile(COORDINATES_FILE)

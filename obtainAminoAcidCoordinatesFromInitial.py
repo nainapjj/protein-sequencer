@@ -4,7 +4,7 @@ import MotifsLeastSquares
 import ReadCoordinatesFile
 
 INITIAL_COORDINATES_FILE = "data/InitialCoordinates-New.txt"
-GENERATED_COORDINATES_FILE = "data/GeneratedFromInitial-NewWithoutGradient.txt"
+GENERATED_COORDINATES_FILE = "data/GeneratedFromInitial-NewWith1D.txt"
 
 if __name__ == "__main__":
     listOfMotifsWithVolumes = MotifsWithLowestStd.findListOfMotifsWithVolumes()
@@ -12,7 +12,8 @@ if __name__ == "__main__":
         listOfMotifsWithVolumes, Constants.sizeOfProtein)
     initialCoordinateSet = ReadCoordinatesFile.readCoordinateFile(INITIAL_COORDINATES_FILE)["coordSet"]
 
-    coordinates = MotifsLeastSquares.generateCoordinatesFromInitial(filteredOutput["motifs"], filteredOutput["visited"],
+    # Temporarily only use 30 motifs
+    coordinates = MotifsLeastSquares.generateCoordinatesFromInitial(filteredOutput["motifs"][0:200], filteredOutput["visited"],
                                                                     initialCoordinateSet)
 
     print coordinates

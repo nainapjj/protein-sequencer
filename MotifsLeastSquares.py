@@ -5,6 +5,8 @@ import random
 import re
 
 import Constants
+import obtainInitialCoordinates
+import ReadCoordinatesFile
 
 findResidualsCount = 0
 
@@ -106,30 +108,22 @@ def findResiduals(currentCoordinates, motifList, usedAmino):
 
     errors = scipy.array([])
     errors = errors.astype(scipy.float64)
-    global findResidualsCount
-
-    #yf = tetraCoordinates[0:6]
-    #motifCount = 0
-    #print "({0:3.3f},{1:3.3f},{2:3.3f}), ({3:3.3f}),{4:3.3f},{5:3.3f})".format(yf[0],yf[1],yf[2], yf[3], yf[4], yf[5])
-
+    
     for motif in motifList:
         # Extract the volume from the motif.
         measuredVolume = motif["nVol"]
         calculatedVolume = findVolumeByCoordinates(
             getCoordinatesByAminoAcidIndex(motif["index"], currentCoordinates, usedAmino))
         errors = scipy.append(errors, calculatedVolume - measuredVolume)
-
-        #motifCount += 1
-
-        #if motifCount % 10000 == 0: print "mc: ",motifCount
-
-    #if findResidualsCount % 10 == 0:
-    #    print "rc", findResidualsCount
+    
+    if Constants.WHICH_METHOD == Constants.USE_1D_CONSTRAINTS:
+        groupedCoordinates = obtainInitialCoordinates.groupCoordinatesToXYZTuples(currentCoordinates)
+        lengths = ReadCoordinatesFile.findLengthForCoordinateSet(groupedCoordinates, usedAmino)
+        lengthResiduals = map(lambda x: (1.0 / 10 * x)**5, lengths)
+        errors = scipy.append(errors, lengthResiduals)
 
     errors = scipy.array(errors, dtype=scipy.float64)
-
-    #print errors
-    #raw_input()
+    
     return errors
 
 def findResidualsSquared(tetraCoordinates, motifList, usedAmino):
@@ -204,29 +198,36 @@ def generateInitialValuesFromBackbone(sizeOfProtein, backboneIndices, backboneCo
 def findCoordinates(motifList, usedAmino):
     x0 = scipy.array(generateInitialValues(len(usedAmino)))
 
-    if Constants.USE_MINIMIZE:
+    if Constants.WHICH_METHOD == Constants.USE_MINIMIZE:
         return scipy.optimize.minimize(findResidualsSquared, x0, args=(motifList, usedAmino),
                                        options={"disp":True})
-    elif Constants.USE_OUR_GRADIENT:
+    elif Constants.WHICH_METHOD == Constants.USE_OUR_GRADIENT:
         return scipy.optimize.leastsq(findResiduals, x0, args=(motifList, usedAmino),
                                       Dfun=calculateJacobian)[0]
                                       #xtol=0.01, gtol=0.01)
-    else:
+    elif Constants.WHICH_METHOD == Constants.USE_NO_GRADIENT:
         return scipy.optimize.leastsq(findResiduals, x0, args=(motifList, usedAmino),
                                       ftol=0.01, xtol=0.01)[0]
+    elif Constants.WHICH_METHOD == Constants.USE_1D_CONSTRAINTS:
+        pass
 
 def findCoordinatesFromInitial(motifList, usedAmino, initialCoordinatesStraight):
-    if Constants.USE_MINIMIZE:
+    if Constants.WHICH_METHOD == Constants.USE_MINIMIZE:
         results =  scipy.optimize.minimize(findResidualsSquared, initialCoordinatesStraight, args=(motifList, usedAmino),
                                        options={"disp":True}, method='Nelder-Mead')
         print results
         return results
-    elif Constants.USE_OUR_GRADIENT:
+    elif Constants.WHICH_METHOD == Constants.USE_OUR_GRADIENT:
         results = scipy.optimize.leastsq(findResiduals, initialCoordinatesStraight, args=(motifList, usedAmino),
                                 Dfun=calculateJacobian)
         print results
         return results[0]
-    else:
+    elif Constants.WHICH_METHOD == Constants.USE_NO_GRADIENT:
+        results = scipy.optimize.leastsq(findResiduals, initialCoordinatesStraight, args=(motifList, usedAmino),
+                                      ftol=0.01, xtol=0.01)
+        print results
+        return results[0]
+    elif Constants.WHICH_METHOD == Constants.USE_1D_CONSTRAINTS:
         results = scipy.optimize.leastsq(findResiduals, initialCoordinatesStraight, args=(motifList, usedAmino),
                                       ftol=0.01, xtol=0.01)
         print results
@@ -236,13 +237,13 @@ def findCoordinatesFromBackbone(motifList, usedAmino, backboneIndices, backboneC
     # If len(usedAmino) != sizeOfProtein, this might return an error
     x0 = generateInitialValuesFromBackbone(len(usedAmino), backboneIndices, backboneCoordinates)
 
-    if Constants.USE_MINIMIZE:
+    if Constants.WHICH_METHOD == Constants.USE_MINIMIZE:
         return scipy.optimize.minimize(findResidualsSquared, x0, args=(motifList, usedAmino),
                                        options={"disp":True})
-    if Constants.USE_OUR_GRADIENT:
+    elif Constants.WHICH_METHOD == Constants.USE_OUR_GRADIENT:
         return scipy.optimize.leastsq(findResiduals, x0, args=(motifList, usedAmino),
                                       Dfun=calculateJacobian)[0]
-    else:
+    elif Constants.WHICH_METHOD == Constants.USE_NO_GRADIENT:
         return scipy.optimize.leastsq(findResiduals, x0, args=(motifList, usedAmino), ftol=0.01, xtol=0.01)[0]
 
 def generateCoordinatesFromInitial(motifList, usedAmino, initialCoordinateSet):
@@ -256,7 +257,7 @@ def generateCoordinatesFromInitial(motifList, usedAmino, initialCoordinateSet):
 
         answer = findCoordinatesFromInitial(motifList, usedAmino, initialCoordinatesStraight)
         
-        if Constants.USE_MINIMIZE:
+        if Constants.WHICH_METHOD == Constants.USE_MINIMIZE:
             return answer
         
         for i in range(0, len(answer), 3):
