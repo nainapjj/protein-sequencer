@@ -209,7 +209,10 @@ def findCoordinates(motifList, usedAmino):
         return scipy.optimize.leastsq(findResiduals, x0, args=(motifList, usedAmino),
                                       ftol=0.01, xtol=0.01)[0]
     elif Constants.WHICH_METHOD == Constants.USE_1D_CONSTRAINTS:
-        pass
+        results =  scipy.optimize.leastsq(findResiduals, x0, args=(motifList, usedAmino),
+                                      ftol=0.001, xtol=0.001)
+        print results
+        return results[0]
 
 def findCoordinatesFromInitial(motifList, usedAmino, initialCoordinatesStraight):
     if Constants.WHICH_METHOD == Constants.USE_MINIMIZE:
