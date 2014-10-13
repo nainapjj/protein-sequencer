@@ -1,0 +1,6 @@
+please do
+open "/Users/jeffnainap/Dropbox/Spring Semester 2014/Childrens Research/protein-sequence/correctedVolumes/3ZOB-bb.pdb";
+$mutprot = select in "3ZOB-bb" aa;
+minimize $mutprot with 1000 cycles;
+save "3ZOB-bb" as "3ZOB-bb-md.pdb";
+thank you

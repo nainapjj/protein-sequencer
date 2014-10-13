@@ -3,6 +3,7 @@ import scipy.linalg
 import scipy.optimize
 import random
 import re
+import math
 
 import Constants
 import obtainInitialCoordinates
@@ -50,7 +51,7 @@ def getTetraIndicesByAminoAcidIndex(indexList, usedAmino):
 
 # Find the volume of a tetrahedron by the coordinates of its vertices
 def findVolumeByCoordinates(((a, b, c), (d, e, f), (g, h, i), (p, q, r))):
-    return (1.0 / 6.0) * scipy.linalg.det(scipy.matrix([[a, d, g, p], [b, e, h, q], [c, f, i, r], [1, 1, 1, 1]]))
+    return math.fabs((1.0 / 6.0) * scipy.linalg.det(scipy.matrix([[a, d, g, p], [b, e, h, q], [c, f, i, r], [1, 1, 1, 1]])))
 
 
 def calculateJacobian(tetraCoordinates, motifList, usedAmino):
@@ -65,8 +66,6 @@ def calculateJacobian(tetraCoordinates, motifList, usedAmino):
         (dx1loc, dx2loc, dx3loc, dx4loc,
          dx5loc, dx6loc, dx7loc, dx8loc,
          dx9loc, dx10loc, dx11loc, dx12loc) = getTetraIndicesByAminoAcidIndex(motif["index"], usedAmino)
-
-        #import pdb; pdb.set_trace()
 
         dx1 = (x5 - x11)*(x9 - x12) - (x8 - x11)*(x6 - x12)
         dx2 = (x7 - x10)*(x6 - x12) - (x4 - x10)*(x9 - x12)
@@ -101,6 +100,8 @@ def calculateJacobian(tetraCoordinates, motifList, usedAmino):
 
     return jMatrix
 
+def tub(value, min, max, weight):
+    return weight * (scipy.max(min - value, 0) + scipy.max(value - max, 0))
 
 # Function that is passed into the scipy.optimize function to find the
 # possible errors of the tetrahedron volumes
@@ -119,8 +120,12 @@ def findResiduals(currentCoordinates, motifList, usedAmino):
     if Constants.WHICH_METHOD == Constants.USE_1D_CONSTRAINTS:
         groupedCoordinates = obtainInitialCoordinates.groupCoordinatesToXYZTuples(currentCoordinates)
         lengths = ReadCoordinatesFile.findLengthForCoordinateSet(groupedCoordinates, usedAmino)
-        lengthResiduals = map(lambda x: (1.0 / 10 * x)**5, lengths)
+        if Constants.USE_TUB:
+            lengthResiduals = map(lambda x: tub(x, 0, Constants.MAX_LENGTH, 1000))
+        else:
+            lengthResiduals = map(lambda x: (1.0 / Constants.MAX_LENGTH * x)**5, lengths)
         errors = scipy.append(errors, lengthResiduals)
+
 
     errors = scipy.array(errors, dtype=scipy.float64)
     
@@ -290,7 +295,3 @@ def generateTenCoordinatesWithBackbone(motifList, usedAmino, backboneIndices, ba
             currentCoordinates.append((answer[i], answer[i+1], answer[i+2]))
         coordinates.append(currentCoordinates)
     return coordinates
-
-#def findCoordinates2(sizeOfAminoAcid):
-#    x0 = scipy.zeros(sizeOfAminoAcid*3)
-#    return scipy.optimize.minimize(squareOfResiduals, x0, callback=cb)

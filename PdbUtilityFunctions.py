@@ -1,5 +1,6 @@
 import re
 
+
 def findLengthOfProteinFromPdb(pdbFile):
     ATOM_PATTERN = r"ATOM"    
 
@@ -20,6 +21,27 @@ def findLengthOfProteinFromPdb(pdbFile):
            if (currentRes < resMin): resMin = currentRes
     
     return resMax - resMin + 1
+
+def extractCoordinateListFromPdb(pdbFile):
+  ATOM_CA_PATTERN = r"ATOM.+CA"  
+  coordinates = [] 
+
+  pdbLines = []
+  with open(pdbFile) as f:
+    pdbLines = f.readlines() 
+
+  for pdbLine in pdbLines: 
+       if re.match(ATOM_CA_PATTERN, pdbLine):
+           # Column numbers from 31 to 38 are x
+           xCoord = float(pdbLine[30:38].strip())
+           # Column numbers from 39 to 46 are y
+           yCoord = float(pdbLine[38:46].strip())
+           # Column numbers from 47 to 54 are z
+           zCoord = float(pdbLine[46:54].strip())
+           
+           coordinates.append((xCoord, yCoord, zCoord))
+
+  return coordinates
 
 def getAASequenceWithIndexDictFromPdb(pdbFile):
     ATOM_PATTERN = r"ATOM"    

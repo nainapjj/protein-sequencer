@@ -2,7 +2,7 @@ import Constants
 import MotifsWithLowestStd
 import MotifsLeastSquares
 
-TEN_COORDINATES_FILE_NAME = "500Motifs.txt"
+TEN_COORDINATES_FILE_NAME = "CorrectedVolumes.txt"
 
 def main(tenCoordinatesFileName):
     listOfMotifsWithVolumes = MotifsWithLowestStd.findListOfMotifsWithVolumes()

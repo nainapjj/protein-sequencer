@@ -43,12 +43,12 @@ def findListOfMotifsWithVolumes():
 
     listOfMotifsWithVolumes = []
 
-    print "Matching each motif with its corresponding normalized (? not sure) volume and std. deviation..."
+    print "Matching each motif with its corresponding un-normalized volume and std. deviation..."
     for motif in allMotifs:
         # Check to see motif is in the dictionary of smallest
         # std. deviations of the file.
         if motif["amino"] in motifDict:
-            # Get the normalized volumes
+            # Get the unnormalized volumes
             scale = Indexator.indexator(motif["index"])
             nVolume = scale * motifDict[motif["amino"]]["mean"]
             stdDev = motifDict[motif["amino"]]["std"]
@@ -104,7 +104,7 @@ def filterOutUnneededMotifs(listOfMotifsWithVolumes, sizeOfProtein):
         aaIndex += 1
 
     # Now, pass through the motif list again, add unused motifs so that newMotifList has
-    # at least sizeOfProtein*3 (one for each axis) motifs in it
+    # at least sizeOfProtein*6 (one for each axis * 2) motifs in it
     for motif in unusedMotifs:
         # First, check if the motifList has sizeOfProtein motifs
         if len(newMotifList) >= sizeOfProtein*6:
