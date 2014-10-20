@@ -1,5 +1,36 @@
 import re
 
+HYDROPHOBIC_AA_FILE = "data/hydrophobic.txt"
+
+def findHydrophobicAcidsNum(pdbFile):
+    seq = findSequenceOfAminoAcids(pdbFile)
+
+    with open(HYDROPHOBIC_AA_FILE) as f:
+        hAcids = f.readlines()
+
+    numHydro = 0
+
+    for aa in seq:
+        if aa in hAcids: numHydro += 1
+
+    return numHydro
+
+
+def findSequenceOfAminoAcids(pdbFile):
+    ATOM_CA_PATTERN = r"ATOM.+CA"
+
+    with open(pdbFile) as f:
+        pdbLines = f.readlines()
+
+    aminoSeq = []
+    for pdbLine in pdbLines:
+       if re.match(ATOM_CA_PATTERN, pdbLine):
+           # Column numbers from 23 to 26 are the
+           # residual sequence number
+           currentRes = pdbLine[17:20]
+           aminoSeq.append(currentRes)
+
+    return aminoSeq
 
 def findLengthOfProteinFromPdb(pdbFile):
     ATOM_PATTERN = r"ATOM"    

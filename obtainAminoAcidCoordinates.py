@@ -2,7 +2,7 @@ import Constants
 import MotifsWithLowestStd
 import MotifsLeastSquares
 
-TEN_COORDINATES_FILE_NAME = "CorrectedVolumes.txt"
+TEN_COORDINATES_FILE_NAME = "HamidMethod.txt"
 
 def main(tenCoordinatesFileName):
     listOfMotifsWithVolumes = MotifsWithLowestStd.findListOfMotifsWithVolumes()
@@ -12,8 +12,7 @@ def main(tenCoordinatesFileName):
     tenCoordinates = MotifsLeastSquares.generateTenCoordinates(filteredOutput["motifs"],
                                             filteredOutput["visited"])
 
-    #print tenCoordinates
-    
+
     with open(tenCoordinatesFileName, 'w') as f:
         f.write(str(filteredOutput["visited"]) + "\n")
         f.write(str(tenCoordinates) + "\n")

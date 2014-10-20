@@ -2,13 +2,96 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c90cc4e2-394f-4fa6-be57-f1bf715ac0fd" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/GeneratedFromInitialFromMinimum.txt" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/3ZOB-one.pdb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hamidMethod.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/hydrophobic.txt" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/chooseBestCoordinatesOfFolderToPdb.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/correctedVolumes/3ZOB-bb.pdb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/correctedVolumes/3ZOB-gen.pdb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/3ZOB-bb.pdb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/500Motifs.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/AAFE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/CoordinatesFromBackbone.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/CorrectedVolumes-bb.pdb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/CorrectedVolumes.pdb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/CorrectedVolumes.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/Final3ZOB.pdb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/GeneratedFromInitial-New-bb.pdb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/GeneratedFromInitial-New.pdb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/GeneratedFromInitial-New.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/GeneratedFromInitial-NewWith1D-bb.pdb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/GeneratedFromInitial-NewWith1D.pdb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/GeneratedFromInitial-NewWith1D.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/GeneratedFromInitial-NewWith1D.txt-bb.pdb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/GeneratedFromInitial-NewWithMinimize.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/GeneratedFromInitial-NewWithoutGradient.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/GeneratedFromInitial-bb.pdb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/GeneratedFromInitial.pdb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/GeneratedFromInitial.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/GeneratedFromInitialFromMinimum.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/GeneratedFromInitialNoGradient-bb.pdb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/GeneratedFromInitialNoGradient.pdb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/GeneratedFromInitialNoGradient.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/GeneratedFromPdb-bb.pdb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/GeneratedFromPdb.pdb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/GeneratedFromPdb.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/InitialCoordinates-New-bb.pdb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/InitialCoordinates-New.pdb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/InitialCoordinates-New.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/InitialCoordinates-bb.pdb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/InitialCoordinates.pdb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/InitialCoordinates.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/ListOfAminoNames.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/RUN_ONCE.pdb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/RUN_ONCE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/TenCoordsOriginalWay.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/ca_backbone-bb.pdb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/ca_backbone.pdb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/minimized-bb.pdb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/minimized.pdb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/tenCoordinates.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/tenCoordinates2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/test.txt-bb.pdb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/volume_equation.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/volume_equation_alphabetical.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/obtainAminoAcidCoordinatesFromBackbone.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/obtainAminoAcidCoordinatesFromInitial.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/obtainAminoAcidsFromInitialPdb.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/obtainInitialCoordinates.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/oneRun.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/outputPdbs/1DF4-alphacarbon-gen.pdb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/outputPdbs/1DF4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/outputPdbs/1G9W-alphacarbon-gen.pdb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/outputPdbs/1G9W.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/outputPdbs/1P9I-alphacarbon-gen.pdb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/outputPdbs/1P9I.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/outputPdbs/1ZU3-alphacarbon-gen.pdb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/outputPdbs/1ZU3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/outputPdbs/2BFI-alphacarbon-gen.pdb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/outputPdbs/2BFI.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/outputPdbs/2ERW-alphacarbon-gen.pdb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/outputPdbs/2ERW.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/outputPdbs/2G7O-alphacarbon-gen.pdb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/outputPdbs/2G7O.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/outputPdbs/2GI9-alphacarbon-gen.pdb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/outputPdbs/2GI9.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/outputPdbs/2RJV-alphacarbon-gen.pdb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/outputPdbs/2RJV.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/outputPdbs/2RJY-alphacarbon-gen.pdb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/outputPdbs/2RJY.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/outputPdbs/3NJW-alphacarbon-gen.pdb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/outputPdbs/3NJW.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/outputPdbs/4BFH-alphacarbon-gen.pdb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/outputPdbs/4BFH.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/parse_parkinsons.py" afterPath="" />
       <change type="MOVED" beforePath="$PROJECT_DIR$/constants.py" afterPath="$PROJECT_DIR$/Constants.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MotifsLeastSquares.py" afterPath="$PROJECT_DIR$/MotifsLeastSquares.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MotifsWithLowestStd.py" afterPath="$PROJECT_DIR$/MotifsWithLowestStd.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PdbUtilityFunctions.py" afterPath="$PROJECT_DIR$/PdbUtilityFunctions.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/analyzePdbVolumes.py" afterPath="$PROJECT_DIR$/analyzePdbVolumes.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coordinatesToPdb.py" afterPath="$PROJECT_DIR$/coordinatesToPdb.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/obtainAminoAcidCoordinates.py" afterPath="$PROJECT_DIR$/obtainAminoAcidCoordinates.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/processCoordinates.py" afterPath="$PROJECT_DIR$/processCoordinates.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Stuart.iws" />
@@ -32,51 +115,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MotifsLeastSquares.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MotifsLeastSquares.py">
+      <file leaf-file-name="processCoordinates.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/processCoordinates.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="4530">
-              <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+              <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MotifsWithLowestStd.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/MotifsWithLowestStd.py">
+      <file leaf-file-name="hamidMethod.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/hamidMethod.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5350734" vertical-offset="827" max-vertical-offset="1725">
-              <caret line="82" column="88" selection-start-line="82" selection-start-column="88" selection-end-line="82" selection-end-column="88" />
-              <folding />
+            <state vertical-scroll-proportion="3.1432974" vertical-offset="0" max-vertical-offset="2160">
+              <caret line="136" column="38" selection-start-line="136" selection-start-column="38" selection-end-line="136" selection-end-column="38" />
+              <folding>
+                <element signature="e#47#63#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StuartFindAllPossibleMotifs.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/StuartFindAllPossibleMotifs.py">
+      <file leaf-file-name="obtainAminoAcidCoordinates.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/obtainAminoAcidCoordinates.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="555" max-vertical-offset="1230">
-              <caret line="37" column="60" selection-start-line="37" selection-start-column="60" selection-end-line="37" selection-end-column="60" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Indexator.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Indexator.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="315">
-              <caret line="13" column="17" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Constants.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Constants.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="495">
-              <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+              <caret line="17" column="43" selection-start-line="15" selection-start-column="4" selection-end-line="17" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -99,20 +164,26 @@
         <option value="$PROJECT_DIR$/obtainAminoAcidCoordinatesFromInitial.py" />
         <option value="$PROJECT_DIR$/obtainAminoAcidsFromInitialPdb.py" />
         <option value="$PROJECT_DIR$/CAscrape.py" />
-        <option value="$PROJECT_DIR$/coordinatesToPdb.py" />
         <option value="$PROJECT_DIR$/StuartFindAllPossibleMotifs.py" />
         <option value="$PROJECT_DIR$/ReadCoordinatesFile.py" />
         <option value="$PROJECT_DIR$/processCoordinates.py" />
+        <option value="$PROJECT_DIR$/obtainAminoAcidCoordinates.py" />
+        <option value="$PROJECT_DIR$/analyzePdbVolumes.py" />
         <option value="$PROJECT_DIR$/Constants.py" />
-        <option value="$PROJECT_DIR$/MotifsLeastSquares.py" />
+        <option value="$PROJECT_DIR$/data/hydrophobic.txt" />
+        <option value="$PROJECT_DIR$/PdbUtilityFunctions.py" />
+        <option value="$PROJECT_DIR$/coordinatesToPdb.py" />
+        <option value="$PROJECT_DIR$/obtainInitialCoordinates.py" />
         <option value="$PROJECT_DIR$/MotifsWithLowestStd.py" />
+        <option value="$PROJECT_DIR$/MotifsLeastSquares.py" />
+        <option value="$PROJECT_DIR$/hamidMethod.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="53" />
-    <option name="y" value="22" />
-    <option name="width" value="971" />
+    <option name="x" value="213" />
+    <option name="y" value="92" />
+    <option name="width" value="1202" />
     <option name="height" value="746" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -156,6 +227,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="protein-sequence" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Stuart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protein-sequence" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -235,7 +320,9 @@
       <module name="Stuart" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/processCoordinates.py" />
       <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
       <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
@@ -427,15 +514,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="53" y="22" width="971" height="746" extended-state="0" />
+    <frame x="213" y="92" width="1202" height="746" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293944" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28218332" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22878535" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3988183" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14285715" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3943299" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -443,7 +531,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -466,9 +553,55 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="6" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/PdbUtilityFunctions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1320">
+          <caret line="0" column="9" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coordinatesToPdb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="915">
+          <caret line="0" column="10" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Constants.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="375">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MotifsWithLowestStd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="915" max-vertical-offset="1830">
+          <caret line="61" column="21" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/obtainAminoAcidCoordinates.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="435">
+          <caret line="11" column="76" selection-start-line="11" selection-start-column="76" selection-end-line="11" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PdbUtilityFunctions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1320">
+          <caret line="0" column="9" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Constants.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="375">
@@ -481,14 +614,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4425">
           <caret line="173" column="10" selection-start-line="173" selection-start-column="10" selection-end-line="173" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/obtainAminoAcidsFromInitialPdb.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="420">
-          <caret line="9" column="58" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
         </state>
       </provider>
     </entry>
@@ -503,13 +628,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="555" max-vertical-offset="1215">
           <caret line="37" column="60" selection-start-line="37" selection-start-column="60" selection-end-line="37" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/GeneratedFromPdb.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -546,14 +664,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4545">
           <caret line="136" column="0" selection-start-line="136" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/obtainAminoAcidCoordinatesFromInitial.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="450">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -590,14 +700,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="4545">
           <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/obtainAminoAcidCoordinatesFromBackbone.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="465">
-          <caret line="5" column="38" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -613,13 +715,6 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="375">
           <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/obtainAminoAcidCoordinatesFromInitial.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="450">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -641,21 +736,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="4545">
           <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/obtainAminoAcidCoordinatesFromBackbone.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
-          <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parse_parkinsons.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="1575">
-          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -663,27 +743,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="82" max-vertical-offset="600">
           <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parse_parkinsons.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17693315" vertical-offset="75" max-vertical-offset="1560">
-          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/obtainAminoAcidCoordinatesFromBackbone.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
-          <caret line="5" column="38" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/obtainAminoAcidCoordinates.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -701,38 +760,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/obtainAminoAcidCoordinatesFromInitial.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
-          <caret line="22" column="4" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/3ZOB.pdb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.8846154" vertical-offset="3514" max-vertical-offset="342105">
           <caret line="241" column="38" selection-start-line="241" selection-start-column="33" selection-end-line="241" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/obtainAminoAcidsFromInitialPdb.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4002809" vertical-offset="0" max-vertical-offset="712">
-          <caret line="19" column="52" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/GeneratedFromPdb.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="406">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/coordinatesToPdb.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11083744" vertical-offset="0" max-vertical-offset="585">
-          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -743,45 +774,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/GeneratedFromInitial.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="406">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/differenceInAmino.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="14520" max-vertical-offset="820260">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/StuartFindAverageDistance.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="259" max-vertical-offset="840">
           <caret line="25" column="36" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/InitialCoordinates.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="712">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/processCoordinates.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
-          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ReadCoordinatesFile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.03448276" vertical-offset="70" max-vertical-offset="795">
-          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -799,19 +795,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Constants.py">
+    <entry file="file://$PROJECT_DIR$/Indexator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
-          <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MotifsLeastSquares.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3105" max-vertical-offset="4395">
-          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
-          <folding />
+        <state vertical-scroll-proportion="0.31810766" vertical-offset="0" max-vertical-offset="613">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -819,23 +806,114 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="1170">
           <caret line="37" column="60" selection-start-line="37" selection-start-column="60" selection-end-line="37" selection-end-column="60" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Indexator.py">
+    <entry file="file://$PROJECT_DIR$/example_scripts/3ZOB.pdb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="17" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="342105">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReadCoordinatesFile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5210918" vertical-offset="0" max-vertical-offset="750">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analyzePdbVolumes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7816377" vertical-offset="0" max-vertical-offset="690">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/3ZOB-one.pdb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.2704715" vertical-offset="4112" max-vertical-offset="20580">
+          <caret line="240" column="20" selection-start-line="240" selection-start-column="20" selection-end-line="240" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/hydrophobic.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22332506" vertical-offset="0" max-vertical-offset="403">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PdbUtilityFunctions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2605459" vertical-offset="0" max-vertical-offset="1560">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coordinatesToPdb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.527845" vertical-offset="502" max-vertical-offset="915">
+          <caret line="48" column="33" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MotifsLeastSquares.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.5704226" vertical-offset="0" max-vertical-offset="2190">
+          <caret line="73" column="44" selection-start-line="73" selection-start-column="44" selection-end-line="73" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MotifsWithLowestStd.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5350734" vertical-offset="827" max-vertical-offset="1725">
-          <caret line="82" column="88" selection-start-line="82" selection-start-column="88" selection-end-line="82" selection-end-column="88" />
+        <state vertical-scroll-proportion="-0.23486683" vertical-offset="1342" max-vertical-offset="1755">
+          <caret line="88" column="17" selection-start-line="88" selection-start-column="17" selection-end-line="88" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Constants.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07042254" vertical-offset="0" max-vertical-offset="426">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/obtainAACoordinatesFromFolder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39291218" vertical-offset="0" max-vertical-offset="649">
+          <caret line="20" column="65" selection-start-line="20" selection-start-column="65" selection-end-line="20" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/processCoordinates.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/obtainAminoAcidCoordinates.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+          <caret line="17" column="43" selection-start-line="15" selection-start-column="4" selection-end-line="17" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hamidMethod.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="3.1432974" vertical-offset="0" max-vertical-offset="2160">
+          <caret line="136" column="38" selection-start-line="136" selection-start-column="38" selection-end-line="136" selection-end-column="38" />
+          <folding>
+            <element signature="e#47#63#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

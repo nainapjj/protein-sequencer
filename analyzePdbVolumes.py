@@ -5,8 +5,8 @@ import scipy as sp
 import multiprocessing
 import math
 
-PDB_FILE_NATIVE = "data/3ZOB-bb.pdb"
-PDB_FILE_GENERATED = "data/Final3ZOB.pdb"
+PDB_FILE_NATIVE = "data/3ZOB-one.pdb"
+PDB_FILE_GENERATED = "HamidMethod.pdb"
 
 def nCr(n,r):
     f = math.factorial

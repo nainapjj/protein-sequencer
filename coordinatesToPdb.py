@@ -1,8 +1,10 @@
 import ReadCoordinatesFile
 import Constants
+import PdbUtilityFunctions
 
-COORDINATES_FILE = "data/CorrectedVolumes.txt"
-GENERATED_PDB_FILE = "data/CorrectedVolumes.pdb"
+ORIGINAL_PDB = ""
+COORDINATES_FILE = "HamidMethod.txt"
+GENERATED_PDB_FILE = "HamidMethod.pdb"
 
 def readAminoAcidFile(aminoFile):
     with open(aminoFile, 'rU') as f:
@@ -43,7 +45,7 @@ def generatePdbFileFromAminoSeqWithIndex(coordinateSeq, usedAmino, aminoSeqWithI
 
 def main(coordinatesFile, generatedPdbFile):
     firstCoords = ReadCoordinatesFile.readCoordinateFile(coordinatesFile)["coordSet"][0]
-    aminSeq = readAminoAcidFile(Constants.aminoFile)
+    aminSeq = PdbUtilityFunctions.findSequenceOfAminoAcids(ORIGINAL_PDB)
     fileString = generatePdbFile(firstCoords, aminSeq)
     
     with open(generatedPdbFile, 'w') as f:

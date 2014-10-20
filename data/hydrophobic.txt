@@ -1,0 +1,7 @@
+PHE
+MET
+ILE
+LEU
+VAL
+CYS
+ALA

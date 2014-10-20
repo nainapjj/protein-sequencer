@@ -50,11 +50,11 @@ def findListOfMotifsWithVolumes():
         if motif["amino"] in motifDict:
             # Get the unnormalized volumes
             scale = Indexator.indexator(motif["index"])
-            nVolume = scale * motifDict[motif["amino"]]["mean"]
+            unVolume = scale * motifDict[motif["amino"]]["mean"]
             stdDev = motifDict[motif["amino"]]["std"]
 
             listOfMotifsWithVolumes.append({"index": motif["index"],
-                "amino": motif["amino"], "nVol": nVolume, "std": stdDev})
+                "amino": motif["amino"], "unVol": unVolume, "std": stdDev})
     return listOfMotifsWithVolumes
 
 def filterOutUnneededMotifs(listOfMotifsWithVolumes, sizeOfProtein):
@@ -79,8 +79,8 @@ def filterOutUnneededMotifs(listOfMotifsWithVolumes, sizeOfProtein):
     motifIndex = 0
     for motif in sortedMotifs:
         try:
-            if hasVisitedAA[motif["index"][0]-1] < 6 or hasVisitedAA[motif["index"][1]-1] < 6 or \
-                hasVisitedAA[motif["index"][2]-1] < 6 or hasVisitedAA[motif["index"][3]-1] < 6:
+            if hasVisitedAA[motif["index"][0]-1] < 9 and hasVisitedAA[motif["index"][1]-1] < 9 and \
+                hasVisitedAA[motif["index"][2]-1] < 9 and hasVisitedAA[motif["index"][3]-1] < 9:
                     newMotifList.append(motif)
                     hasVisitedAA[motif["index"][0]-1] += 1
                     hasVisitedAA[motif["index"][1]-1] += 1
@@ -96,19 +96,21 @@ def filterOutUnneededMotifs(listOfMotifsWithVolumes, sizeOfProtein):
     # Pass through the has visited AA list to see which AA have not been visited.
     aaIndex = 1
     for aa in hasVisitedAA:
-        if aa <= Constants.MIN_NUMBER_OF_MOTIFS_PER_AA: 
+        if aa == 0:
             unvisitedAA.append(aaIndex)
         else:
             visitedAA.append(aaIndex)
             
         aaIndex += 1
 
+    print "Number of motifs to perform least squares on:", len(newMotifList)
+
     # Now, pass through the motif list again, add unused motifs so that newMotifList has
-    # at least sizeOfProtein*6 (one for each axis * 2) motifs in it
-    for motif in unusedMotifs:
+    # at least sizeOfProtein*6 (one for each axis * 3) motifs in it
+    #for motif in unusedMotifs:
         # First, check if the motifList has sizeOfProtein motifs
-        if len(newMotifList) >= sizeOfProtein*6:
-            break
-        newMotifList.append(sortedMotifs[motif])
+    #    if len(newMotifList) >= sizeOfProtein*6:
+    #        break
+    #    newMotifList.append(sortedMotifs[motif])
 
     return {"motifs": newMotifList, "unvisited": unvisitedAA, "visited": visitedAA}
