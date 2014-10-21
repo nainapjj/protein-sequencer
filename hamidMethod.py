@@ -8,9 +8,10 @@ import PdbUtilityFunctions
 
 import scipy as sp
 import random
+import cPickle
 
 PDB_FILE = "data/3ZOB-one.pdb"
-OUTPUT_FILE = "data/hamidMethod.pdb"
+OUTPUT_FILE = "data/hamidMethod.pickle"
 
 def printStats(stats):
     i = 1
@@ -134,5 +135,5 @@ if __name__ == "__main__":
     returnObj = hamidMethod()
 
     with open(OUTPUT_FILE, 'w') as f:
-        f.write(str(returnObj) + "\n")
+        cPickle.dump(returnObj, f)
 
