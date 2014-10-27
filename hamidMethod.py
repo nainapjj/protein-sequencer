@@ -11,7 +11,7 @@ import random
 import cPickle
 
 PDB_FILE = "data/3ZOB-one.pdb"
-OUTPUT_FILE = "data/hamidMethod.pickle"
+OUTPUT_FILE = "hamidMethod/hamidMethod-3ZOB.pickle"
 
 def printStats(stats):
     i = 1
@@ -94,8 +94,9 @@ def hamidMethod():
             })
 
         # Perform least squares.
-        current_coordinates = MotifsLeastSquares.findCoordinates(new_motifs,
-                                                                 filtered_output["visited"])
+        current_coordinates = MotifsLeastSquares.findCoordinatesFromInitial(new_motifs,
+                                                                 filtered_output["visited"],
+                                                                 current_coordinates)
 
         # Chunk it into coordinates
         current_coordinates_grouped = []

@@ -129,6 +129,15 @@ def findCoordinates(motifList, usedAmino):
                                          ftol=0.001, xtol=0.001)
         return results[0]
 
+def findCoordinatesFromInitial(motifList, usedAmino, initialValues):
+    x0 = initialValues
+
+    print "Performing a least squares analysis..."
+    if Constants.WHICH_METHOD == Constants.USE_1D_CONSTRAINTS:
+        results = scipy.optimize.leastsq(findResiduals, x0, args=(motifList, usedAmino),
+                                         ftol=0.001, xtol=0.001)
+        return results[0]
+
 def generateTenCoordinates(motifList, usedAmino):
     coordinates = []
     for j in range(10):
