@@ -37,9 +37,9 @@ def getStdDevMeanFromFile(filename):
 
     return currentDict
 
-def findListOfMotifsWithVolumes():
+def findListOfMotifsWithVolumes(pdbFile):
     motifDict = getStdDevMeanFromFile(Constants.meansAndStdDevFile)
-    allMotifs = StuartFindAllPossibleMotifs.findAllPossibleMotifs()
+    allMotifs = StuartFindAllPossibleMotifs.findAllPossibleMotifs(pdbFile)
 
     listOfMotifsWithVolumes = []
 

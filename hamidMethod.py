@@ -10,8 +10,8 @@ import scipy as sp
 import random
 import cPickle
 
-PDB_FILE = "pdbs/1DF4.pdb"
-OUTPUT_FILE = "hamidMethod/hamidMethod-1DF4.pickle"
+PDB_FILE = "pdbs/1P9I.pdb"
+OUTPUT_FILE = "hamidMethod/hamidMethod-1P9I.pickle"
 
 def printStats(stats):
     i = 1
@@ -33,7 +33,7 @@ def hamidMethod():
 
     # First, create an initial model using our least squares model, as we've
     # done before.
-    list_of_motifs_with_volumes = MotifsWithLowestStd.findListOfMotifsWithVolumes()
+    list_of_motifs_with_volumes = MotifsWithLowestStd.findListOfMotifsWithVolumes(PDB_FILE)
     filtered_output = MotifsWithLowestStd.filterOutUnneededMotifs(
         list_of_motifs_with_volumes, n_size_of_protein)
     print "Visited AA indices: ", filtered_output["visited"]
@@ -46,7 +46,7 @@ def hamidMethod():
     coordinates = []
 
     # In a loop up to 20 times:
-    for i in xrange(2):
+    for i in xrange(100):
         print "Current Iteration: ", i+1
 
         # Next, we have to a quick analysis to check which of the least squares
@@ -79,8 +79,8 @@ def hamidMethod():
         print "Choosing 3n - 3m = %d random motifs from the model..." % (3*n_size_of_protein - 3*m_hydrophobic)
         random_motif_indices = []
         for i in xrange(3*n_size_of_protein - 3*m_hydrophobic):
-            random_motif_indices.append(random.sample(xrange(1, n_size_of_protein+1),
-                                                      4))
+            random_motif_indices.append(random.sample(filtered_output["visited"], 4))
+
         print "Changing the value of each by +- 10% and appending those motifs to the motif set..."
         for motif_index in random_motif_indices:
             motifs_coordinates = MotifsLeastSquares.getCoordinatesByAminoAcidIndex(
@@ -130,7 +130,8 @@ def hamidMethod():
 
     printStats(stats)
 
-    return {"stats": stats, "initial": initial_coordinates, "iter_coords": coordinates }
+    return {"stats": stats, "initial": initial_coordinates, "iter_coords": coordinates,
+            "visited": filtered_output["visited"] }
 
 if __name__ == "__main__":
     returnObj = hamidMethod()

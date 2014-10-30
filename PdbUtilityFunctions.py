@@ -33,25 +33,8 @@ def findSequenceOfAminoAcids(pdbFile):
     return aminoSeq
 
 def findLengthOfProteinFromPdb(pdbFile):
-    ATOM_PATTERN = r"ATOM"    
-
-    resMax = -1
-    resMin = 1E10  
-    
-    pdbLines = []
-    with open(pdbFile) as f:
-        pdbLines = f.readlines()
-        
-    for pdbLine in pdbLines: 
-       if re.match(ATOM_PATTERN, pdbLine):
-           # Column numbers from 23 to 26 are the 
-           # residual sequence number
-           currentRes = int(pdbLine[22:26])
-           
-           if (currentRes > resMax): resMax = currentRes
-           if (currentRes < resMin): resMin = currentRes
-    
-    return resMax - resMin + 1
+    seq = findSequenceOfAminoAcids(pdbFile)
+    return len(seq)
 
 def extractCoordinateListFromPdb(pdbFile):
   ATOM_CA_PATTERN = r"ATOM.+CA"  
@@ -96,4 +79,19 @@ def getAASequenceWithIndexDictFromPdb(pdbFile):
                lastRes = currentRes
     
     return aaSequenceWithIndexDict
-           
+
+def generatePdbFileFromAminoSeqWithIndex(coordinateSeq, usedAmino, aminoSeq):
+
+    pdbString = ""
+    currentAtom = 0
+    currentCount = 0
+
+    for caCoord in coordinateSeq:
+        currentAtom += 1
+
+        #             ATOM   Atom #  Atm Na Res Name ChainId Res #  X Coord Y Coord Z Coord
+        pdbString += "ATOM  {0:5d}  {1:2s}  {2:3s} {3:1s}{4:4d}    {5:8.3f}{6:8.3f}{7:8.3f}\n".format(currentAtom,
+                     "CA", aminoSeq[currentCount], "A", usedAmino[currentCount], caCoord[0], caCoord[1], caCoord[2])
+        currentCount += 1
+
+    return pdbString

@@ -1,9 +1,5 @@
 meansAndStdDevFile = "data/loweststd.txt"
 differenceInAminoFile = "data/differenceInAmino.txt"
-pdbFile = "data/3ZOB.pdb"
-
-# Our current Amino Acid Count
-sizeOfProtein = 67
 
 # The top number of Amino Acids motifs to include when deciding
 # which motifs to include in the trackers

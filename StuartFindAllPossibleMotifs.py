@@ -34,10 +34,10 @@ def ParVol((a,  b,  c,  d)):
     return newnum
 
 # Creates a list with FORMAT: ((ind1, ind2, ind3, ind4), "am1am2am3am4")
-def findAllPossibleMotifs():
+def findAllPossibleMotifs(pdbFile):
     print "Finding all possible motifs within the protein..."
 
-    candidate = Constants.pdbFile
+    candidate = pdbFile
     
     filename= open(candidate, "r")
     datalist = []
