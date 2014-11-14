@@ -1,9 +1,9 @@
 import PdbUtilityFunctions
 import cPickle
 
-PICKLE_FILE = "hamidMethod/hamidMethod-3ZOB.pickle"
+PICKLE_FILE = "hamidMethod/hamidMethod-3ZOB-gen-poly.pickle"
 PDB_FILE = "data/3ZOB-one.pdb"
-GEN_PDB_FILE = "hamidMethod/3ZOB-gen.pdb"
+GEN_PDB_FILE = "hamidMethod/3ZOB-gen-poly.pdb"
 
 def main():
     with open(PICKLE_FILE, 'r') as f:
