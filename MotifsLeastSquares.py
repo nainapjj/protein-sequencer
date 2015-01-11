@@ -13,6 +13,8 @@ findResidualsCount = 0
 # Groups: 1 - X, 3 - Y, 5 - Z
 DIFFERENCE_COORDINATES_PTN = r"(?<=\()([\-\.0-9]+)(, )([\-\.0-9]+)(, )([\-\.0-9]+)"
 
+T_LENGTH = 1000
+T_VOLUME = 10
 
 def generateAminoAcidsDifferenceList():
     listOfAminoDifferences = []
