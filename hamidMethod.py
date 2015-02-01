@@ -10,8 +10,8 @@ import scipy as sp
 import random
 import cPickle
 
-PDB_FILE = "data/3ZOB-one.pdb"
-OUTPUT_FILE = "hamidMethod/hamidMethod-3ZOB-gen-tub.pickle"
+PDB_FILE = "pdbs/1DF4.pdb"
+OUTPUT_FILE = "hamidMethod/hamidMethod-1DF4-tub.pickle"
 
 def printStats(stats):
     i = 1

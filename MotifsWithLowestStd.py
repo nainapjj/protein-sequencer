@@ -77,6 +77,7 @@ def filterOutUnneededMotifs(listOfMotifsWithVolumes, sizeOfProtein):
 
     print "Choosing the bottom portion of the motifs to perform least squares on..."
     motifIndex = 0
+    print sortedMotifs[0]
     for motif in sortedMotifs:
         try:
             if hasVisitedAA[motif["index"][0]-1] < 9 and hasVisitedAA[motif["index"][1]-1] < 9 and \
@@ -86,6 +87,8 @@ def filterOutUnneededMotifs(listOfMotifsWithVolumes, sizeOfProtein):
                     hasVisitedAA[motif["index"][1]-1] += 1
                     hasVisitedAA[motif["index"][2]-1] += 1
                     hasVisitedAA[motif["index"][3]-1] += 1
+            if(motif["unVol"] < 4.25):
+                unusedMotifs.append(motifIndex) 
             else:
                 unusedMotifs.append(motifIndex)
         except Exception:
