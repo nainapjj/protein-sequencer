@@ -1,7 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-import Constants
+import os
+
 import MotifsWithLowestStd
 import MotifsLeastSquares
 import PdbUtilityFunctions
@@ -9,9 +10,20 @@ import PdbUtilityFunctions
 import scipy as sp
 import random
 import cPickle
+import glob
 
-PDB_FILE = "pdbs/1DF4.pdb"
-OUTPUT_FILE = "hamidMethod/hamidMethod-1DF4-tub.pickle"
+print "Start", os.getcwd()
+
+globstring = os.getcwd() + "/pdbs/*.pdb"
+FileList = glob.glob(globstring)
+
+PDB_FILE = "pdbs/1G9W.pdb"
+OUTPUT_FILE = "hamidMethod/hamidMethod-1G9W-tub.pickle"
+
+def createOutputFile(file):
+    base = file[61:-4]
+    outfile = os.getcwd() + "/hamidMethod/hamidMethod-" + base + "-tub.pickle"
+    return outfile
 
 def printStats(stats):
     i = 1
@@ -134,8 +146,14 @@ def hamidMethod():
             "visited": filtered_output["visited"] }
 
 if __name__ == "__main__":
-    returnObj = hamidMethod()
-
-    with open(OUTPUT_FILE, 'w') as f:
-        cPickle.dump(returnObj, f)
+    for i in FileList:        
+        try:
+            PDB_FILE = i
+            OUTPUT_FILE = createOutputFile(PDB_FILE)
+            returnObj = hamidMethod()                
+            with open(OUTPUT_FILE, 'w') as f:
+                cPickle.dump(returnObj, f)
+        except:
+            print "File", PDB_FILE, "is an invalid input."
+            continue
 

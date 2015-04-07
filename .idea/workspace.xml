@@ -2,13 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c90cc4e2-394f-4fa6-be57-f1bf715ac0fd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Constants.py" afterPath="$PROJECT_DIR$/Constants.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculatePhiPsi.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hamidStat.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/start.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/__AnalyzeBPVolume.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pdbs/1YU8.pdb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pdbs/1ZU3.pdb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pdbs/2ERW.pdb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pdbs/2G7O.pdb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pdbs/3FOD.pdb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pdbs/3I35.pdb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pdbs/3NJW.pdb" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hamidMethod/1DF4-gen-tub.pdb" afterPath="$PROJECT_DIR$/hamidMethod/1DF4-gen-tub.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Stuart.iml" afterPath="$PROJECT_DIR$/.idea/Stuart.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hamidGeneratePdb.py" afterPath="$PROJECT_DIR$/hamidGeneratePdb.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hamidMethod/hamidMethod-1DF4-tub.pickle" afterPath="$PROJECT_DIR$/hamidMethod/hamidMethod-1DF4-tub.pickle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hamidMethod.py" afterPath="$PROJECT_DIR$/hamidMethod.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Stuart.iws" />
     <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,83 +43,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="hamidGeneratePdb.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/hamidGeneratePdb.py">
+      <file leaf-file-name="CalculatePhiPsi.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CalculatePhiPsi.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.28753993" vertical-offset="0" max-vertical-offset="626">
-              <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MotifsWithLowestStd.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MotifsWithLowestStd.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="600" max-vertical-offset="1830">
-              <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
+              <caret line="8" column="59" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="3ZOB-gen.pdb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hamidMethod/3ZOB-gen.pdb">
+      <file leaf-file-name="Statistics.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Statistics.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1095">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1620">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="1DF4-gen.pdb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hamidMethod/1DF4-gen.pdb">
+      <file leaf-file-name="testing.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/testing.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="945">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3165">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StuartPairwiseAnalysis.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/StuartPairwiseAnalysis.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1605" max-vertical-offset="3360">
-              <caret line="107" column="23" selection-start-line="107" selection-start-column="23" selection-end-line="107" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PdbUtilityFunctions.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PdbUtilityFunctions.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1127" max-vertical-offset="1530">
-              <caret line="82" column="75" selection-start-line="82" selection-start-column="75" selection-end-line="82" selection-end-column="75" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="coordinatesToPdb.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/coordinatesToPdb.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="675">
-              <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="35" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Constants.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Constants.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="330">
-              <caret line="1" column="52" selection-start-line="1" selection-start-column="52" selection-end-line="1" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -121,35 +84,42 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
-    <option name="changedFiles">
+    <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/obtainAminoAcidCoordinatesFromBackbone.py" />
-        <option value="$PROJECT_DIR$/obtainAminoAcidCoordinatesFromInitial.py" />
-        <option value="$PROJECT_DIR$/obtainAminoAcidsFromInitialPdb.py" />
-        <option value="$PROJECT_DIR$/CAscrape.py" />
-        <option value="$PROJECT_DIR$/ReadCoordinatesFile.py" />
-        <option value="$PROJECT_DIR$/processCoordinates.py" />
-        <option value="$PROJECT_DIR$/analyzePdbVolumes.py" />
-        <option value="$PROJECT_DIR$/data/hydrophobic.txt" />
-        <option value="$PROJECT_DIR$/obtainInitialCoordinates.py" />
-        <option value="$PROJECT_DIR$/MotifsLeastSquares.py" />
-        <option value="$PROJECT_DIR$/StuartFindAllPossibleMotifs.py" />
-        <option value="$PROJECT_DIR$/MotifsWithLowestStd.py" />
-        <option value="$PROJECT_DIR$/obtainAminoAcidCoordinates.py" />
-        <option value="$PROJECT_DIR$/Constants.py" />
-        <option value="$PROJECT_DIR$/StuartPairwiseAnalysis.py" />
-        <option value="$PROJECT_DIR$/coordinatesToPdb.py" />
+        <option value="$PROJECT_DIR$/hamidstat.py" />
+        <option value="$PROJECT_DIR$/hamidStat.py" />
         <option value="$PROJECT_DIR$/hamidMethod.py" />
-        <option value="$PROJECT_DIR$/PdbUtilityFunctions.py" />
+        <option value="$PROJECT_DIR$/start.py" />
         <option value="$PROJECT_DIR$/hamidGeneratePdb.py" />
+        <option value="$PROJECT_DIR$/calculatePhiPsi.py" />
+        <option value="$PROJECT_DIR$/CalculatePhiPsi.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="186" />
-    <option name="y" value="79" />
+    <option name="x" value="109" />
+    <option name="y" value="23" />
     <option name="width" value="1202" />
     <option name="height" value="746" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Spelling</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>SpellCheckingInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -229,14 +199,14 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.General" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="recentsLimit" value="5" />
     <property name="SearchEverywhereHistoryKey" value="Moti&#9;FILE&#9;file:///Users/jeffnainap/Dropbox/Spring Semester 2014/Childrens Research/protein-sequence/MotifsLeastSquares.py&#10;o&#9;FILE&#9;file:///Users/jeffnainap/Dropbox/Spring Semester 2014/Childrens Research/Stuart/obtainAminoAcidCoordinatesFromInitial.py&#10;obtain&#9;FILE&#9;file:///Users/jeffnainap/Dropbox/Spring Semester 2014/Childrens Research/Stuart/obtainAminoAcidCoordinatesFromInitial.py&#10;Constants&#9;FILE&#9;file:///Users/jeffnainap/Dropbox/Spring Semester 2014/Childrens Research/Stuart/Constants.py&#10;LeastSq&#9;FILE&#9;file:///Users/jeffnainap/Dropbox/Spring Semester 2014/Childrens Research/Stuart/MotifsLeastSquares.py" />
     <property name="FullScreen" value="false" />
-    <property name="last_opened_file_path" value="/Applications/Anaconda/anaconda/bin/python2.7" />
+    <property name="last_opened_file_path" value="/Anaconda/anaconda/envs/mmtk/bin/python" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -248,7 +218,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.processCoordinates">
+  <component name="RunManager" selected="Python.calculatePhiPsi">
     <configuration default="false" name="coordinatesToPdb" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -263,24 +233,7 @@
       <module name="Stuart" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/coordinatesToPdb.py" />
       <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="obtainAminoAcidCoordinatesFromInitial" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Stuart" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/obtainAminoAcidCoordinatesFromInitial.py" />
-      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
@@ -299,6 +252,7 @@
       <module name="Stuart" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/processCoordinates.py" />
       <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
       <RunnerSettings RunnerId="PyDebugRunner" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PyDebugRunner" />
@@ -319,6 +273,7 @@
       <module name="Stuart" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CAscrape.py" />
       <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
@@ -337,6 +292,26 @@
       <module name="Stuart" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/obtainAminoAcidsFromInitialPdb.py" />
       <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="calculatePhiPsi" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Stuart" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CalculatePhiPsi.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
@@ -400,6 +375,7 @@
       <module name="Stuart" />
       <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
@@ -464,18 +440,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.coordinatesToPdb" />
-      <item index="1" class="java.lang.String" itemvalue="Python.obtainAminoAcidCoordinatesFromInitial" />
-      <item index="2" class="java.lang.String" itemvalue="Python.processCoordinates" />
-      <item index="3" class="java.lang.String" itemvalue="Python.CAscrape" />
-      <item index="4" class="java.lang.String" itemvalue="Python.obtainAminoAcidsFromInitialPdb" />
+      <item index="1" class="java.lang.String" itemvalue="Python.processCoordinates" />
+      <item index="2" class="java.lang.String" itemvalue="Python.CAscrape" />
+      <item index="3" class="java.lang.String" itemvalue="Python.obtainAminoAcidsFromInitialPdb" />
+      <item index="4" class="java.lang.String" itemvalue="Python.calculatePhiPsi" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.processCoordinates" />
-        <item index="1" class="java.lang.String" itemvalue="Python.obtainAminoAcidsFromInitialPdb" />
-        <item index="2" class="java.lang.String" itemvalue="Python.coordinatesToPdb" />
-        <item index="3" class="java.lang.String" itemvalue="Python.CAscrape" />
-        <item index="4" class="java.lang.String" itemvalue="Python.obtainAminoAcidCoordinatesFromInitial" />
+        <item index="0" class="java.lang.String" itemvalue="Python.calculatePhiPsi" />
+        <item index="1" class="java.lang.String" itemvalue="Python.processCoordinates" />
+        <item index="2" class="java.lang.String" itemvalue="Python.obtainAminoAcidsFromInitialPdb" />
+        <item index="3" class="java.lang.String" itemvalue="Python.coordinatesToPdb" />
+        <item index="4" class="java.lang.String" itemvalue="Python.CAscrape" />
       </list>
     </recent_temporary>
   </component>
@@ -488,31 +464,34 @@
     <task active="true" id="Default" summary="Default task">
       <changelist id="c90cc4e2-394f-4fa6-be57-f1bf715ac0fd" name="Default" comment="" />
       <created>1403992483108</created>
+      <option name="number" value="Default" />
       <updated>1403992483108</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="186" y="79" width="1202" height="746" extended-state="0" />
-    <editor active="true" />
+    <frame x="109" y="23" width="1202" height="746" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32874617" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874617" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3988183" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14285715" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22878535" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3988183" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14285715" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3943299" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23285352" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874617" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39296636" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3293944" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -535,52 +514,9 @@
     <breakpoint-manager>
       <option name="time" value="7" />
     </breakpoint-manager>
+    <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Constants.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="375">
-          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MotifsWithLowestStd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="915" max-vertical-offset="1830">
-          <caret line="61" column="21" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/obtainAminoAcidCoordinates.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="435">
-          <caret line="11" column="76" selection-start-line="11" selection-start-column="76" selection-end-line="11" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PdbUtilityFunctions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1320">
-          <caret line="0" column="9" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Constants.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="375">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MotifsLeastSquares.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4425">
-          <caret line="173" column="10" selection-start-line="173" selection-start-column="10" selection-end-line="173" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MotifsWithLowestStd.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="870" max-vertical-offset="1725">
@@ -731,13 +667,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CAscrape.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.81527096" vertical-offset="1304" max-vertical-offset="1725">
-          <caret line="112" column="59" selection-start-line="112" selection-start-column="59" selection-end-line="112" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/StuartFindAverageDistance.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="259" max-vertical-offset="840">
@@ -759,31 +688,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Indexator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31810766" vertical-offset="0" max-vertical-offset="613">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/example_scripts/3ZOB.pdb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="342105">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ReadCoordinatesFile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5210918" vertical-offset="0" max-vertical-offset="750">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/analyzePdbVolumes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7816377" vertical-offset="0" max-vertical-offset="690">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -808,63 +716,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MotifsLeastSquares.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.9014084" vertical-offset="975" max-vertical-offset="2325">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/processCoordinates.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.52816904" vertical-offset="0" max-vertical-offset="426">
-          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Constants.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
-          <caret line="1" column="52" selection-start-line="1" selection-start-column="52" selection-end-line="1" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/obtainAminoAcidCoordinates.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/StuartFindAllPossibleMotifs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.0532688" vertical-offset="0" max-vertical-offset="1170">
           <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StuartPairwiseAnalysis.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1605" max-vertical-offset="3360">
-          <caret line="107" column="23" selection-start-line="107" selection-start-column="23" selection-end-line="107" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/coordinatesToPdb.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="242" max-vertical-offset="645">
-          <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="35" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PdbUtilityFunctions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1127" max-vertical-offset="1530">
-          <caret line="82" column="75" selection-start-line="82" selection-start-column="75" selection-end-line="82" selection-end-column="75" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -892,23 +747,165 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hamidMethod.py">
+    <entry file="file://$PROJECT_DIR$/StuartPairwiseAnalysis.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.2220447" vertical-offset="0" max-vertical-offset="2205">
-          <caret line="51" column="16" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1605" max-vertical-offset="3360">
+          <caret line="107" column="23" selection-start-line="107" selection-start-column="23" selection-end-line="107" selection-end-column="23" />
+          <folding>
+            <element signature="e#108#119#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analyzePdbVolumes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="69" max-vertical-offset="615">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coordinatesToPdb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
+          <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Constants.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PdbUtilityFunctions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.9512196" vertical-offset="0" max-vertical-offset="1530">
+          <caret line="48" column="33" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Indexator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3115016" vertical-offset="0" max-vertical-offset="626">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/processCoordinates.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35942492" vertical-offset="0" max-vertical-offset="626">
+          <caret line="15" column="37" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hamidStat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="5.2236423" vertical-offset="0" max-vertical-offset="3885">
+          <caret line="218" column="23" selection-start-line="218" selection-start-column="23" selection-end-line="218" selection-end-column="23" />
+          <folding>
+            <element signature="e#119#130#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm40/python_stubs/-1511469438/__builtin__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33226836" vertical-offset="12842" max-vertical-offset="77220">
+          <caret line="870" column="8" selection-start-line="870" selection-start-column="8" selection-end-line="870" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/start.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="626">
+          <caret line="0" column="77" selection-start-line="0" selection-start-column="77" selection-end-line="0" selection-end-column="77" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hamidGeneratePdb.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28753993" vertical-offset="0" max-vertical-offset="626">
-          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.71884984" vertical-offset="0" max-vertical-offset="810">
+          <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ReadCoordinatesFile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5990415" vertical-offset="0" max-vertical-offset="750">
+          <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MotifsLeastSquares.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16773163" vertical-offset="0" max-vertical-offset="2235">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hamidMethod.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.7252395" vertical-offset="274" max-vertical-offset="2475">
+          <caret line="132" column="25" selection-start-line="132" selection-start-column="25" selection-end-line="132" selection-end-column="25" />
+          <folding>
+            <element signature="e#47#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/obtainAminoAcidCoordinates.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CAscrape.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.6118212" vertical-offset="0" max-vertical-offset="1725">
+          <caret line="112" column="59" selection-start-line="112" selection-start-column="59" selection-end-line="112" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CalculatePhiPsi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
+          <caret line="8" column="59" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Statistics.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1620">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3165">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
-
