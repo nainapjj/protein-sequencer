@@ -2,6 +2,7 @@ import glob
 import multiprocessing
 import os.path
 
+import Constants
 import tinkerReconstructAndEnergyMinimize
 
 GLOB_STRING = "hamidMethod/*.pdb"
@@ -10,7 +11,7 @@ TINKER_DIRECTORY = "tinker/"
 
 def runTinker(pdbFile):
     baseFile = os.path.splitext(os.path.basename(pdbFile))[0]
-    outputPdbMini = TINKER_DIRECTORY + "%s-tinker-mini.pdb" % baseFile
+    outputPdbMini = TINKER_DIRECTORY + "%s-tinker-%s.pdb" % (baseFile, Constants.TINKER_ENERGY_MINIMIZATION)
     outputPdbSame = TINKER_DIRECTORY + "%s-tinker-same.pdb" % baseFile
 
     print "Minimizing %s to %s" % (pdbFile, outputPdbMini)

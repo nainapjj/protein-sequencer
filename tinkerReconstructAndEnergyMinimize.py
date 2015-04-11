@@ -37,7 +37,7 @@ def pulchraReconstructProtein(pdbFile):
     if os.path.exists(pdbOut):
         return pdbOut
     else:
-        print "Pulchra error with %s" % pdbOut
+        print "Pulchra error with %s" % pdbFile
         return False
 
 
