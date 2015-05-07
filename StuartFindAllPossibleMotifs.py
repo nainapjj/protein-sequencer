@@ -56,6 +56,11 @@ def findAllPossibleMotifs(pdbFile):
                     index = float(line[5])
                     #amino = pitchdict[amino]
                     datalist.append((amino, index))
+                elif (line[4].isdigit()):
+                    amino = dict[line[3]]
+                    index = float(line[4])
+                    #amino = pitchdict[amino]
+                    datalist.append((amino, index))
         if line[0]=='ENDMDL':
             break
     filename.close()

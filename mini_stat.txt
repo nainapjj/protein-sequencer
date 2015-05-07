@@ -1,0 +1,69 @@
+PAIRWISE DISTANCES 
+Protein: 1DF4
+NATIVE
+Total Size
+Mean: 17.8932183729 Median: 16.4103793671
+Hydrophobic Residues
+Mean: 17.9325340541 Median: 16.2688258027
+Hydrophylic Residues
+Mean: 17.8810592164 Median: 16.4386762849
+
+MODEL
+Total Size
+Mean: 15.659531342 Median: 15.0839354411
+Hydrophobic Residues
+Mean: 15.5428978751 Median: 14.3850137643
+Hydrophylic Residues
+Mean: 15.6956025619 Median: 15.1881926509
+
+Protein: 1P9I
+NATIVE
+Total Size
+Mean: 15.6008053582 Median: 14.1745786446
+Hydrophobic Residues
+Mean: 16.2851196127 Median: 14.234797013
+Hydrophylic Residues
+Mean: 15.3496597228 Median: 14.1291898565
+
+MODEL
+Total Size
+Mean: 12.3303828385 Median: 11.4229516314
+Hydrophobic Residues
+Mean: 13.607160958 Median: 12.4636537981
+Hydrophylic Residues
+Mean: 11.8618009698 Median: 10.8109776154
+
+Protein: 2GI9
+NATIVE
+Total Size
+Mean: 13.4568549519 Median: 13.1941712632
+Hydrophobic Residues
+Mean: 12.5915485988 Median: 11.7792691199
+Hydrophylic Residues
+Mean: 13.6670706196 Median: 13.3783003405
+
+MODEL
+Total Size
+Mean: 13.9301223402 Median: 13.6390392971
+Hydrophobic Residues
+Mean: 13.7463712877 Median: 13.1697949111
+Hydrophylic Residues
+Mean: 13.9747624264 Median: 13.7638831003
+
+Protein: 2RJY
+NATIVE
+Total Size
+Mean: 14.6069033895 Median: 14.4406758308
+Hydrophobic Residues
+Mean: 14.4186174992 Median: 14.2792335173
+Hydrophylic Residues
+Mean: 14.6673621616 Median: 14.4617991679
+
+MODEL
+Total Size
+Mean: 15.2271635956 Median: 14.66286011
+Hydrophobic Residues
+Mean: 15.8720602871 Median: 15.7734273344
+Hydrophylic Residues
+Mean: 15.0200866764 Median: 14.3240516475
+

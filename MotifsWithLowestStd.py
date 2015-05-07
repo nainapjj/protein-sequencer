@@ -18,6 +18,7 @@ MEAN_PATTERN = "(?<=mean:)[0-9\.]+"
 # Matches 7 groups, need 1, 3, 5, and 7
 BASE_PAIR_FINDER = "(?<=\(\')([A-Z])(\', \')([A-Z])(\', \')([A-Z])(\', \')([A-Z])"
 
+
 def getStdDevMeanFromFile(filename):
     currentDict = {}
     with open(filename) as f:
@@ -36,6 +37,7 @@ def getStdDevMeanFromFile(filename):
             currentDict[baseMotif] = {"mean": mean, "std": stdDev}
 
     return currentDict
+
 
 def findListOfMotifsWithVolumes(pdbFile):
     motifDict = getStdDevMeanFromFile(Constants.meansAndStdDevFile)
@@ -57,7 +59,27 @@ def findListOfMotifsWithVolumes(pdbFile):
                 "amino": motif["amino"], "unVol": unVolume, "std": stdDev})
     return listOfMotifsWithVolumes
 
+
 def filterOutUnneededMotifs(listOfMotifsWithVolumes, sizeOfProtein):
+    if Constants.WHICH_CHOOSE_METHOD == Constants.USE_LOWEST_VOL:
+        return filterOutUnnededMotifsLowestVol(listOfMotifsWithVolumes, sizeOfProtein)
+    elif Constants.WHICH_CHOOSE_METHOD == Constants.USE_LOWEST_STD:
+        return filterOutUnneededMotifsLowestStd(listOfMotifsWithVolumes, sizeOfProtein)
+
+
+def filterOutUnnededMotifsLowestVol(listOfMotifsWithVolumes, sizeOfProtein):
+
+    def filterFunc(motif):
+        return numpy.std(motif["index"]) > Constants.STD_THRESHOLD
+
+    print "Sorting by smallest motifs in the protein and then filtering out motifs that are too close..."
+    sortedMotifs = sorted(listOfMotifsWithVolumes, key=lambda motif: motif["unVol"])
+    filteredMotifs = filter(filterFunc, sortedMotifs)
+
+    return {"motifs": filteredMotifs[:sizeOfProtein * Constants.N_MULTIPLE]}
+
+
+def filterOutUnneededMotifsLowestStd(listOfMotifsWithVolumes, sizeOfProtein):
     
     newMotifList = []
     unvisitedAA = []
@@ -81,7 +103,7 @@ def filterOutUnneededMotifs(listOfMotifsWithVolumes, sizeOfProtein):
     for motif in sortedMotifs:
         try:
             if hasVisitedAA[motif["index"][0]-1] < 9 and hasVisitedAA[motif["index"][1]-1] < 9 and \
-                hasVisitedAA[motif["index"][2]-1] < 9 and hasVisitedAA[motif["index"][3]-1] < 9:
+               hasVisitedAA[motif["index"][2]-1] < 9 and hasVisitedAA[motif["index"][3]-1] < 9:
                     newMotifList.append(motif)
                     hasVisitedAA[motif["index"][0]-1] += 1
                     hasVisitedAA[motif["index"][1]-1] += 1

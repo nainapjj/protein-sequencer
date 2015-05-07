@@ -96,7 +96,7 @@ def main():
         tub = []
         tub.append(i)
         PName = i[5:9]
-        model_name = "hamidMethod/" + PName + "-gen-tub.pdb"
+        model_name = "tinker/" + PName + "-gen-tub-tinker-mini.pdb"
         tub.append(model_name)
         jimbeam.append(tub)
 
@@ -131,7 +131,7 @@ def main():
                         line=line.split()
                         if (line[0]=='ATOM') :
                             if (line[2]=='CA'):
-                                if (line[4]=='A') :
+                                if (line[4]=='A'):
                                     indexlist.append(float(line[5]))
                                     if line[6].count('') >= 12:
                                         if (line[6])[0] is "-":
@@ -164,6 +164,16 @@ def main():
                                     else:
                                         sequence= (float(line[6]), float(line[7]), float(line[8]))
                                         array.append(sequence)
+                                    amino = (line[3])
+                                    if (amino.count('') is 5):
+                                        amino= list(amino)
+                                        amino.remove(amino[0])
+                                        amino= str(amino[0]) + str(amino[1]) + str(amino[2])
+                                    aminolist.append(dict[amino])
+                                elif (line[4]).isdigit():
+                                    indexlist.append(float(line[4]))
+                                    sequence= (float(line[5]), float(line[6]), float(line[7]))
+                                    array.append(sequence)
                                     amino = (line[3])
                                     if (amino.count('') is 5):
                                         amino= list(amino)
@@ -213,6 +223,7 @@ def main():
         except:
             print "Failed."
             continue
+
 
     OUT.close()
 

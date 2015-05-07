@@ -83,7 +83,7 @@ def findResiduals(currentCoordinates, motifList, usedAmino):
             getCoordinatesByAminoAcidIndex(motif["index"], currentCoordinates, usedAmino))
         errors = scipy.append(errors, calculatedVolume - measuredVolume)
 
-    if Constants.WHICH_METHOD == Constants.USE_1D_CONSTRAINTS:
+    if Constants.WHICH_LSQ_METHOD == Constants.USE_1D_CONSTRAINTS:
         groupedCoordinates = groupCoordinatesToXYZTuples(currentCoordinates)
         lengths = ReadCoordinatesFile.findLengthForCoordinateSet(groupedCoordinates, usedAmino)
         if Constants.USE_TUB:
@@ -124,7 +124,7 @@ def findCoordinates(motifList, usedAmino):
     x0 = scipy.array(generateInitialValues(len(usedAmino)))
 
     print "Performing a least squares analysis..."
-    if Constants.WHICH_METHOD == Constants.USE_1D_CONSTRAINTS:
+    if Constants.WHICH_LSQ_METHOD == Constants.USE_1D_CONSTRAINTS:
         results = scipy.optimize.leastsq(findResiduals, x0, args=(motifList, usedAmino),
                                          ftol=0.001, xtol=0.001)
         return results[0]
@@ -133,7 +133,7 @@ def findCoordinatesFromInitial(motifList, usedAmino, initialValues):
     x0 = initialValues
 
     print "Performing a least squares analysis..."
-    if Constants.WHICH_METHOD == Constants.USE_1D_CONSTRAINTS:
+    if Constants.WHICH_LSQ_METHOD == Constants.USE_1D_CONSTRAINTS:
         results = scipy.optimize.leastsq(findResiduals, x0, args=(motifList, usedAmino),
                                          ftol=0.001, xtol=0.001)
         return results[0]

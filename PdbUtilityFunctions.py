@@ -1,11 +1,18 @@
+import Constants
+
 import re
 
-HYDROPHOBIC_AA_FILE = "data/hydrophobic.txt"
+
+def returnHydrophobicAminos():
+    with open(Constants.hydrophobicFile) as f:
+        hAcids = f.readlines()
+
+    return hAcids
 
 def findHydrophobicAcidsNum(pdbFile):
     seq = findSequenceOfAminoAcids(pdbFile)
 
-    with open(HYDROPHOBIC_AA_FILE) as f:
+    with open(Constants.hydrophobicFile) as f:
         hAcids = f.readlines()
 
     numHydro = 0
@@ -80,6 +87,7 @@ def getAASequenceWithIndexDictFromPdb(pdbFile):
     
     return aaSequenceWithIndexDict
 
+
 def generatePdbFileFromAminoSeqWithIndex(coordinateSeq, usedAmino, aminoSeq):
 
     pdbString = ""
@@ -95,3 +103,28 @@ def generatePdbFileFromAminoSeqWithIndex(coordinateSeq, usedAmino, aminoSeq):
         currentCount += 1
 
     return pdbString
+
+
+def getResidualSequence(pdbFile):
+    ATOM_PATTERN = r"ATOM"
+
+    with open(pdbFile) as f:
+        pdbLines = f.readlines()
+
+    resArray = []
+
+    lastRes = -1
+    for pdbLine in pdbLines:
+       if re.match(ATOM_PATTERN, pdbLine):
+           # Column numbers from 23 to 26 are the
+           # residual sequence number
+           currentRes = int(pdbLine[22:26])
+
+           if lastRes == -1 or currentRes > lastRes:
+               resArray.append(currentRes)
+               lastRes = currentRes
+
+    return resArray
+
+def fromResIndToZeroInd(resInd, resSequence):
+    return resSequence.index(resInd)

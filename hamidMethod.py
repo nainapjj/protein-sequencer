@@ -17,13 +17,12 @@ print "Start", os.getcwd()
 globstring = os.getcwd() + "/pdbs/*.pdb"
 FileList = glob.glob(globstring)
 
-PDB_FILE = "pdbs/1G9W.pdb"
-OUTPUT_FILE = "hamidMethod/hamidMethod-1G9W-tub.pickle"
 
-def createOutputFile(file):
-    base = file[61:-4]
+def createOutputFile(fileName):
+    base = fileName[61:-4]
     outfile = os.getcwd() + "/hamidMethod/hamidMethod-" + base + "-tub.pickle"
     return outfile
+
 
 def printStats(stats):
     i = 1
@@ -34,18 +33,19 @@ def printStats(stats):
         print u"\tz: μ={0:.2f}, σ={1:.2f}".format(coord[2]['mean'], coord[2]['std'])
         i += 1
 
-def hamidMethod():
+
+def hamidMethod(pdbFile):
     # Preliminary step: We have to look at the PDB file and identify the
     # motifs that are most hydrophobic from the protein. (Find M)
-    n_size_of_protein = PdbUtilityFunctions.findLengthOfProteinFromPdb(PDB_FILE)
-    m_hydrophobic = PdbUtilityFunctions.findHydrophobicAcidsNum(PDB_FILE)
+    n_size_of_protein = PdbUtilityFunctions.findLengthOfProteinFromPdb(pdbFile)
+    m_hydrophobic = PdbUtilityFunctions.findHydrophobicAcidsNum(pdbFile)
 
-    print "Analyzing:", PDB_FILE, "with n = %d amino acids, of which m = %d are hydrophobic" \
+    print "Analyzing:", pdbFile, "with n = %d amino acids, of which m = %d are hydrophobic" \
                                   % (n_size_of_protein, m_hydrophobic)
 
     # First, create an initial model using our least squares model, as we've
     # done before.
-    list_of_motifs_with_volumes = MotifsWithLowestStd.findListOfMotifsWithVolumes(PDB_FILE)
+    list_of_motifs_with_volumes = MotifsWithLowestStd.findListOfMotifsWithVolumes(pdbFile)
     filtered_output = MotifsWithLowestStd.filterOutUnneededMotifs(
         list_of_motifs_with_volumes, n_size_of_protein)
     print "Visited AA indices: ", filtered_output["visited"]
@@ -148,12 +148,12 @@ def hamidMethod():
 if __name__ == "__main__":
     for i in FileList:        
         try:
-            PDB_FILE = i
-            OUTPUT_FILE = createOutputFile(PDB_FILE)
-            returnObj = hamidMethod()                
-            with open(OUTPUT_FILE, 'w') as f:
+            pdbFilename = i
+            outputFile = createOutputFile(pdbFilename)
+            returnObj = hamidMethod(pdbFilename)
+            with open(outputFile, 'w') as f:
                 cPickle.dump(returnObj, f)
         except:
-            print "File", PDB_FILE, "is an invalid input."
+            print "File", pdbFilename, "is an invalid input."
             continue
 
