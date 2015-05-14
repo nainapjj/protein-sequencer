@@ -1,3 +1,4 @@
+import Constants
 import PdbUtilityFunctions
 import MotifsLeastSquares
 import MotifsWithLowestStd
@@ -5,6 +6,8 @@ import StuartFindAllPossibleMotifs
 
 import itertools
 import scipy as sp
+import scipy.stats
+import scipy.optimize
 import multiprocessing
 import math
 
@@ -52,7 +55,7 @@ def filterInOnlyAllHydrophobic(motif):
     return True
 
 
-def volumeErrorsForMotifs(pdbModelFile, filterFunc=None, output=False):
+def volumeErrorsForMotifs(pdbModelFile, filterFunc=None, output=False, list_of_motifs_with_volumes=None):
     # Extract the residual sequence of the protein
     resSequence = PdbUtilityFunctions.getResidualSequence(pdbModelFile)
 
@@ -63,7 +66,8 @@ def volumeErrorsForMotifs(pdbModelFile, filterFunc=None, output=False):
     pdbCoordinates = PdbUtilityFunctions.extractCoordinateListFromPdb(pdbModelFile)
 
     # Next, obtain the motifs we want to analyze
-    list_of_motifs_with_volumes = MotifsWithLowestStd.findListOfMotifsWithVolumes(pdbModelFile)
+    if list_of_motifs_with_volumes is None:
+        list_of_motifs_with_volumes = MotifsWithLowestStd.findListOfMotifsWithVolumes(pdbModelFile)
     filtered_motifs = MotifsWithLowestStd.filterOutUnneededMotifs(
         list_of_motifs_with_volumes, n_size_of_protein)
 
@@ -115,9 +119,53 @@ def volumeErrorsForMotifs(pdbModelFile, filterFunc=None, output=False):
     return {"aVol": actualVolumes, "eVol": expectedVolumes, "deltas": deltas, "stds": stds,
             "indices": indices, "coordinates": coordinates}
 
-def main():
+
+def deleteByIndex(dict, indexes):
+    for key in dict.keys():
+        for index in sorted(indexes, reverse=True):
+            del(dict[key][index])
+
+
+def maximizeCorrelation():
+
+    motifs_for_3ZOB = MotifsWithLowestStd.findListOfMotifsWithVolumes("data/3ZOB-one.pdb")
+
+    def correlationFitness((mean_pairwise, min_pairwise, min_actual_vol, max_actual_vol)):
+        print "Evaluating for: ", mean_pairwise, min_pairwise, min_actual_vol, max_actual_vol
+        Constants.MEAN_PAIRWISE = mean_pairwise
+        Constants.MIN_PAIRWISE = min_pairwise
+
+        data_3ZOB = volumeErrorsForMotifs("data/3ZOB-one.pdb", list_of_motifs_with_volumes=motifs_for_3ZOB)
+        #data_1DF4 = volumeErrorsForMotifs("pdbs/1DF4.pdb")
+        #data_2RJV = volumeErrorsForMotifs("pdbs/2RJV.pdb")
+        #data_2RJY = volumeErrorsForMotifs("pdbs/2RJY.pdb")
+
+        # Filter out the motifs with unusual actual volumes
+        deleteByIndex(data_3ZOB, sp.where((sp.array(data_3ZOB["aVol"]) <= min_actual_vol) |
+                                          (sp.array(data_3ZOB["aVol"]) >= max_actual_vol))[0])
+
+        pearson_3ZOB = scipy.stats.pearsonr(data_3ZOB["aVol"], data_3ZOB["eVol"])[0]
+
+        if len(data_3ZOB["aVol"]) < 5 or math.isnan(pearson_3ZOB):
+            pearson_3ZOB = 0
+
+        print "Pearson: %f" % pearson_3ZOB
+        return -pearson_3ZOB
+
+    bounds = [(0, 20), (0, 20), (4, 10), (10, 30)]
+    minimizer_kwargs = {"method": "L-BFGS-B", "bounds": bounds}
+    result = scipy.optimize.basinhopping(correlationFitness, [Constants.MEAN_PAIRWISE, Constants.MIN_PAIRWISE,
+                                                              Constants.MIN_ACTUAL_VOL, Constants.MAX_ACTUAL_VOL],
+                                         niter=100, disp=True, minimizer_kwargs=minimizer_kwargs, stepsize=3)
+    print result
+
+    return result
+
+
+
+def main_test():
     print "Original PDB"
-    volumeErrorsForMotifs('pdbs/1DF4.pdb')
+    return volumeErrorsForMotifs('pdbs/1DF4.pdb')
 
 def main_compare():
     #volumeErrorsForMotifs("tinker/1DF4-gen-bb-tinker-mini.pdb")
@@ -143,4 +191,4 @@ def main_analyzeVolume():
     volume_generated = volumeOfMotifs(coordList_generated)
 
 if __name__ == "__main__":
-    main()
+    maximizeCorrelation()

@@ -1,0 +1,2552 @@
+/Anaconda/anaconda/envs/mmtk/bin/python /Users/jnainaparampil/Home/protein-sequence/analyzePdbVolumes.py
+Finding all possible motifs within the protein...
+Matching each motif with its corresponding un-normalized volume and std. deviation...
+Evaluating for:  3.0 2.0 5.0 17.5
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (3.000000) and MIN Pairwise (2.000000)
+Pearson: 0.101769
+Evaluating for:  3.0 2.0 5.0 17.5
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (3.000000) and MIN Pairwise (2.000000)
+Pearson: 0.101769
+Evaluating for:  3.00000001 2.0 5.0 17.5
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (3.000000) and MIN Pairwise (2.000000)
+Pearson: 0.101769
+Evaluating for:  3.0 2.00000001 5.0 17.5
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (3.000000) and MIN Pairwise (2.000000)
+Pearson: 0.101769
+Evaluating for:  3.0 2.0 5.00000001 17.5
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (3.000000) and MIN Pairwise (2.000000)
+Pearson: 0.101769
+Evaluating for:  3.0 2.0 5.0 17.50000001
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (3.000000) and MIN Pairwise (2.000000)
+Pearson: 0.101769
+basinhopping step 0: f -0.101769
+Evaluating for:  0.603956112749 3.50708022802 4.0 18.5721146086
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (0.603956) and MIN Pairwise (3.507080)
+Pearson: 0.180016
+Evaluating for:  0.603956112749 3.50708022802 4.0 18.5721146086
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (0.603956) and MIN Pairwise (3.507080)
+Pearson: 0.180016
+Evaluating for:  0.603956122749 3.50708022802 4.0 18.5721146086
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (0.603956) and MIN Pairwise (3.507080)
+Pearson: 0.180016
+Evaluating for:  0.603956112749 3.50708023802 4.0 18.5721146086
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (0.603956) and MIN Pairwise (3.507080)
+Pearson: 0.180016
+Evaluating for:  0.603956112749 3.50708022802 4.00000001 18.5721146086
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (0.603956) and MIN Pairwise (3.507080)
+Pearson: 0.180016
+Evaluating for:  0.603956112749 3.50708022802 4.0 18.5721146186
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (0.603956) and MIN Pairwise (3.507080)
+Pearson: 0.180016
+basinhopping step 1: f -0.180016 trial_f -0.180016 accepted 1  lowest_f -0.180016
+found new global minimum on step 1 with function value -0.180016
+Evaluating for:  1.38649162488 5.18421231849 4.0 17.6472477692
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (1.386492) and MIN Pairwise (5.184212)
+Pearson: 0.174391
+Evaluating for:  1.38649162488 5.18421231849 4.0 17.6472477692
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (1.386492) and MIN Pairwise (5.184212)
+Pearson: 0.174391
+Evaluating for:  1.38649163488 5.18421231849 4.0 17.6472477692
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (1.386492) and MIN Pairwise (5.184212)
+Pearson: 0.174391
+Evaluating for:  1.38649162488 5.18421232849 4.0 17.6472477692
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (1.386492) and MIN Pairwise (5.184212)
+Pearson: 0.174391
+Evaluating for:  1.38649162488 5.18421231849 4.00000001 17.6472477692
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (1.386492) and MIN Pairwise (5.184212)
+Pearson: 0.174391
+Evaluating for:  1.38649162488 5.18421231849 4.0 17.6472477792
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (1.386492) and MIN Pairwise (5.184212)
+Pearson: 0.174391
+basinhopping step 2: f -0.174391 trial_f -0.174391 accepted 1  lowest_f -0.180016
+Evaluating for:  2.81862369204 5.8545712013 5.13996004274 17.6635602563
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (2.818624) and MIN Pairwise (5.854571)
+Pearson: 0.218635
+Evaluating for:  2.81862369204 5.8545712013 5.13996004274 17.6635602563
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (2.818624) and MIN Pairwise (5.854571)
+Pearson: 0.218635
+Evaluating for:  2.81862370204 5.8545712013 5.13996004274 17.6635602563
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (2.818624) and MIN Pairwise (5.854571)
+Pearson: 0.218635
+Evaluating for:  2.81862369204 5.8545712113 5.13996004274 17.6635602563
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (2.818624) and MIN Pairwise (5.854571)
+Pearson: 0.218635
+Evaluating for:  2.81862369204 5.8545712013 5.13996005274 17.6635602563
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (2.818624) and MIN Pairwise (5.854571)
+Pearson: 0.218635
+Evaluating for:  2.81862369204 5.8545712013 5.13996004274 17.6635602663
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (2.818624) and MIN Pairwise (5.854571)
+Pearson: 0.218635
+basinhopping step 3: f -0.218635 trial_f -0.218635 accepted 1  lowest_f -0.218635
+found new global minimum on step 3 with function value -0.218635
+Evaluating for:  3.66293110364 7.69402588629 4.0 17.332102066
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (3.662931) and MIN Pairwise (7.694026)
+Pearson: -0.054773
+Evaluating for:  3.66293110364 7.69402588629 4.0 17.332102066
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (3.662931) and MIN Pairwise (7.694026)
+Pearson: -0.054773
+Evaluating for:  3.66293111364 7.69402588629 4.0 17.332102066
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (3.662931) and MIN Pairwise (7.694026)
+Pearson: -0.054773
+Evaluating for:  3.66293110364 7.69402589629 4.0 17.332102066
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (3.662931) and MIN Pairwise (7.694026)
+Pearson: -0.054773
+Evaluating for:  3.66293110364 7.69402588629 4.00000001 17.332102066
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (3.662931) and MIN Pairwise (7.694026)
+Pearson: -0.054773
+Evaluating for:  3.66293110364 7.69402588629 4.0 17.332102076
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (3.662931) and MIN Pairwise (7.694026)
+Pearson: -0.054773
+basinhopping step 4: f 0.0547727 trial_f 0.0547727 accepted 1  lowest_f -0.218635
+Evaluating for:  6.45640551096 5.52113582456 5.81627802454 16.6245966736
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (6.456406) and MIN Pairwise (5.521136)
+Pearson: 0.000373
+Evaluating for:  6.45640551096 5.52113582456 5.81627802454 16.6245966736
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (6.456406) and MIN Pairwise (5.521136)
+Pearson: 0.000373
+Evaluating for:  6.45640552096 5.52113582456 5.81627802454 16.6245966736
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (6.456406) and MIN Pairwise (5.521136)
+Pearson: 0.000373
+Evaluating for:  6.45640551096 5.52113583456 5.81627802454 16.6245966736
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (6.456406) and MIN Pairwise (5.521136)
+Pearson: 0.000373
+Evaluating for:  6.45640551096 5.52113582456 5.81627803454 16.6245966736
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (6.456406) and MIN Pairwise (5.521136)
+Pearson: 0.000373
+Evaluating for:  6.45640551096 5.52113582456 5.81627802454 16.6245966836
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (6.456406) and MIN Pairwise (5.521136)
+Pearson: 0.000373
+basinhopping step 5: f -0.000373411 trial_f -0.000373411 accepted 1  lowest_f -0.218635
+Evaluating for:  3.93925383508 7.01302548597 5.73427575239 15.0008420251
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (3.939254) and MIN Pairwise (7.013025)
+Pearson: 0.253050
+Evaluating for:  3.93925383508 7.01302548597 5.73427575239 15.0008420251
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (3.939254) and MIN Pairwise (7.013025)
+Pearson: 0.253050
+Evaluating for:  3.93925384508 7.01302548597 5.73427575239 15.0008420251
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (3.939254) and MIN Pairwise (7.013025)
+Pearson: 0.253050
+Evaluating for:  3.93925383508 7.01302549597 5.73427575239 15.0008420251
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (3.939254) and MIN Pairwise (7.013025)
+Pearson: 0.253050
+Evaluating for:  3.93925383508 7.01302548597 5.73427576239 15.0008420251
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (3.939254) and MIN Pairwise (7.013025)
+Pearson: 0.253050
+Evaluating for:  3.93925383508 7.01302548597 5.73427575239 15.0008420351
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (3.939254) and MIN Pairwise (7.013025)
+Pearson: 0.253050
+basinhopping step 6: f -0.25305 trial_f -0.25305 accepted 1  lowest_f -0.25305
+found new global minimum on step 6 with function value -0.25305
+Evaluating for:  2.00963971768 4.34340938594 7.5630975733 13.7615345281
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (2.009640) and MIN Pairwise (4.343409)
+Pearson: -0.180566
+Evaluating for:  2.00963971768 4.34340938594 7.5630975733 13.7615345281
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (2.009640) and MIN Pairwise (4.343409)
+Pearson: -0.180566
+Evaluating for:  2.00963972768 4.34340938594 7.5630975733 13.7615345281
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (2.009640) and MIN Pairwise (4.343409)
+Pearson: -0.180566
+Evaluating for:  2.00963971768 4.34340939594 7.5630975733 13.7615345281
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (2.009640) and MIN Pairwise (4.343409)
+Pearson: -0.180566
+Evaluating for:  2.00963971768 4.34340938594 7.5630975833 13.7615345281
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (2.009640) and MIN Pairwise (4.343409)
+Pearson: -0.180566
+Evaluating for:  2.00963971768 4.34340938594 7.5630975733 13.7615345381
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (2.009640) and MIN Pairwise (4.343409)
+Pearson: -0.180566
+basinhopping step 7: f 0.180566 trial_f 0.180566 accepted 1  lowest_f -0.25305
+Evaluating for:  1.43719654101 1.94638832319 10.0 11.5249818973
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (1.437197) and MIN Pairwise (1.946388)
+Pearson: -0.088762
+Evaluating for:  1.43719654101 1.94638832319 10.0 11.5249818973
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (1.437197) and MIN Pairwise (1.946388)
+Pearson: -0.088762
+Evaluating for:  1.43719655101 1.94638832319 10.0 11.5249818973
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (1.437197) and MIN Pairwise (1.946388)
+Pearson: -0.088762
+Evaluating for:  1.43719654101 1.94638833319 10.0 11.5249818973
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (1.437197) and MIN Pairwise (1.946388)
+Pearson: -0.088762
+Evaluating for:  1.43719654101 1.94638832319 10.00000001 11.5249818973
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (1.437197) and MIN Pairwise (1.946388)
+Pearson: -0.088762
+Evaluating for:  1.43719654101 1.94638832319 10.0 11.5249819073
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (1.437197) and MIN Pairwise (1.946388)
+Pearson: -0.088762
+basinhopping step 8: f 0.0887622 trial_f 0.0887622 accepted 1  lowest_f -0.25305
+Evaluating for:  0.0 4.70762624928 9.57636208129 13.0536497678
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (0.000000) and MIN Pairwise (4.707626)
+Pearson: -0.227546
+Evaluating for:  0.0 4.70762624928 9.57636208129 13.0536497678
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (0.000000) and MIN Pairwise (4.707626)
+Pearson: -0.227546
+Evaluating for:  1e-08 4.70762624928 9.57636208129 13.0536497678
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (0.000000) and MIN Pairwise (4.707626)
+Pearson: -0.227546
+Evaluating for:  0.0 4.70762625928 9.57636208129 13.0536497678
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (0.000000) and MIN Pairwise (4.707626)
+Pearson: -0.227546
+Evaluating for:  0.0 4.70762624928 9.57636209129 13.0536497678
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (0.000000) and MIN Pairwise (4.707626)
+Pearson: -0.227546
+Evaluating for:  0.0 4.70762624928 9.57636208129 13.0536497778
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (0.000000) and MIN Pairwise (4.707626)
+Pearson: -0.227546
+basinhopping step 9: f 0.227546 trial_f 0.227546 accepted 1  lowest_f -0.25305
+Evaluating for:  0.839842337674 3.23600817071 10.0 15.0893863526
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (0.839842) and MIN Pairwise (3.236008)
+Pearson: 0.057745
+Evaluating for:  0.839842337674 3.23600817071 10.0 15.0893863526
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (0.839842) and MIN Pairwise (3.236008)
+Pearson: 0.057745
+Evaluating for:  0.839842347674 3.23600817071 10.0 15.0893863526
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (0.839842) and MIN Pairwise (3.236008)
+Pearson: 0.057745
+Evaluating for:  0.839842337674 3.23600818071 10.0 15.0893863526
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (0.839842) and MIN Pairwise (3.236008)
+Pearson: 0.057745
+Evaluating for:  0.839842337674 3.23600817071 10.00000001 15.0893863526
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (0.839842) and MIN Pairwise (3.236008)
+Pearson: 0.057745
+Evaluating for:  0.839842337674 3.23600817071 10.0 15.0893863626
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (0.839842) and MIN Pairwise (3.236008)
+Pearson: 0.057745
+basinhopping step 10: f -0.0577452 trial_f -0.0577452 accepted 1  lowest_f -0.25305
+Evaluating for:  0.0 5.67469489328 7.8153221565 13.3901209292
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (0.000000) and MIN Pairwise (5.674695)
+Pearson: 0.059237
+Evaluating for:  0.0 5.67469489328 7.8153221565 13.3901209292
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (0.000000) and MIN Pairwise (5.674695)
+Pearson: 0.059237
+Evaluating for:  1e-08 5.67469489328 7.8153221565 13.3901209292
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (0.000000) and MIN Pairwise (5.674695)
+Pearson: 0.059237
+Evaluating for:  0.0 5.67469490328 7.8153221565 13.3901209292
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (0.000000) and MIN Pairwise (5.674695)
+Pearson: 0.059237
+Evaluating for:  0.0 5.67469489328 7.8153221665 13.3901209292
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (0.000000) and MIN Pairwise (5.674695)
+Pearson: 0.059237
+Evaluating for:  0.0 5.67469489328 7.8153221565 13.3901209392
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (0.000000) and MIN Pairwise (5.674695)
+Pearson: 0.059237
+basinhopping step 11: f -0.0592366 trial_f -0.0592366 accepted 1  lowest_f -0.25305
+Evaluating for:  2.92470775397 8.53927535496 7.14693094634 13.2989127831
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (2.924708) and MIN Pairwise (8.539275)
+/Anaconda/anaconda/envs/mmtk/lib/python2.7/site-packages/numpy/core/_methods.py:55: RuntimeWarning: Mean of empty slice.
+Pearson: 0.000000
+  warnings.warn("Mean of empty slice.", RuntimeWarning)
+/Anaconda/anaconda/envs/mmtk/lib/python2.7/site-packages/numpy/core/_methods.py:67: RuntimeWarning: invalid value encountered in double_scalars
+Evaluating for:  2.92470775397 8.53927535496 7.14693094634 13.2989127831
+  ret = ret.dtype.type(ret / rcount)
+/Anaconda/anaconda/envs/mmtk/lib/python2.7/site-packages/scipy/stats/stats.py:2436: RuntimeWarning: invalid value encountered in double_scalars
+  r = r_num / r_den
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (2.924708) and MIN Pairwise (8.539275)
+Pearson: 0.000000
+Evaluating for:  2.92470776397 8.53927535496 7.14693094634 13.2989127831
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (2.924708) and MIN Pairwise (8.539275)
+Pearson: 0.000000
+Evaluating for:  2.92470775397 8.53927536496 7.14693094634 13.2989127831
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (2.924708) and MIN Pairwise (8.539275)
+Pearson: 0.000000
+Evaluating for:  2.92470775397 8.53927535496 7.14693095634 13.2989127831
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (2.924708) and MIN Pairwise (8.539275)
+Pearson: 0.000000
+Evaluating for:  2.92470775397 8.53927535496 7.14693094634 13.2989127931
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (2.924708) and MIN Pairwise (8.539275)
+Pearson: 0.000000
+basinhopping step 12: f 0 trial_f 0 accepted 1  lowest_f -0.25305
+Evaluating for:  0.439918399033 11.0763747949 9.95153283827 10.8825074751
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (0.439918) and MIN Pairwise (11.076375)
+Pearson: 0.000000
+Evaluating for:  0.439918399033 11.0763747949 9.95153283827 10.8825074751
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (0.439918) and MIN Pairwise (11.076375)
+Pearson: 0.000000
+Evaluating for:  0.439918409033 11.0763747949 9.95153283827 10.8825074751
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (0.439918) and MIN Pairwise (11.076375)
+Pearson: 0.000000
+Evaluating for:  0.439918399033 11.0763748049 9.95153283827 10.8825074751
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (0.439918) and MIN Pairwise (11.076375)
+Pearson: 0.000000
+Evaluating for:  0.439918399033 11.0763747949 9.95153284827 10.8825074751
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (0.439918) and MIN Pairwise (11.076375)
+Pearson: 0.000000
+Evaluating for:  0.439918399033 11.0763747949 9.95153283827 10.8825074851
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (0.439918) and MIN Pairwise (11.076375)
+Pearson: 0.000000
+basinhopping step 13: f 0 trial_f 0 accepted 1  lowest_f -0.25305
+Evaluating for:  3.08289932163 12.3312092375 10.0 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (3.082899) and MIN Pairwise (12.331209)
+Pearson: 0.000000
+Evaluating for:  3.08289932163 12.3312092375 10.0 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (3.082899) and MIN Pairwise (12.331209)
+Pearson: 0.000000
+Evaluating for:  3.08289933163 12.3312092375 10.0 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (3.082899) and MIN Pairwise (12.331209)
+Pearson: 0.000000
+Evaluating for:  3.08289932163 12.3312092475 10.0 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (3.082899) and MIN Pairwise (12.331209)
+Pearson: 0.000000
+Evaluating for:  3.08289932163 12.3312092375 10.00000001 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (3.082899) and MIN Pairwise (12.331209)
+Pearson: 0.000000
+Evaluating for:  3.08289932163 12.3312092375 10.0 10.00000001
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (3.082899) and MIN Pairwise (12.331209)
+Pearson: 0.000000
+basinhopping step 14: f 0 trial_f 0 accepted 1  lowest_f -0.25305
+Evaluating for:  0.309256989509 12.0949582297 8.52953372935 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (0.309257) and MIN Pairwise (12.094958)
+Pearson: 0.000000
+Evaluating for:  0.309256989509 12.0949582297 8.52953372935 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (0.309257) and MIN Pairwise (12.094958)
+Pearson: 0.000000
+Evaluating for:  0.309256999509 12.0949582297 8.52953372935 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (0.309257) and MIN Pairwise (12.094958)
+Pearson: 0.000000
+Evaluating for:  0.309256989509 12.0949582397 8.52953372935 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (0.309257) and MIN Pairwise (12.094958)
+Pearson: 0.000000
+Evaluating for:  0.309256989509 12.0949582297 8.52953373935 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (0.309257) and MIN Pairwise (12.094958)
+Pearson: 0.000000
+Evaluating for:  0.309256989509 12.0949582297 8.52953372935 10.00000001
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (0.309257) and MIN Pairwise (12.094958)
+Pearson: 0.000000
+basinhopping step 15: f 0 trial_f 0 accepted 1  lowest_f -0.25305
+Evaluating for:  0.0 11.7837522886 10.0 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (0.000000) and MIN Pairwise (11.783752)
+Pearson: 0.000000
+Evaluating for:  0.0 11.7837522886 10.0 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (0.000000) and MIN Pairwise (11.783752)
+Pearson: 0.000000
+Evaluating for:  1e-08 11.7837522886 10.0 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (0.000000) and MIN Pairwise (11.783752)
+Pearson: 0.000000
+Evaluating for:  0.0 11.7837522986 10.0 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (0.000000) and MIN Pairwise (11.783752)
+Pearson: 0.000000
+Evaluating for:  0.0 11.7837522886 10.00000001 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (0.000000) and MIN Pairwise (11.783752)
+Pearson: 0.000000
+Evaluating for:  0.0 11.7837522886 10.0 10.00000001
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (0.000000) and MIN Pairwise (11.783752)
+Pearson: 0.000000
+basinhopping step 16: f 0 trial_f 0 accepted 1  lowest_f -0.25305
+Evaluating for:  1.91408213052 14.2105338172 10.0 11.0009468975
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (1.914082) and MIN Pairwise (14.210534)
+Pearson: 0.000000
+Evaluating for:  1.91408213052 14.2105338172 10.0 11.0009468975
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (1.914082) and MIN Pairwise (14.210534)
+Pearson: 0.000000
+Evaluating for:  1.91408214052 14.2105338172 10.0 11.0009468975
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (1.914082) and MIN Pairwise (14.210534)
+Pearson: 0.000000
+Evaluating for:  1.91408213052 14.2105338272 10.0 11.0009468975
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (1.914082) and MIN Pairwise (14.210534)
+Pearson: 0.000000
+Evaluating for:  1.91408213052 14.2105338172 10.00000001 11.0009468975
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (1.914082) and MIN Pairwise (14.210534)
+Pearson: 0.000000
+Evaluating for:  1.91408213052 14.2105338172 10.0 11.0009469075
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (1.914082) and MIN Pairwise (14.210534)
+Pearson: 0.000000
+basinhopping step 17: f 0 trial_f 0 accepted 1  lowest_f -0.25305
+Evaluating for:  2.9726219614 14.5775164726 10.0 11.7752071286
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (2.972622) and MIN Pairwise (14.577516)
+Pearson: 0.000000
+Evaluating for:  2.9726219614 14.5775164726 10.0 11.7752071286
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (2.972622) and MIN Pairwise (14.577516)
+Pearson: 0.000000
+Evaluating for:  2.9726219714 14.5775164726 10.0 11.7752071286
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (2.972622) and MIN Pairwise (14.577516)
+Pearson: 0.000000
+Evaluating for:  2.9726219614 14.5775164826 10.0 11.7752071286
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (2.972622) and MIN Pairwise (14.577516)
+Pearson: 0.000000
+Evaluating for:  2.9726219614 14.5775164726 10.00000001 11.7752071286
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (2.972622) and MIN Pairwise (14.577516)
+Pearson: 0.000000
+Evaluating for:  2.9726219614 14.5775164726 10.0 11.7752071386
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (2.972622) and MIN Pairwise (14.577516)
+Pearson: 0.000000
+basinhopping step 18: f 0 trial_f 0 accepted 1  lowest_f -0.25305
+Evaluating for:  2.83006900136 14.3516966865 10.0 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (2.830069) and MIN Pairwise (14.351697)
+Pearson: 0.000000
+Evaluating for:  2.83006900136 14.3516966865 10.0 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (2.830069) and MIN Pairwise (14.351697)
+Pearson: 0.000000
+Evaluating for:  2.83006901136 14.3516966865 10.0 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (2.830069) and MIN Pairwise (14.351697)
+Pearson: 0.000000
+Evaluating for:  2.83006900136 14.3516966965 10.0 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (2.830069) and MIN Pairwise (14.351697)
+Pearson: 0.000000
+Evaluating for:  2.83006900136 14.3516966865 10.00000001 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (2.830069) and MIN Pairwise (14.351697)
+Pearson: 0.000000
+Evaluating for:  2.83006900136 14.3516966865 10.0 10.00000001
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (2.830069) and MIN Pairwise (14.351697)
+Pearson: 0.000000
+basinhopping step 19: f 0 trial_f 0 accepted 1  lowest_f -0.25305
+Evaluating for:  0.910610730014 13.8363905944 7.40576577623 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (0.910611) and MIN Pairwise (13.836391)
+Pearson: 0.000000
+Evaluating for:  0.910610730014 13.8363905944 7.40576577623 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (0.910611) and MIN Pairwise (13.836391)
+Pearson: 0.000000
+Evaluating for:  0.910610740014 13.8363905944 7.40576577623 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (0.910611) and MIN Pairwise (13.836391)
+Pearson: 0.000000
+Evaluating for:  0.910610730014 13.8363906044 7.40576577623 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (0.910611) and MIN Pairwise (13.836391)
+Pearson: 0.000000
+Evaluating for:  0.910610730014 13.8363905944 7.40576578623 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (0.910611) and MIN Pairwise (13.836391)
+Pearson: 0.000000
+Evaluating for:  0.910610730014 13.8363905944 7.40576577623 10.00000001
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (0.910611) and MIN Pairwise (13.836391)
+Pearson: 0.000000
+basinhopping step 20: f 0 trial_f 0 accepted 1  lowest_f -0.25305
+Evaluating for:  0.0 14.1423205497 6.57532974237 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (0.000000) and MIN Pairwise (14.142321)
+Pearson: 0.000000
+Evaluating for:  0.0 14.1423205497 6.57532974237 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (0.000000) and MIN Pairwise (14.142321)
+Pearson: 0.000000
+Evaluating for:  1e-08 14.1423205497 6.57532974237 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (0.000000) and MIN Pairwise (14.142321)
+Pearson: 0.000000
+Evaluating for:  0.0 14.1423205597 6.57532974237 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (0.000000) and MIN Pairwise (14.142321)
+Pearson: 0.000000
+Evaluating for:  0.0 14.1423205497 6.57532975237 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (0.000000) and MIN Pairwise (14.142321)
+Pearson: 0.000000
+Evaluating for:  0.0 14.1423205497 6.57532974237 10.00000001
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (0.000000) and MIN Pairwise (14.142321)
+Pearson: 0.000000
+basinhopping step 21: f 0 trial_f 0 accepted 1  lowest_f -0.25305
+Evaluating for:  0.0 11.5880650766 7.97305530104 11.462292304
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (0.000000) and MIN Pairwise (11.588065)
+Pearson: 0.000000
+Evaluating for:  0.0 11.5880650766 7.97305530104 11.462292304
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (0.000000) and MIN Pairwise (11.588065)
+Pearson: 0.000000
+Evaluating for:  1e-08 11.5880650766 7.97305530104 11.462292304
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (0.000000) and MIN Pairwise (11.588065)
+Pearson: 0.000000
+Evaluating for:  0.0 11.5880650866 7.97305530104 11.462292304
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (0.000000) and MIN Pairwise (11.588065)
+Pearson: 0.000000
+Evaluating for:  0.0 11.5880650766 7.97305531104 11.462292304
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (0.000000) and MIN Pairwise (11.588065)
+Pearson: 0.000000
+Evaluating for:  0.0 11.5880650766 7.97305530104 11.462292314
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (0.000000) and MIN Pairwise (11.588065)
+Pearson: 0.000000
+basinhopping step 22: f 0 trial_f 0 accepted 1  lowest_f -0.25305
+Evaluating for:  0.0 10.0642678074 6.29803503159 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (0.000000) and MIN Pairwise (10.064268)
+Pearson: 0.000000
+Evaluating for:  0.0 10.0642678074 6.29803503159 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (0.000000) and MIN Pairwise (10.064268)
+Pearson: 0.000000
+Evaluating for:  1e-08 10.0642678074 6.29803503159 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (0.000000) and MIN Pairwise (10.064268)
+Pearson: 0.000000
+Evaluating for:  0.0 10.0642678174 6.29803503159 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (0.000000) and MIN Pairwise (10.064268)
+Pearson: 0.000000
+Evaluating for:  0.0 10.0642678074 6.29803504159 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (0.000000) and MIN Pairwise (10.064268)
+Pearson: 0.000000
+Evaluating for:  0.0 10.0642678074 6.29803503159 10.00000001
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (0.000000) and MIN Pairwise (10.064268)
+Pearson: 0.000000
+basinhopping step 23: f 0 trial_f 0 accepted 1  lowest_f -0.25305
+Evaluating for:  0.0 8.6357384682 8.76461084174 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (0.000000) and MIN Pairwise (8.635738)
+Pearson: 0.000000
+Evaluating for:  0.0 8.6357384682 8.76461084174 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (0.000000) and MIN Pairwise (8.635738)
+Pearson: 0.000000
+Evaluating for:  1e-08 8.6357384682 8.76461084174 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (0.000000) and MIN Pairwise (8.635738)
+Pearson: 0.000000
+Evaluating for:  0.0 8.6357384782 8.76461084174 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (0.000000) and MIN Pairwise (8.635738)
+Pearson: 0.000000
+Evaluating for:  0.0 8.6357384682 8.76461085174 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (0.000000) and MIN Pairwise (8.635738)
+Pearson: 0.000000
+Evaluating for:  0.0 8.6357384682 8.76461084174 10.00000001
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (0.000000) and MIN Pairwise (8.635738)
+Pearson: 0.000000
+basinhopping step 24: f 0 trial_f 0 accepted 1  lowest_f -0.25305
+Evaluating for:  1.94057818659 6.17191239994 6.28800013137 12.9237330479
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (1.940578) and MIN Pairwise (6.171912)
+Pearson: 0.245115
+Evaluating for:  1.94057818659 6.17191239994 6.28800013137 12.9237330479
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (1.940578) and MIN Pairwise (6.171912)
+Pearson: 0.245115
+Evaluating for:  1.94057819659 6.17191239994 6.28800013137 12.9237330479
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (1.940578) and MIN Pairwise (6.171912)
+Pearson: 0.245115
+Evaluating for:  1.94057818659 6.17191240994 6.28800013137 12.9237330479
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (1.940578) and MIN Pairwise (6.171912)
+Pearson: 0.245115
+Evaluating for:  1.94057818659 6.17191239994 6.28800014137 12.9237330479
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (1.940578) and MIN Pairwise (6.171912)
+Pearson: 0.245115
+Evaluating for:  1.94057818659 6.17191239994 6.28800013137 12.9237330579
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (1.940578) and MIN Pairwise (6.171912)
+Pearson: 0.245115
+basinhopping step 25: f -0.245115 trial_f -0.245115 accepted 1  lowest_f -0.25305
+Evaluating for:  4.12227477257 5.16391249704 7.24584455629 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (4.122275) and MIN Pairwise (5.163912)
+Pearson: -0.574469
+Evaluating for:  4.12227477257 5.16391249704 7.24584455629 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (4.122275) and MIN Pairwise (5.163912)
+Pearson: -0.574469
+Evaluating for:  4.12227478257 5.16391249704 7.24584455629 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (4.122275) and MIN Pairwise (5.163912)
+Pearson: -0.574469
+Evaluating for:  4.12227477257 5.16391250704 7.24584455629 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (4.122275) and MIN Pairwise (5.163913)
+Pearson: -0.574469
+Evaluating for:  4.12227477257 5.16391249704 7.24584456629 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (4.122275) and MIN Pairwise (5.163912)
+Pearson: -0.574469
+Evaluating for:  4.12227477257 5.16391249704 7.24584455629 10.00000001
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (4.122275) and MIN Pairwise (5.163912)
+Pearson: -0.574469
+basinhopping step 26: f 0.574469 trial_f 0.574469 accepted 1  lowest_f -0.25305
+Evaluating for:  6.33362448925 7.01670794027 5.69283263933 10.0424431252
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (6.333624) and MIN Pairwise (7.016708)
+Pearson: 0.000000
+/Anaconda/anaconda/envs/mmtk/lib/python2.7/site-packages/scipy/stats/stats.py:2446: RuntimeWarning: invalid value encountered in double_scalars
+Evaluating for:  6.33362448925 7.01670794027 5.69283263933 10.0424431252
+  prob = betai(0.5*df, 0.5, df / (df + t_squared))
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (6.333624) and MIN Pairwise (7.016708)
+Pearson: 0.000000
+Evaluating for:  6.33362449925 7.01670794027 5.69283263933 10.0424431252
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (6.333624) and MIN Pairwise (7.016708)
+Pearson: 0.000000
+Evaluating for:  6.33362448925 7.01670795027 5.69283263933 10.0424431252
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (6.333624) and MIN Pairwise (7.016708)
+Pearson: 0.000000
+Evaluating for:  6.33362448925 7.01670794027 5.69283264933 10.0424431252
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (6.333624) and MIN Pairwise (7.016708)
+Pearson: 0.000000
+Evaluating for:  6.33362448925 7.01670794027 5.69283263933 10.0424431352
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (6.333624) and MIN Pairwise (7.016708)
+Pearson: 0.000000
+basinhopping step 27: f 0 trial_f 0 accepted 1  lowest_f -0.25305
+Evaluating for:  9.04634148212 6.45414244655 4.99605323426 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (9.046341) and MIN Pairwise (6.454142)
+Pearson: 0.413991
+Evaluating for:  9.04634148212 6.45414244655 4.99605323426 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (9.046341) and MIN Pairwise (6.454142)
+Pearson: 0.413991
+Evaluating for:  9.04634149212 6.45414244655 4.99605323426 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (9.046341) and MIN Pairwise (6.454142)
+Pearson: 0.413991
+Evaluating for:  9.04634148212 6.45414245655 4.99605323426 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (9.046341) and MIN Pairwise (6.454142)
+Pearson: 0.413991
+Evaluating for:  9.04634148212 6.45414244655 4.99605324426 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (9.046341) and MIN Pairwise (6.454142)
+Pearson: 0.413991
+Evaluating for:  9.04634148212 6.45414244655 4.99605323426 10.00000001
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (9.046341) and MIN Pairwise (6.454142)
+Pearson: 0.413991
+basinhopping step 28: f -0.413991 trial_f -0.413991 accepted 1  lowest_f -0.413991
+found new global minimum on step 28 with function value -0.413991
+Evaluating for:  11.1982219624 5.05963759701 4.88506750448 12.0377322484
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (11.198222) and MIN Pairwise (5.059638)
+Pearson: -0.422594
+Evaluating for:  11.1982219624 5.05963759701 4.88506750448 12.0377322484
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (11.198222) and MIN Pairwise (5.059638)
+Pearson: -0.422594
+Evaluating for:  11.1982219724 5.05963759701 4.88506750448 12.0377322484
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (11.198222) and MIN Pairwise (5.059638)
+Pearson: -0.422594
+Evaluating for:  11.1982219624 5.05963760701 4.88506750448 12.0377322484
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (11.198222) and MIN Pairwise (5.059638)
+Pearson: -0.422594
+Evaluating for:  11.1982219624 5.05963759701 4.88506751448 12.0377322484
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (11.198222) and MIN Pairwise (5.059638)
+Pearson: -0.422594
+Evaluating for:  11.1982219624 5.05963759701 4.88506750448 12.0377322584
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (11.198222) and MIN Pairwise (5.059638)
+Pearson: -0.422594
+basinhopping step 29: f 0.422594 trial_f 0.422594 accepted 1  lowest_f -0.413991
+Evaluating for:  13.7829605697 4.12758612211 4.0 13.2471838795
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (13.782961) and MIN Pairwise (4.127586)
+Pearson: 0.274987
+Evaluating for:  13.7829605697 4.12758612211 4.0 13.2471838795
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (13.782961) and MIN Pairwise (4.127586)
+Pearson: 0.274987
+Evaluating for:  13.7829605797 4.12758612211 4.0 13.2471838795
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (13.782961) and MIN Pairwise (4.127586)
+Pearson: 0.274987
+Evaluating for:  13.7829605697 4.12758613211 4.0 13.2471838795
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (13.782961) and MIN Pairwise (4.127586)
+Pearson: 0.274987
+Evaluating for:  13.7829605697 4.12758612211 4.00000001 13.2471838795
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (13.782961) and MIN Pairwise (4.127586)
+Pearson: 0.274987
+Evaluating for:  13.7829605697 4.12758612211 4.0 13.2471838895
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (13.782961) and MIN Pairwise (4.127586)
+Pearson: 0.274987
+basinhopping step 30: f -0.274987 trial_f -0.274987 accepted 1  lowest_f -0.413991
+Evaluating for:  10.837765731 6.14037759248 4.91967224855 13.95892754
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (10.837766) and MIN Pairwise (6.140378)
+Pearson: 0.344850
+Evaluating for:  10.837765731 6.14037759248 4.91967224855 13.95892754
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (10.837766) and MIN Pairwise (6.140378)
+Pearson: 0.344850
+Evaluating for:  10.837765741 6.14037759248 4.91967224855 13.95892754
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (10.837766) and MIN Pairwise (6.140378)
+Pearson: 0.344850
+Evaluating for:  10.837765731 6.14037760248 4.91967224855 13.95892754
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (10.837766) and MIN Pairwise (6.140378)
+Pearson: 0.344850
+Evaluating for:  10.837765731 6.14037759248 4.91967225855 13.95892754
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (10.837766) and MIN Pairwise (6.140378)
+Pearson: 0.344850
+Evaluating for:  10.837765731 6.14037759248 4.91967224855 13.95892755
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (10.837766) and MIN Pairwise (6.140378)
+Pearson: 0.344850
+basinhopping step 31: f -0.34485 trial_f -0.34485 accepted 1  lowest_f -0.413991
+Evaluating for:  12.0526077709 5.85260745558 4.13116407439 11.1508399149
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (12.052608) and MIN Pairwise (5.852607)
+Pearson: -0.007698
+Evaluating for:  12.0526077709 5.85260745558 4.13116407439 11.1508399149
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (12.052608) and MIN Pairwise (5.852607)
+Pearson: -0.007698
+Evaluating for:  12.0526077809 5.85260745558 4.13116407439 11.1508399149
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (12.052608) and MIN Pairwise (5.852607)
+Pearson: -0.007698
+Evaluating for:  12.0526077709 5.85260746558 4.13116407439 11.1508399149
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (12.052608) and MIN Pairwise (5.852607)
+Pearson: -0.007698
+Evaluating for:  12.0526077709 5.85260745558 4.13116408439 11.1508399149
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (12.052608) and MIN Pairwise (5.852607)
+Pearson: -0.007698
+Evaluating for:  12.0526077709 5.85260745558 4.13116407439 11.1508399249
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (12.052608) and MIN Pairwise (5.852607)
+Pearson: -0.007698
+basinhopping step 32: f 0.00769814 trial_f 0.00769814 accepted 1  lowest_f -0.413991
+Evaluating for:  13.0385160111 4.24053461279 4.0 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (13.038516) and MIN Pairwise (4.240535)
+Pearson: 0.047799
+Evaluating for:  13.0385160111 4.24053461279 4.0 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (13.038516) and MIN Pairwise (4.240535)
+Pearson: 0.047799
+Evaluating for:  13.0385160211 4.24053461279 4.0 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (13.038516) and MIN Pairwise (4.240535)
+Pearson: 0.047799
+Evaluating for:  13.0385160111 4.24053462279 4.0 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (13.038516) and MIN Pairwise (4.240535)
+Pearson: 0.047799
+Evaluating for:  13.0385160111 4.24053461279 4.00000001 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (13.038516) and MIN Pairwise (4.240535)
+Pearson: 0.047799
+Evaluating for:  13.0385160111 4.24053461279 4.0 10.00000001
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (13.038516) and MIN Pairwise (4.240535)
+Pearson: 0.047799
+basinhopping step 33: f -0.0477994 trial_f -0.0477994 accepted 1  lowest_f -0.413991
+Evaluating for:  11.9768888713 4.40486075313 5.02735154714 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (11.976889) and MIN Pairwise (4.404861)
+Pearson: -0.302493
+Evaluating for:  11.9768888713 4.40486075313 5.02735154714 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (11.976889) and MIN Pairwise (4.404861)
+Pearson: -0.302493
+Evaluating for:  11.9768888813 4.40486075313 5.02735154714 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (11.976889) and MIN Pairwise (4.404861)
+Pearson: -0.302493
+Evaluating for:  11.9768888713 4.40486076313 5.02735154714 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (11.976889) and MIN Pairwise (4.404861)
+Pearson: -0.302493
+Evaluating for:  11.9768888713 4.40486075313 5.02735155714 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (11.976889) and MIN Pairwise (4.404861)
+Pearson: -0.302493
+Evaluating for:  11.9768888713 4.40486075313 5.02735154714 10.00000001
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (11.976889) and MIN Pairwise (4.404861)
+Pearson: -0.302493
+basinhopping step 34: f 0.302493 trial_f 0.302493 accepted 1  lowest_f -0.413991
+Evaluating for:  13.9449864923 7.24160798663 4.0 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (13.944986) and MIN Pairwise (7.241608)
+Pearson: 0.000000
+Evaluating for:  13.9449864923 7.24160798663 4.0 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (13.944986) and MIN Pairwise (7.241608)
+Pearson: 0.000000
+Evaluating for:  13.9449865023 7.24160798663 4.0 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (13.944987) and MIN Pairwise (7.241608)
+Pearson: 0.000000
+Evaluating for:  13.9449864923 7.24160799663 4.0 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (13.944986) and MIN Pairwise (7.241608)
+Pearson: 0.000000
+Evaluating for:  13.9449864923 7.24160798663 4.00000001 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (13.944986) and MIN Pairwise (7.241608)
+Pearson: 0.000000
+Evaluating for:  13.9449864923 7.24160798663 4.0 10.00000001
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (13.944986) and MIN Pairwise (7.241608)
+Pearson: 0.000000
+basinhopping step 35: f 0 trial_f 0 accepted 1  lowest_f -0.413991
+Evaluating for:  16.3835078098 9.32886406753 4.0 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (16.383508) and MIN Pairwise (9.328864)
+Pearson: 0.000000
+Evaluating for:  16.3835078098 9.32886406753 4.0 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (16.383508) and MIN Pairwise (9.328864)
+Pearson: 0.000000
+Evaluating for:  16.3835078198 9.32886406753 4.0 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (16.383508) and MIN Pairwise (9.328864)
+Pearson: 0.000000
+Evaluating for:  16.3835078098 9.32886407753 4.0 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (16.383508) and MIN Pairwise (9.328864)
+Pearson: 0.000000
+Evaluating for:  16.3835078098 9.32886406753 4.00000001 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (16.383508) and MIN Pairwise (9.328864)
+Pearson: 0.000000
+Evaluating for:  16.3835078098 9.32886406753 4.0 10.00000001
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (16.383508) and MIN Pairwise (9.328864)
+Pearson: 0.000000
+basinhopping step 36: f 0 trial_f 0 accepted 1  lowest_f -0.413991
+Evaluating for:  16.8075121951 8.46243204349 4.0 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (16.807512) and MIN Pairwise (8.462432)
+Pearson: 0.000000
+Evaluating for:  16.8075121951 8.46243204349 4.0 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (16.807512) and MIN Pairwise (8.462432)
+Pearson: 0.000000
+Evaluating for:  16.8075122051 8.46243204349 4.0 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (16.807512) and MIN Pairwise (8.462432)
+Pearson: 0.000000
+Evaluating for:  16.8075121951 8.46243205349 4.0 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (16.807512) and MIN Pairwise (8.462432)
+Pearson: 0.000000
+Evaluating for:  16.8075121951 8.46243204349 4.00000001 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (16.807512) and MIN Pairwise (8.462432)
+Pearson: 0.000000
+Evaluating for:  16.8075121951 8.46243204349 4.0 10.00000001
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (16.807512) and MIN Pairwise (8.462432)
+Pearson: 0.000000
+basinhopping step 37: f 0 trial_f 0 accepted 1  lowest_f -0.413991
+Evaluating for:  17.9116233765 7.0339486499 4.78935750081 12.6260216155
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (17.911623) and MIN Pairwise (7.033949)
+Pearson: 0.000000
+Evaluating for:  17.9116233765 7.0339486499 4.78935750081 12.6260216155
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (17.911623) and MIN Pairwise (7.033949)
+Pearson: 0.000000
+Evaluating for:  17.9116233865 7.0339486499 4.78935750081 12.6260216155
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (17.911623) and MIN Pairwise (7.033949)
+Pearson: 0.000000
+Evaluating for:  17.9116233765 7.0339486599 4.78935750081 12.6260216155
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (17.911623) and MIN Pairwise (7.033949)
+Pearson: 0.000000
+Evaluating for:  17.9116233765 7.0339486499 4.78935751081 12.6260216155
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (17.911623) and MIN Pairwise (7.033949)
+Pearson: 0.000000
+Evaluating for:  17.9116233765 7.0339486499 4.78935750081 12.6260216255
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (17.911623) and MIN Pairwise (7.033949)
+Pearson: 0.000000
+basinhopping step 38: f 0 trial_f 0 accepted 1  lowest_f -0.413991
+Evaluating for:  20.0 5.37530469637 4.0 12.9410502441
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (20.000000) and MIN Pairwise (5.375305)
+Pearson: -0.624256
+Evaluating for:  20.0 5.37530469637 4.0 12.9410502441
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (20.000000) and MIN Pairwise (5.375305)
+Pearson: -0.624256
+Evaluating for:  20.00000001 5.37530469637 4.0 12.9410502441
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (20.000000) and MIN Pairwise (5.375305)
+Pearson: -0.624256
+Evaluating for:  20.0 5.37530470637 4.0 12.9410502441
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (20.000000) and MIN Pairwise (5.375305)
+Pearson: -0.624256
+Evaluating for:  20.0 5.37530469637 4.00000001 12.9410502441
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (20.000000) and MIN Pairwise (5.375305)
+Pearson: -0.624256
+Evaluating for:  20.0 5.37530469637 4.0 12.9410502541
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (20.000000) and MIN Pairwise (5.375305)
+Pearson: -0.624256
+basinhopping step 39: f 0.624256 trial_f 0.624256 accepted 1  lowest_f -0.413991
+Evaluating for:  20.0 4.08714088442 5.85918502824 10.8496526723
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (20.000000) and MIN Pairwise (4.087141)
+Pearson: 0.000000
+Evaluating for:  20.0 4.08714088442 5.85918502824 10.8496526723
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (20.000000) and MIN Pairwise (4.087141)
+Pearson: 0.000000
+Evaluating for:  20.00000001 4.08714088442 5.85918502824 10.8496526723
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (20.000000) and MIN Pairwise (4.087141)
+Pearson: 0.000000
+Evaluating for:  20.0 4.08714089442 5.85918502824 10.8496526723
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (20.000000) and MIN Pairwise (4.087141)
+Pearson: 0.000000
+Evaluating for:  20.0 4.08714088442 5.85918503824 10.8496526723
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (20.000000) and MIN Pairwise (4.087141)
+Pearson: 0.000000
+Evaluating for:  20.0 4.08714088442 5.85918502824 10.8496526823
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (20.000000) and MIN Pairwise (4.087141)
+Pearson: 0.000000
+basinhopping step 40: f 0 trial_f 0 accepted 1  lowest_f -0.413991
+Evaluating for:  20.0 4.39254436201 8.31734629952 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (20.000000) and MIN Pairwise (4.392544)
+Pearson: 0.000000
+Evaluating for:  20.0 4.39254436201 8.31734629952 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (20.000000) and MIN Pairwise (4.392544)
+Pearson: 0.000000
+Evaluating for:  20.00000001 4.39254436201 8.31734629952 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (20.000000) and MIN Pairwise (4.392544)
+Pearson: 0.000000
+Evaluating for:  20.0 4.39254437201 8.31734629952 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (20.000000) and MIN Pairwise (4.392544)
+Pearson: 0.000000
+Evaluating for:  20.0 4.39254436201 8.31734630952 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (20.000000) and MIN Pairwise (4.392544)
+Pearson: 0.000000
+Evaluating for:  20.0 4.39254436201 8.31734629952 10.00000001
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (20.000000) and MIN Pairwise (4.392544)
+Pearson: 0.000000
+basinhopping step 41: f 0 trial_f 0 accepted 1  lowest_f -0.413991
+Evaluating for:  18.2706757644 3.41821313286 7.91664850668 10.9456800757
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (18.270676) and MIN Pairwise (3.418213)
+Pearson: 0.000000
+Evaluating for:  18.2706757644 3.41821313286 7.91664850668 10.9456800757
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (18.270676) and MIN Pairwise (3.418213)
+Pearson: 0.000000
+Evaluating for:  18.2706757744 3.41821313286 7.91664850668 10.9456800757
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (18.270676) and MIN Pairwise (3.418213)
+Pearson: 0.000000
+Evaluating for:  18.2706757644 3.41821314286 7.91664850668 10.9456800757
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (18.270676) and MIN Pairwise (3.418213)
+Pearson: 0.000000
+Evaluating for:  18.2706757644 3.41821313286 7.91664851668 10.9456800757
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (18.270676) and MIN Pairwise (3.418213)
+Pearson: 0.000000
+Evaluating for:  18.2706757644 3.41821313286 7.91664850668 10.9456800857
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (18.270676) and MIN Pairwise (3.418213)
+Pearson: 0.000000
+basinhopping step 42: f 0 trial_f 0 accepted 1  lowest_f -0.413991
+Evaluating for:  18.6823816752 3.89391677124 6.04640526922 10.6126330633
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (18.682382) and MIN Pairwise (3.893917)
+Pearson: -0.344184
+Evaluating for:  18.6823816752 3.89391677124 6.04640526922 10.6126330633
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (18.682382) and MIN Pairwise (3.893917)
+Pearson: -0.344184
+Evaluating for:  18.6823816852 3.89391677124 6.04640526922 10.6126330633
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (18.682382) and MIN Pairwise (3.893917)
+Pearson: -0.344184
+Evaluating for:  18.6823816752 3.89391678124 6.04640526922 10.6126330633
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (18.682382) and MIN Pairwise (3.893917)
+Pearson: -0.344184
+Evaluating for:  18.6823816752 3.89391677124 6.04640527922 10.6126330633
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (18.682382) and MIN Pairwise (3.893917)
+Pearson: -0.344184
+Evaluating for:  18.6823816752 3.89391677124 6.04640526922 10.6126330733
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (18.682382) and MIN Pairwise (3.893917)
+Pearson: -0.344184
+basinhopping step 43: f 0.344184 trial_f 0.344184 accepted 1  lowest_f -0.413991
+Evaluating for:  16.7030552958 5.45962884663 4.24326442956 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (16.703055) and MIN Pairwise (5.459629)
+Pearson: 0.000000
+Evaluating for:  16.7030552958 5.45962884663 4.24326442956 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (16.703055) and MIN Pairwise (5.459629)
+Pearson: 0.000000
+Evaluating for:  16.7030553058 5.45962884663 4.24326442956 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (16.703055) and MIN Pairwise (5.459629)
+Pearson: 0.000000
+Evaluating for:  16.7030552958 5.45962885663 4.24326442956 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (16.703055) and MIN Pairwise (5.459629)
+Pearson: 0.000000
+Evaluating for:  16.7030552958 5.45962884663 4.24326443956 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (16.703055) and MIN Pairwise (5.459629)
+Pearson: 0.000000
+Evaluating for:  16.7030552958 5.45962884663 4.24326442956 10.00000001
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (16.703055) and MIN Pairwise (5.459629)
+Pearson: 0.000000
+basinhopping step 44: f 0 trial_f 0 accepted 1  lowest_f -0.413991
+Evaluating for:  15.4025975463 8.13961592187 4.0 10.9521731785
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (15.402598) and MIN Pairwise (8.139616)
+Pearson: 0.000000
+Evaluating for:  15.4025975463 8.13961592187 4.0 10.9521731785
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (15.402598) and MIN Pairwise (8.139616)
+Pearson: 0.000000
+Evaluating for:  15.4025975563 8.13961592187 4.0 10.9521731785
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (15.402598) and MIN Pairwise (8.139616)
+Pearson: 0.000000
+Evaluating for:  15.4025975463 8.13961593187 4.0 10.9521731785
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (15.402598) and MIN Pairwise (8.139616)
+Pearson: 0.000000
+Evaluating for:  15.4025975463 8.13961592187 4.00000001 10.9521731785
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (15.402598) and MIN Pairwise (8.139616)
+Pearson: 0.000000
+Evaluating for:  15.4025975463 8.13961592187 4.0 10.9521731885
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (15.402598) and MIN Pairwise (8.139616)
+Pearson: 0.000000
+basinhopping step 45: f 0 trial_f 0 accepted 1  lowest_f -0.413991
+Evaluating for:  14.0487698402 10.0729922444 4.0 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (14.048770) and MIN Pairwise (10.072992)
+Pearson: 0.000000
+Evaluating for:  14.0487698402 10.0729922444 4.0 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (14.048770) and MIN Pairwise (10.072992)
+Pearson: 0.000000
+Evaluating for:  14.0487698502 10.0729922444 4.0 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (14.048770) and MIN Pairwise (10.072992)
+Pearson: 0.000000
+Evaluating for:  14.0487698402 10.0729922544 4.0 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (14.048770) and MIN Pairwise (10.072992)
+Pearson: 0.000000
+Evaluating for:  14.0487698402 10.0729922444 4.00000001 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (14.048770) and MIN Pairwise (10.072992)
+Pearson: 0.000000
+Evaluating for:  14.0487698402 10.0729922444 4.0 10.00000001
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (14.048770) and MIN Pairwise (10.072992)
+Pearson: 0.000000
+basinhopping step 46: f 0 trial_f 0 accepted 1  lowest_f -0.413991
+Evaluating for:  15.3157036482 11.1204320479 4.3465320713 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (15.315704) and MIN Pairwise (11.120432)
+Pearson: 0.000000
+Evaluating for:  15.3157036482 11.1204320479 4.3465320713 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (15.315704) and MIN Pairwise (11.120432)
+Pearson: 0.000000
+Evaluating for:  15.3157036582 11.1204320479 4.3465320713 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (15.315704) and MIN Pairwise (11.120432)
+Pearson: 0.000000
+Evaluating for:  15.3157036482 11.1204320579 4.3465320713 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (15.315704) and MIN Pairwise (11.120432)
+Pearson: 0.000000
+Evaluating for:  15.3157036482 11.1204320479 4.3465320813 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (15.315704) and MIN Pairwise (11.120432)
+Pearson: 0.000000
+Evaluating for:  15.3157036482 11.1204320479 4.3465320713 10.00000001
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (15.315704) and MIN Pairwise (11.120432)
+Pearson: 0.000000
+basinhopping step 47: f 0 trial_f 0 accepted 1  lowest_f -0.413991
+Evaluating for:  15.7653387732 9.67378437044 5.35866406988 11.7739359981
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (15.765339) and MIN Pairwise (9.673784)
+Pearson: 0.000000
+Evaluating for:  15.7653387732 9.67378437044 5.35866406988 11.7739359981
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (15.765339) and MIN Pairwise (9.673784)
+Pearson: 0.000000
+Evaluating for:  15.7653387832 9.67378437044 5.35866406988 11.7739359981
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (15.765339) and MIN Pairwise (9.673784)
+Pearson: 0.000000
+Evaluating for:  15.7653387732 9.67378438044 5.35866406988 11.7739359981
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (15.765339) and MIN Pairwise (9.673784)
+Pearson: 0.000000
+Evaluating for:  15.7653387732 9.67378437044 5.35866407988 11.7739359981
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (15.765339) and MIN Pairwise (9.673784)
+Pearson: 0.000000
+Evaluating for:  15.7653387732 9.67378437044 5.35866406988 11.7739360081
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (15.765339) and MIN Pairwise (9.673784)
+Pearson: 0.000000
+basinhopping step 48: f 0 trial_f 0 accepted 1  lowest_f -0.413991
+Evaluating for:  15.9298871172 6.86743294641 6.32495591427 13.6524772945
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (15.929887) and MIN Pairwise (6.867433)
+Pearson: 0.000000
+Evaluating for:  15.9298871172 6.86743294641 6.32495591427 13.6524772945
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (15.929887) and MIN Pairwise (6.867433)
+Pearson: 0.000000
+Evaluating for:  15.9298871272 6.86743294641 6.32495591427 13.6524772945
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (15.929887) and MIN Pairwise (6.867433)
+Pearson: 0.000000
+Evaluating for:  15.9298871172 6.86743295641 6.32495591427 13.6524772945
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (15.929887) and MIN Pairwise (6.867433)
+Pearson: 0.000000
+Evaluating for:  15.9298871172 6.86743294641 6.32495592427 13.6524772945
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (15.929887) and MIN Pairwise (6.867433)
+Pearson: 0.000000
+Evaluating for:  15.9298871172 6.86743294641 6.32495591427 13.6524773045
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (15.929887) and MIN Pairwise (6.867433)
+Pearson: 0.000000
+basinhopping step 49: f 0 trial_f 0 accepted 1  lowest_f -0.413991
+adaptive stepsize: acceptance rate 0.980000 target 0.500000 new stepsize 3.33333 old stepsize 3
+Evaluating for:  14.7596449031 9.17237221515 9.0506670438 11.4956658986
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (14.759645) and MIN Pairwise (9.172372)
+Pearson: 0.000000
+Evaluating for:  14.7596449031 9.17237221515 9.0506670438 11.4956658986
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (14.759645) and MIN Pairwise (9.172372)
+Pearson: 0.000000
+Evaluating for:  14.7596449131 9.17237221515 9.0506670438 11.4956658986
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (14.759645) and MIN Pairwise (9.172372)
+Pearson: 0.000000
+Evaluating for:  14.7596449031 9.17237222515 9.0506670438 11.4956658986
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (14.759645) and MIN Pairwise (9.172372)
+Pearson: 0.000000
+Evaluating for:  14.7596449031 9.17237221515 9.0506670538 11.4956658986
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (14.759645) and MIN Pairwise (9.172372)
+Pearson: 0.000000
+Evaluating for:  14.7596449031 9.17237221515 9.0506670438 11.4956659086
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (14.759645) and MIN Pairwise (9.172372)
+Pearson: 0.000000
+basinhopping step 50: f 0 trial_f 0 accepted 1  lowest_f -0.413991
+Evaluating for:  12.364095568 7.59821197366 10.0 13.3064226692
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (12.364096) and MIN Pairwise (7.598212)
+Pearson: 0.000000
+Evaluating for:  12.364095568 7.59821197366 10.0 13.3064226692
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (12.364096) and MIN Pairwise (7.598212)
+Pearson: 0.000000
+Evaluating for:  12.364095578 7.59821197366 10.0 13.3064226692
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (12.364096) and MIN Pairwise (7.598212)
+Pearson: 0.000000
+Evaluating for:  12.364095568 7.59821198366 10.0 13.3064226692
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (12.364096) and MIN Pairwise (7.598212)
+Pearson: 0.000000
+Evaluating for:  12.364095568 7.59821197366 10.00000001 13.3064226692
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (12.364096) and MIN Pairwise (7.598212)
+Pearson: 0.000000
+Evaluating for:  12.364095568 7.59821197366 10.0 13.3064226792
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (12.364096) and MIN Pairwise (7.598212)
+Pearson: 0.000000
+basinhopping step 51: f 0 trial_f 0 accepted 1  lowest_f -0.413991
+Evaluating for:  13.6938307819 7.84410407895 10.0 10.5426844224
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (13.693831) and MIN Pairwise (7.844104)
+Pearson: 0.000000
+Evaluating for:  13.6938307819 7.84410407895 10.0 10.5426844224
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (13.693831) and MIN Pairwise (7.844104)
+Pearson: 0.000000
+Evaluating for:  13.6938307919 7.84410407895 10.0 10.5426844224
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (13.693831) and MIN Pairwise (7.844104)
+Pearson: 0.000000
+Evaluating for:  13.6938307819 7.84410408895 10.0 10.5426844224
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (13.693831) and MIN Pairwise (7.844104)
+Pearson: 0.000000
+Evaluating for:  13.6938307819 7.84410407895 10.00000001 10.5426844224
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (13.693831) and MIN Pairwise (7.844104)
+Pearson: 0.000000
+Evaluating for:  13.6938307819 7.84410407895 10.0 10.5426844324
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (13.693831) and MIN Pairwise (7.844104)
+Pearson: 0.000000
+basinhopping step 52: f 0 trial_f 0 accepted 1  lowest_f -0.413991
+Evaluating for:  12.770639631 7.20631678547 7.16979777921 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (12.770640) and MIN Pairwise (7.206317)
+Pearson: 0.000000
+Evaluating for:  12.770639631 7.20631678547 7.16979777921 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (12.770640) and MIN Pairwise (7.206317)
+Pearson: 0.000000
+Evaluating for:  12.770639641 7.20631678547 7.16979777921 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (12.770640) and MIN Pairwise (7.206317)
+Pearson: 0.000000
+Evaluating for:  12.770639631 7.20631679547 7.16979777921 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (12.770640) and MIN Pairwise (7.206317)
+Pearson: 0.000000
+Evaluating for:  12.770639631 7.20631678547 7.16979778921 10.0
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (12.770640) and MIN Pairwise (7.206317)
+Pearson: 0.000000
+Evaluating for:  12.770639631 7.20631678547 7.16979777921 10.00000001
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (12.770640) and MIN Pairwise (7.206317)
+Pearson: 0.000000
+basinhopping step 53: f 0 trial_f 0 accepted 1  lowest_f -0.413991
+Evaluating for:  15.5364611443 7.39967438749 5.01678213991 12.9907044711
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (15.536461) and MIN Pairwise (7.399674)
+Pearson: 0.759257
+Evaluating for:  15.5364611443 7.39967438749 5.01678213991 12.9907044711
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (15.536461) and MIN Pairwise (7.399674)
+Pearson: 0.759257
+Evaluating for:  15.5364611543 7.39967438749 5.01678213991 12.9907044711
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (15.536461) and MIN Pairwise (7.399674)
+Pearson: 0.759257
+Evaluating for:  15.5364611443 7.39967439749 5.01678213991 12.9907044711
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (15.536461) and MIN Pairwise (7.399674)
+Pearson: 0.759257
+Evaluating for:  15.5364611443 7.39967438749 5.01678214991 12.9907044711
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (15.536461) and MIN Pairwise (7.399674)
+Pearson: 0.759257
+Evaluating for:  15.5364611443 7.39967438749 5.01678213991 12.9907044811
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (15.536461) and MIN Pairwise (7.399674)
+Pearson: 0.759257
+basinhopping step 54: f -0.759257 trial_f -0.759257 accepted 1  lowest_f -0.759257
+found new global minimum on step 54 with function value -0.759257
+Evaluating for:  13.6246646708 7.0939108204 7.61880208833 15.5395384354
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (13.624665) and MIN Pairwise (7.093911)
+Pearson: 0.031755
+Evaluating for:  13.6246646708 7.0939108204 7.61880208833 15.5395384354
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (13.624665) and MIN Pairwise (7.093911)
+Pearson: 0.031755
+Evaluating for:  13.6246646808 7.0939108204 7.61880208833 15.5395384354
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (13.624665) and MIN Pairwise (7.093911)
+Pearson: 0.031755
+Evaluating for:  13.6246646708 7.0939108304 7.61880208833 15.5395384354
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (13.624665) and MIN Pairwise (7.093911)
+Pearson: 0.031755
+Evaluating for:  13.6246646708 7.0939108204 7.61880209833 15.5395384354
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (13.624665) and MIN Pairwise (7.093911)
+Pearson: 0.031755
+Evaluating for:  13.6246646708 7.0939108204 7.61880208833 15.5395384454
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (13.624665) and MIN Pairwise (7.093911)
+Pearson: 0.031755
+basinhopping step 55: f -0.0317552 trial_f -0.0317552 accepted 1  lowest_f -0.759257
+Evaluating for:  13.1104057323 5.35936750409 5.64926802954 14.7111889317
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (13.110406) and MIN Pairwise (5.359368)
+Pearson: 0.434767
+Evaluating for:  13.1104057323 5.35936750409 5.64926802954 14.7111889317
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (13.110406) and MIN Pairwise (5.359368)
+Pearson: 0.434767
+Evaluating for:  13.1104057423 5.35936750409 5.64926802954 14.7111889317
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (13.110406) and MIN Pairwise (5.359368)
+Pearson: 0.434767
+Evaluating for:  13.1104057323 5.35936751409 5.64926802954 14.7111889317
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (13.110406) and MIN Pairwise (5.359368)
+Pearson: 0.434767
+Evaluating for:  13.1104057323 5.35936750409 5.64926803954 14.7111889317
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (13.110406) and MIN Pairwise (5.359368)
+Pearson: 0.434767
+Evaluating for:  13.1104057323 5.35936750409 5.64926802954 14.7111889417
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (13.110406) and MIN Pairwise (5.359368)
+Pearson: 0.434767
+basinhopping step 56: f -0.434767 trial_f -0.434767 accepted 1  lowest_f -0.759257
+Evaluating for:  10.3718678349 2.16049951125 5.1673508558 16.8494992984
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (10.371868) and MIN Pairwise (2.160500)
+Pearson: -0.356420
+Evaluating for:  10.3718678349 2.16049951125 5.1673508558 16.8494992984
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (10.371868) and MIN Pairwise (2.160500)
+Pearson: -0.356420
+Evaluating for:  10.3718678449 2.16049951125 5.1673508558 16.8494992984
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (10.371868) and MIN Pairwise (2.160500)
+Pearson: -0.356420
+Evaluating for:  10.3718678349 2.16049952125 5.1673508558 16.8494992984
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (10.371868) and MIN Pairwise (2.160500)
+Pearson: -0.356420
+Evaluating for:  10.3718678349 2.16049951125 5.1673508658 16.8494992984
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (10.371868) and MIN Pairwise (2.160500)
+Pearson: -0.356420
+Evaluating for:  10.3718678349 2.16049951125 5.1673508558 16.8494993084
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (10.371868) and MIN Pairwise (2.160500)
+Pearson: -0.356420
+basinhopping step 57: f 0.35642 trial_f 0.35642 accepted 1  lowest_f -0.759257
+Evaluating for:  8.70532005668 0.0 5.39787071676 17.4334844963
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (8.705320) and MIN Pairwise (0.000000)
+Pearson: 0.056948
+Evaluating for:  8.70532005668 0.0 5.39787071676 17.4334844963
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (8.705320) and MIN Pairwise (0.000000)
+Pearson: 0.056948
+Evaluating for:  8.70532006668 0.0 5.39787071676 17.4334844963
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (8.705320) and MIN Pairwise (0.000000)
+Pearson: 0.056948
+Evaluating for:  8.70532005668 1e-08 5.39787071676 17.4334844963
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (8.705320) and MIN Pairwise (0.000000)
+Pearson: 0.056948
+Evaluating for:  8.70532005668 0.0 5.39787072676 17.4334844963
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (8.705320) and MIN Pairwise (0.000000)
+Pearson: 0.056948
+Evaluating for:  8.70532005668 0.0 5.39787071676 17.4334845063
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (8.705320) and MIN Pairwise (0.000000)
+Pearson: 0.056948
+basinhopping step 58: f -0.0569481 trial_f -0.0569481 accepted 1  lowest_f -0.759257
+Evaluating for:  8.38159325902 0.438240086035 4.98684804828 16.5365985377
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (8.381593) and MIN Pairwise (0.438240)
+Pearson: 0.035521
+Evaluating for:  8.38159325902 0.438240086035 4.98684804828 16.5365985377
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (8.381593) and MIN Pairwise (0.438240)
+Pearson: 0.035521
+Evaluating for:  8.38159326902 0.438240086035 4.98684804828 16.5365985377
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (8.381593) and MIN Pairwise (0.438240)
+Pearson: 0.035521
+Evaluating for:  8.38159325902 0.438240096035 4.98684804828 16.5365985377
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (8.381593) and MIN Pairwise (0.438240)
+Pearson: 0.035521
+Evaluating for:  8.38159325902 0.438240086035 4.98684805828 16.5365985377
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (8.381593) and MIN Pairwise (0.438240)
+Pearson: 0.035521
+Evaluating for:  8.38159325902 0.438240086035 4.98684804828 16.5365985477
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (8.381593) and MIN Pairwise (0.438240)
+Pearson: 0.035521
+basinhopping step 59: f -0.0355215 trial_f -0.0355215 accepted 1  lowest_f -0.759257
+Evaluating for:  7.78517368253 2.14111990252 4.0 18.5123587637
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (7.785174) and MIN Pairwise (2.141120)
+Pearson: 0.049059
+Evaluating for:  7.78517368253 2.14111990252 4.0 18.5123587637
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (7.785174) and MIN Pairwise (2.141120)
+Pearson: 0.049059
+Evaluating for:  7.78517369253 2.14111990252 4.0 18.5123587637
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (7.785174) and MIN Pairwise (2.141120)
+Pearson: 0.049059
+Evaluating for:  7.78517368253 2.14111991252 4.0 18.5123587637
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (7.785174) and MIN Pairwise (2.141120)
+Pearson: 0.049059
+Evaluating for:  7.78517368253 2.14111990252 4.00000001 18.5123587637
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (7.785174) and MIN Pairwise (2.141120)
+Pearson: 0.049059
+Evaluating for:  7.78517368253 2.14111990252 4.0 18.5123587737
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (7.785174) and MIN Pairwise (2.141120)
+Pearson: 0.049059
+basinhopping step 60: f -0.0490586 trial_f -0.0490586 accepted 1  lowest_f -0.759257
+Evaluating for:  5.76011279847 3.41066555638 4.0 21.2343443287
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (5.760113) and MIN Pairwise (3.410666)
+Pearson: 0.216901
+Evaluating for:  5.76011279847 3.41066555638 4.0 21.2343443287
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (5.760113) and MIN Pairwise (3.410666)
+Pearson: 0.216901
+Evaluating for:  5.76011280847 3.41066555638 4.0 21.2343443287
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (5.760113) and MIN Pairwise (3.410666)
+Pearson: 0.216901
+Evaluating for:  5.76011279847 3.41066556638 4.0 21.2343443287
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (5.760113) and MIN Pairwise (3.410666)
+Pearson: 0.216901
+Evaluating for:  5.76011279847 3.41066555638 4.00000001 21.2343443287
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (5.760113) and MIN Pairwise (3.410666)
+Pearson: 0.216901
+Evaluating for:  5.76011279847 3.41066555638 4.0 21.2343443387
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (5.760113) and MIN Pairwise (3.410666)
+Pearson: 0.216901
+basinhopping step 61: f -0.216901 trial_f -0.216901 accepted 1  lowest_f -0.759257
+Evaluating for:  2.69567702118 3.26098115415 4.0 18.2011359556
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (2.695677) and MIN Pairwise (3.260981)
+Pearson: 0.180016
+Evaluating for:  2.69567702118 3.26098115415 4.0 18.2011359556
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (2.695677) and MIN Pairwise (3.260981)
+Pearson: 0.180016
+Evaluating for:  2.69567703118 3.26098115415 4.0 18.2011359556
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (2.695677) and MIN Pairwise (3.260981)
+Pearson: 0.180016
+Evaluating for:  2.69567702118 3.26098116415 4.0 18.2011359556
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (2.695677) and MIN Pairwise (3.260981)
+Pearson: 0.180016
+Evaluating for:  2.69567702118 3.26098115415 4.00000001 18.2011359556
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (2.695677) and MIN Pairwise (3.260981)
+Pearson: 0.180016
+Evaluating for:  2.69567702118 3.26098115415 4.0 18.2011359656
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (2.695677) and MIN Pairwise (3.260981)
+Pearson: 0.180016
+basinhopping step 62: f -0.180016 trial_f -0.180016 accepted 1  lowest_f -0.759257
+Evaluating for:  3.46569935914 6.16569896858 7.239486661 17.696132515
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (3.465699) and MIN Pairwise (6.165699)
+Pearson: -0.850524
+Evaluating for:  3.46569935914 6.16569896858 7.239486661 17.696132515
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (3.465699) and MIN Pairwise (6.165699)
+Pearson: -0.850524
+Evaluating for:  3.46569936914 6.16569896858 7.239486661 17.696132515
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (3.465699) and MIN Pairwise (6.165699)
+Pearson: -0.850524
+Evaluating for:  3.46569935914 6.16569897858 7.239486661 17.696132515
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (3.465699) and MIN Pairwise (6.165699)
+Pearson: -0.850524
+Evaluating for:  3.46569935914 6.16569896858 7.239486671 17.696132515
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (3.465699) and MIN Pairwise (6.165699)
+Pearson: -0.850524
+Evaluating for:  3.46569935914 6.16569896858 7.239486661 17.696132525
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (3.465699) and MIN Pairwise (6.165699)
+Pearson: -0.850524
+basinhopping step 63: f -0.180016 trial_f 0.850524 accepted 0  lowest_f -0.759257
+Evaluating for:  1.75881848823 0.415209159831 4.30965712606 19.9333599973
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (1.758818) and MIN Pairwise (0.415209)
+Pearson: -0.043443
+Evaluating for:  1.75881848823 0.415209159831 4.30965712606 19.9333599973
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (1.758818) and MIN Pairwise (0.415209)
+Pearson: -0.043443
+Evaluating for:  1.75881849823 0.415209159831 4.30965712606 19.9333599973
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (1.758818) and MIN Pairwise (0.415209)
+Pearson: -0.043443
+Evaluating for:  1.75881848823 0.415209169831 4.30965712606 19.9333599973
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (1.758818) and MIN Pairwise (0.415209)
+Pearson: -0.043443
+Evaluating for:  1.75881848823 0.415209159831 4.30965713606 19.9333599973
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (1.758818) and MIN Pairwise (0.415209)
+Pearson: -0.043443
+Evaluating for:  1.75881848823 0.415209159831 4.30965712606 19.9333600073
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (1.758818) and MIN Pairwise (0.415209)
+Pearson: -0.043443
+basinhopping step 64: f -0.180016 trial_f 0.0434426 accepted 0  lowest_f -0.759257
+Evaluating for:  0.0 3.53407447783 4.0 21.2138405707
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (0.000000) and MIN Pairwise (3.534074)
+Pearson: 0.216901
+Evaluating for:  0.0 3.53407447783 4.0 21.2138405707
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (0.000000) and MIN Pairwise (3.534074)
+Pearson: 0.216901
+Evaluating for:  1e-08 3.53407447783 4.0 21.2138405707
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (0.000000) and MIN Pairwise (3.534074)
+Pearson: 0.216901
+Evaluating for:  0.0 3.53407448783 4.0 21.2138405707
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (0.000000) and MIN Pairwise (3.534074)
+Pearson: 0.216901
+Evaluating for:  0.0 3.53407447783 4.00000001 21.2138405707
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (0.000000) and MIN Pairwise (3.534074)
+Pearson: 0.216901
+Evaluating for:  0.0 3.53407447783 4.0 21.2138405807
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (0.000000) and MIN Pairwise (3.534074)
+Pearson: 0.216901
+basinhopping step 65: f -0.216901 trial_f -0.216901 accepted 1  lowest_f -0.759257
+Evaluating for:  0.0 2.03214185433 4.0 19.6234024991
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (0.000000) and MIN Pairwise (2.032142)
+Pearson: 0.089518
+Evaluating for:  0.0 2.03214185433 4.0 19.6234024991
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (0.000000) and MIN Pairwise (2.032142)
+Pearson: 0.089518
+Evaluating for:  1e-08 2.03214185433 4.0 19.6234024991
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (0.000000) and MIN Pairwise (2.032142)
+Pearson: 0.089518
+Evaluating for:  0.0 2.03214186433 4.0 19.6234024991
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (0.000000) and MIN Pairwise (2.032142)
+Pearson: 0.089518
+Evaluating for:  0.0 2.03214185433 4.00000001 19.6234024991
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (0.000000) and MIN Pairwise (2.032142)
+Pearson: 0.089518
+Evaluating for:  0.0 2.03214185433 4.0 19.6234025091
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (0.000000) and MIN Pairwise (2.032142)
+Pearson: 0.089518
+basinhopping step 66: f -0.0895184 trial_f -0.0895184 accepted 1  lowest_f -0.759257
+Evaluating for:  2.04993262885 2.68436104481 4.0 16.8193826535
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (2.049933) and MIN Pairwise (2.684361)
+Pearson: -0.005577
+Evaluating for:  2.04993262885 2.68436104481 4.0 16.8193826535
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (2.049933) and MIN Pairwise (2.684361)
+Pearson: -0.005577
+Evaluating for:  2.04993263885 2.68436104481 4.0 16.8193826535
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (2.049933) and MIN Pairwise (2.684361)
+Pearson: -0.005577
+Evaluating for:  2.04993262885 2.68436105481 4.0 16.8193826535
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (2.049933) and MIN Pairwise (2.684361)
+Pearson: -0.005577
+Evaluating for:  2.04993262885 2.68436104481 4.00000001 16.8193826535
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (2.049933) and MIN Pairwise (2.684361)
+Pearson: -0.005577
+Evaluating for:  2.04993262885 2.68436104481 4.0 16.8193826635
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (2.049933) and MIN Pairwise (2.684361)
+Pearson: -0.005577
+basinhopping step 67: f 0.00557664 trial_f 0.00557664 accepted 1  lowest_f -0.759257
+Evaluating for:  0.034748349398 4.93899913774 4.0 17.8641138644
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (0.034748) and MIN Pairwise (4.938999)
+Pearson: -0.217151
+Evaluating for:  0.034748349398 4.93899913774 4.0 17.8641138644
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (0.034748) and MIN Pairwise (4.938999)
+Pearson: -0.217151
+Evaluating for:  0.034748359398 4.93899913774 4.0 17.8641138644
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (0.034748) and MIN Pairwise (4.938999)
+Pearson: -0.217151
+Evaluating for:  0.034748349398 4.93899914774 4.0 17.8641138644
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (0.034748) and MIN Pairwise (4.938999)
+Pearson: -0.217151
+Evaluating for:  0.034748349398 4.93899913774 4.00000001 17.8641138644
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (0.034748) and MIN Pairwise (4.938999)
+Pearson: -0.217151
+Evaluating for:  0.034748349398 4.93899913774 4.0 17.8641138744
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (0.034748) and MIN Pairwise (4.938999)
+Pearson: -0.217151
+basinhopping step 68: f 0.217151 trial_f 0.217151 accepted 1  lowest_f -0.759257
+Evaluating for:  1.98417750154 6.81465911776 4.0 19.3449029818
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (1.984178) and MIN Pairwise (6.814659)
+Pearson: 0.228698
+Evaluating for:  1.98417750154 6.81465911776 4.0 19.3449029818
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (1.984178) and MIN Pairwise (6.814659)
+Pearson: 0.228698
+Evaluating for:  1.98417751154 6.81465911776 4.0 19.3449029818
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (1.984178) and MIN Pairwise (6.814659)
+Pearson: 0.228698
+Evaluating for:  1.98417750154 6.81465912776 4.0 19.3449029818
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (1.984178) and MIN Pairwise (6.814659)
+Pearson: 0.228698
+Evaluating for:  1.98417750154 6.81465911776 4.00000001 19.3449029818
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (1.984178) and MIN Pairwise (6.814659)
+Pearson: 0.228698
+Evaluating for:  1.98417750154 6.81465911776 4.0 19.3449029918
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (1.984178) and MIN Pairwise (6.814659)
+Pearson: 0.228698
+basinhopping step 69: f -0.228698 trial_f -0.228698 accepted 1  lowest_f -0.759257
+Evaluating for:  3.16456089344 5.48409353544 4.0 20.160708837
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (3.164561) and MIN Pairwise (5.484094)
+Pearson: 0.109857
+Evaluating for:  3.16456089344 5.48409353544 4.0 20.160708837
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (3.164561) and MIN Pairwise (5.484094)
+Pearson: 0.109857
+Evaluating for:  3.16456090344 5.48409353544 4.0 20.160708837
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (3.164561) and MIN Pairwise (5.484094)
+Pearson: 0.109857
+Evaluating for:  3.16456089344 5.48409354544 4.0 20.160708837
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (3.164561) and MIN Pairwise (5.484094)
+Pearson: 0.109857
+Evaluating for:  3.16456089344 5.48409353544 4.00000001 20.160708837
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (3.164561) and MIN Pairwise (5.484094)
+Pearson: 0.109857
+Evaluating for:  3.16456089344 5.48409353544 4.0 20.160708847
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (3.164561) and MIN Pairwise (5.484094)
+Pearson: 0.109857
+basinhopping step 70: f -0.109857 trial_f -0.109857 accepted 1  lowest_f -0.759257
+Evaluating for:  4.86202952503 3.07441215109 4.0 21.112025749
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (4.862030) and MIN Pairwise (3.074412)
+Pearson: 0.216901
+Evaluating for:  4.86202952503 3.07441215109 4.0 21.112025749
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (4.862030) and MIN Pairwise (3.074412)
+Pearson: 0.216901
+Evaluating for:  4.86202953503 3.07441215109 4.0 21.112025749
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (4.862030) and MIN Pairwise (3.074412)
+Pearson: 0.216901
+Evaluating for:  4.86202952503 3.07441216109 4.0 21.112025749
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (4.862030) and MIN Pairwise (3.074412)
+Pearson: 0.216901
+Evaluating for:  4.86202952503 3.07441215109 4.00000001 21.112025749
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (4.862030) and MIN Pairwise (3.074412)
+Pearson: 0.216901
+Evaluating for:  4.86202952503 3.07441215109 4.0 21.112025759
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (4.862030) and MIN Pairwise (3.074412)
+Pearson: 0.216901
+basinhopping step 71: f -0.216901 trial_f -0.216901 accepted 1  lowest_f -0.759257
+Evaluating for:  2.52873284894 4.43253461537 4.39250524419 23.2017391741
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (2.528733) and MIN Pairwise (4.432535)
+Pearson: -0.202414
+Evaluating for:  2.52873284894 4.43253461537 4.39250524419 23.2017391741
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (2.528733) and MIN Pairwise (4.432535)
+Pearson: -0.202414
+Evaluating for:  2.52873285894 4.43253461537 4.39250524419 23.2017391741
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (2.528733) and MIN Pairwise (4.432535)
+Pearson: -0.202414
+Evaluating for:  2.52873284894 4.43253462537 4.39250524419 23.2017391741
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (2.528733) and MIN Pairwise (4.432535)
+Pearson: -0.202414
+Evaluating for:  2.52873284894 4.43253461537 4.39250525419 23.2017391741
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (2.528733) and MIN Pairwise (4.432535)
+Pearson: -0.202414
+Evaluating for:  2.52873284894 4.43253461537 4.39250524419 23.2017391841
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (2.528733) and MIN Pairwise (4.432535)
+Pearson: -0.202414
+basinhopping step 72: f 0.202414 trial_f 0.202414 accepted 1  lowest_f -0.759257
+Evaluating for:  5.32487058208 5.22145494649 5.29959900188 24.1585824992
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (5.324871) and MIN Pairwise (5.221455)
+Pearson: -0.268197
+Evaluating for:  5.32487058208 5.22145494649 5.29959900188 24.1585824992
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (5.324871) and MIN Pairwise (5.221455)
+Pearson: -0.268197
+Evaluating for:  5.32487059208 5.22145494649 5.29959900188 24.1585824992
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (5.324871) and MIN Pairwise (5.221455)
+Pearson: -0.268197
+Evaluating for:  5.32487058208 5.22145495649 5.29959900188 24.1585824992
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (5.324871) and MIN Pairwise (5.221455)
+Pearson: -0.268197
+Evaluating for:  5.32487058208 5.22145494649 5.29959901188 24.1585824992
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (5.324871) and MIN Pairwise (5.221455)
+Pearson: -0.268197
+Evaluating for:  5.32487058208 5.22145494649 5.29959900188 24.1585825092
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (5.324871) and MIN Pairwise (5.221455)
+Pearson: -0.268197
+basinhopping step 73: f 0.268197 trial_f 0.268197 accepted 1  lowest_f -0.759257
+Evaluating for:  5.79051397973 6.86398990539 4.0 21.2983954428
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (5.790514) and MIN Pairwise (6.863990)
+Pearson: 0.232207
+Evaluating for:  5.79051397973 6.86398990539 4.0 21.2983954428
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (5.790514) and MIN Pairwise (6.863990)
+Pearson: 0.232207
+Evaluating for:  5.79051398973 6.86398990539 4.0 21.2983954428
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (5.790514) and MIN Pairwise (6.863990)
+Pearson: 0.232207
+Evaluating for:  5.79051397973 6.86398991539 4.0 21.2983954428
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (5.790514) and MIN Pairwise (6.863990)
+Pearson: 0.232207
+Evaluating for:  5.79051397973 6.86398990539 4.00000001 21.2983954428
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (5.790514) and MIN Pairwise (6.863990)
+Pearson: 0.232207
+Evaluating for:  5.79051397973 6.86398990539 4.0 21.2983954528
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (5.790514) and MIN Pairwise (6.863990)
+Pearson: 0.232207
+basinhopping step 74: f -0.232207 trial_f -0.232207 accepted 1  lowest_f -0.759257
+Evaluating for:  3.56918749389 4.65406497023 4.0 18.2240736436
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (3.569187) and MIN Pairwise (4.654065)
+Pearson: -0.245175
+Evaluating for:  3.56918749389 4.65406497023 4.0 18.2240736436
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (3.569187) and MIN Pairwise (4.654065)
+Pearson: -0.245175
+Evaluating for:  3.56918750389 4.65406497023 4.0 18.2240736436
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (3.569188) and MIN Pairwise (4.654065)
+Pearson: -0.245175
+Evaluating for:  3.56918749389 4.65406498023 4.0 18.2240736436
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (3.569187) and MIN Pairwise (4.654065)
+Pearson: -0.245175
+Evaluating for:  3.56918749389 4.65406497023 4.00000001 18.2240736436
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (3.569187) and MIN Pairwise (4.654065)
+Pearson: -0.245175
+Evaluating for:  3.56918749389 4.65406497023 4.0 18.2240736536
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (3.569187) and MIN Pairwise (4.654065)
+Pearson: -0.245175
+basinhopping step 75: f -0.232207 trial_f 0.245175 accepted 0  lowest_f -0.759257
+Evaluating for:  4.84202394383 5.39998851351 5.86505174847 24.3145347817
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (4.842024) and MIN Pairwise (5.399989)
+Pearson: -0.320570
+Evaluating for:  4.84202394383 5.39998851351 5.86505174847 24.3145347817
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (4.842024) and MIN Pairwise (5.399989)
+Pearson: -0.320570
+Evaluating for:  4.84202395383 5.39998851351 5.86505174847 24.3145347817
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (4.842024) and MIN Pairwise (5.399989)
+Pearson: -0.320570
+Evaluating for:  4.84202394383 5.39998852351 5.86505174847 24.3145347817
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (4.842024) and MIN Pairwise (5.399989)
+Pearson: -0.320570
+Evaluating for:  4.84202394383 5.39998851351 5.86505175847 24.3145347817
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (4.842024) and MIN Pairwise (5.399989)
+Pearson: -0.320570
+Evaluating for:  4.84202394383 5.39998851351 5.86505174847 24.3145347917
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (4.842024) and MIN Pairwise (5.399989)
+Pearson: -0.320570
+basinhopping step 76: f -0.232207 trial_f 0.32057 accepted 0  lowest_f -0.759257
+Evaluating for:  6.73278674787 8.05876753805 4.0 20.1190633173
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (6.732787) and MIN Pairwise (8.058768)
+Pearson: 0.896906
+Evaluating for:  6.73278674787 8.05876753805 4.0 20.1190633173
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (6.732787) and MIN Pairwise (8.058768)
+Pearson: 0.896906
+Evaluating for:  6.73278675787 8.05876753805 4.0 20.1190633173
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (6.732787) and MIN Pairwise (8.058768)
+Pearson: 0.896906
+Evaluating for:  6.73278674787 8.05876754805 4.0 20.1190633173
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (6.732787) and MIN Pairwise (8.058768)
+Pearson: 0.896906
+Evaluating for:  6.73278674787 8.05876753805 4.00000001 20.1190633173
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (6.732787) and MIN Pairwise (8.058768)
+Pearson: 0.896906
+Evaluating for:  6.73278674787 8.05876753805 4.0 20.1190633273
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (6.732787) and MIN Pairwise (8.058768)
+Pearson: 0.896906
+basinhopping step 77: f -0.896906 trial_f -0.896906 accepted 1  lowest_f -0.896906
+found new global minimum on step 77 with function value -0.896906
+Evaluating for:  6.65065830556 7.3443548612 6.52148607316 21.9505262835
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (6.650658) and MIN Pairwise (7.344355)
+Pearson: -0.378244
+Evaluating for:  6.65065830556 7.3443548612 6.52148607316 21.9505262835
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (6.650658) and MIN Pairwise (7.344355)
+Pearson: -0.378244
+Evaluating for:  6.65065831556 7.3443548612 6.52148607316 21.9505262835
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (6.650658) and MIN Pairwise (7.344355)
+Pearson: -0.378244
+Evaluating for:  6.65065830556 7.3443548712 6.52148607316 21.9505262835
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (6.650658) and MIN Pairwise (7.344355)
+Pearson: -0.378244
+Evaluating for:  6.65065830556 7.3443548612 6.52148608316 21.9505262835
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (6.650658) and MIN Pairwise (7.344355)
+Pearson: -0.378244
+Evaluating for:  6.65065830556 7.3443548612 6.52148607316 21.9505262935
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (6.650658) and MIN Pairwise (7.344355)
+Pearson: -0.378244
+basinhopping step 78: f -0.896906 trial_f 0.378244 accepted 0  lowest_f -0.896906
+Evaluating for:  8.99377707322 10.5401049448 5.48097876775 22.1268259335
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (8.993777) and MIN Pairwise (10.540105)
+Pearson: -0.364372
+Evaluating for:  8.99377707322 10.5401049448 5.48097876775 22.1268259335
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (8.993777) and MIN Pairwise (10.540105)
+Pearson: -0.364372
+Evaluating for:  8.99377708322 10.5401049448 5.48097876775 22.1268259335
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (8.993777) and MIN Pairwise (10.540105)
+Pearson: -0.364372
+Evaluating for:  8.99377707322 10.5401049548 5.48097876775 22.1268259335
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (8.993777) and MIN Pairwise (10.540105)
+Pearson: -0.364372
+Evaluating for:  8.99377707322 10.5401049448 5.48097877775 22.1268259335
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (8.993777) and MIN Pairwise (10.540105)
+Pearson: -0.364372
+Evaluating for:  8.99377707322 10.5401049448 5.48097876775 22.1268259435
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (8.993777) and MIN Pairwise (10.540105)
+Pearson: -0.364372
+basinhopping step 79: f -0.896906 trial_f 0.364372 accepted 0  lowest_f -0.896906
+Evaluating for:  8.15946821082 9.94737060475 4.0 17.9011538225
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (8.159468) and MIN Pairwise (9.947371)
+Pearson: -0.474370
+Evaluating for:  8.15946821082 9.94737060475 4.0 17.9011538225
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (8.159468) and MIN Pairwise (9.947371)
+Pearson: -0.474370
+Evaluating for:  8.15946822082 9.94737060475 4.0 17.9011538225
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (8.159468) and MIN Pairwise (9.947371)
+Pearson: -0.474370
+Evaluating for:  8.15946821082 9.94737061475 4.0 17.9011538225
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (8.159468) and MIN Pairwise (9.947371)
+Pearson: -0.474370
+Evaluating for:  8.15946821082 9.94737060475 4.00000001 17.9011538225
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (8.159468) and MIN Pairwise (9.947371)
+Pearson: -0.474370
+Evaluating for:  8.15946821082 9.94737060475 4.0 17.9011538325
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (8.159468) and MIN Pairwise (9.947371)
+Pearson: -0.474370
+basinhopping step 80: f -0.896906 trial_f 0.47437 accepted 0  lowest_f -0.896906
+Evaluating for:  4.69509245404 6.73141611663 4.0 23.1955937296
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (4.695092) and MIN Pairwise (6.731416)
+Pearson: -0.023211
+Evaluating for:  4.69509245404 6.73141611663 4.0 23.1955937296
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (4.695092) and MIN Pairwise (6.731416)
+Pearson: -0.023211
+Evaluating for:  4.69509246404 6.73141611663 4.0 23.1955937296
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (4.695092) and MIN Pairwise (6.731416)
+Pearson: -0.023211
+Evaluating for:  4.69509245404 6.73141612663 4.0 23.1955937296
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (4.695092) and MIN Pairwise (6.731416)
+Pearson: -0.023211
+Evaluating for:  4.69509245404 6.73141611663 4.00000001 23.1955937296
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (4.695092) and MIN Pairwise (6.731416)
+Pearson: -0.023211
+Evaluating for:  4.69509245404 6.73141611663 4.0 23.1955937396
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (4.695092) and MIN Pairwise (6.731416)
+Pearson: -0.023211
+basinhopping step 81: f -0.896906 trial_f 0.0232112 accepted 0  lowest_f -0.896906
+Evaluating for:  4.79092580964 4.98652860972 4.0 18.7566217048
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (4.790926) and MIN Pairwise (4.986529)
+Pearson: -0.231925
+Evaluating for:  4.79092580964 4.98652860972 4.0 18.7566217048
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (4.790926) and MIN Pairwise (4.986529)
+Pearson: -0.231925
+Evaluating for:  4.79092581964 4.98652860972 4.0 18.7566217048
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (4.790926) and MIN Pairwise (4.986529)
+Pearson: -0.231925
+Evaluating for:  4.79092580964 4.98652861972 4.0 18.7566217048
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (4.790926) and MIN Pairwise (4.986529)
+Pearson: -0.231925
+Evaluating for:  4.79092580964 4.98652860972 4.00000001 18.7566217048
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (4.790926) and MIN Pairwise (4.986529)
+Pearson: -0.231925
+Evaluating for:  4.79092580964 4.98652860972 4.0 18.7566217148
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (4.790926) and MIN Pairwise (4.986529)
+Pearson: -0.231925
+basinhopping step 82: f -0.896906 trial_f 0.231925 accepted 0  lowest_f -0.896906
+Evaluating for:  8.13309797565 8.39435717657 4.0 18.8489061411
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (8.133098) and MIN Pairwise (8.394357)
+Pearson: 0.896906
+Evaluating for:  8.13309797565 8.39435717657 4.0 18.8489061411
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (8.133098) and MIN Pairwise (8.394357)
+Pearson: 0.896906
+Evaluating for:  8.13309798565 8.39435717657 4.0 18.8489061411
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (8.133098) and MIN Pairwise (8.394357)
+Pearson: 0.896906
+Evaluating for:  8.13309797565 8.39435718657 4.0 18.8489061411
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (8.133098) and MIN Pairwise (8.394357)
+Pearson: 0.896906
+Evaluating for:  8.13309797565 8.39435717657 4.00000001 18.8489061411
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (8.133098) and MIN Pairwise (8.394357)
+Pearson: 0.896906
+Evaluating for:  8.13309797565 8.39435717657 4.0 18.8489061511
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (8.133098) and MIN Pairwise (8.394357)
+Pearson: 0.896906
+basinhopping step 83: f -0.896906 trial_f -0.896906 accepted 1  lowest_f -0.896906
+Evaluating for:  7.96220738989 10.8444720617 4.53172630176 15.8909397818
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (7.962207) and MIN Pairwise (10.844472)
+Pearson: 0.000000
+Evaluating for:  7.96220738989 10.8444720617 4.53172630176 15.8909397818
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (7.962207) and MIN Pairwise (10.844472)
+Pearson: 0.000000
+Evaluating for:  7.96220739989 10.8444720617 4.53172630176 15.8909397818
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (7.962207) and MIN Pairwise (10.844472)
+Pearson: 0.000000
+Evaluating for:  7.96220738989 10.8444720717 4.53172630176 15.8909397818
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (7.962207) and MIN Pairwise (10.844472)
+Pearson: 0.000000
+Evaluating for:  7.96220738989 10.8444720617 4.53172631176 15.8909397818
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (7.962207) and MIN Pairwise (10.844472)
+Pearson: 0.000000
+Evaluating for:  7.96220738989 10.8444720617 4.53172630176 15.8909397918
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (7.962207) and MIN Pairwise (10.844472)
+Pearson: 0.000000
+basinhopping step 84: f -0.896906 trial_f 0 accepted 0  lowest_f -0.896906
+Evaluating for:  11.0710871191 7.22649993032 5.81937386654 20.258107133
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (11.071087) and MIN Pairwise (7.226500)
+Pearson: -0.154437
+Evaluating for:  11.0710871191 7.22649993032 5.81937386654 20.258107133
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (11.071087) and MIN Pairwise (7.226500)
+Pearson: -0.154437
+Evaluating for:  11.0710871291 7.22649993032 5.81937386654 20.258107133
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (11.071087) and MIN Pairwise (7.226500)
+Pearson: -0.154437
+Evaluating for:  11.0710871191 7.22649994032 5.81937386654 20.258107133
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (11.071087) and MIN Pairwise (7.226500)
+Pearson: -0.154437
+Evaluating for:  11.0710871191 7.22649993032 5.81937387654 20.258107133
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (11.071087) and MIN Pairwise (7.226500)
+Pearson: -0.154437
+Evaluating for:  11.0710871191 7.22649993032 5.81937386654 20.258107143
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (11.071087) and MIN Pairwise (7.226500)
+Pearson: -0.154437
+basinhopping step 85: f -0.896906 trial_f 0.154437 accepted 0  lowest_f -0.896906
+Evaluating for:  8.89076975186 9.17148252294 4.52150870686 20.951684177
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (8.890770) and MIN Pairwise (9.171483)
+Pearson: -0.561693
+Evaluating for:  8.89076975186 9.17148252294 4.52150870686 20.951684177
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (8.890770) and MIN Pairwise (9.171483)
+Pearson: -0.561693
+Evaluating for:  8.89076976186 9.17148252294 4.52150870686 20.951684177
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (8.890770) and MIN Pairwise (9.171483)
+Pearson: -0.561693
+Evaluating for:  8.89076975186 9.17148253294 4.52150870686 20.951684177
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (8.890770) and MIN Pairwise (9.171483)
+Pearson: -0.561693
+Evaluating for:  8.89076975186 9.17148252294 4.52150871686 20.951684177
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (8.890770) and MIN Pairwise (9.171483)
+Pearson: -0.561693
+Evaluating for:  8.89076975186 9.17148252294 4.52150870686 20.951684187
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (8.890770) and MIN Pairwise (9.171483)
+Pearson: -0.561693
+basinhopping step 86: f 0.561693 trial_f 0.561693 accepted 1  lowest_f -0.896906
+Evaluating for:  10.1068285862 11.2488629273 5.77493135148 20.5980075337
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (10.106829) and MIN Pairwise (11.248863)
+Pearson: -0.567220
+Evaluating for:  10.1068285862 11.2488629273 5.77493135148 20.5980075337
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (10.106829) and MIN Pairwise (11.248863)
+Pearson: -0.567220
+Evaluating for:  10.1068285962 11.2488629273 5.77493135148 20.5980075337
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (10.106829) and MIN Pairwise (11.248863)
+Pearson: -0.567220
+Evaluating for:  10.1068285862 11.2488629373 5.77493135148 20.5980075337
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (10.106829) and MIN Pairwise (11.248863)
+Pearson: -0.567220
+Evaluating for:  10.1068285862 11.2488629273 5.77493136148 20.5980075337
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (10.106829) and MIN Pairwise (11.248863)
+Pearson: -0.567220
+Evaluating for:  10.1068285862 11.2488629273 5.77493135148 20.5980075437
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (10.106829) and MIN Pairwise (11.248863)
+Pearson: -0.567220
+basinhopping step 87: f 0.56722 trial_f 0.56722 accepted 1  lowest_f -0.896906
+Evaluating for:  11.1871937605 11.6884331809 4.0 23.8636465895
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (11.187194) and MIN Pairwise (11.688433)
+Pearson: -0.022730
+Evaluating for:  11.1871937605 11.6884331809 4.0 23.8636465895
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (11.187194) and MIN Pairwise (11.688433)
+Pearson: -0.022730
+Evaluating for:  11.1871937705 11.6884331809 4.0 23.8636465895
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (11.187194) and MIN Pairwise (11.688433)
+Pearson: -0.022730
+Evaluating for:  11.1871937605 11.6884331909 4.0 23.8636465895
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (11.187194) and MIN Pairwise (11.688433)
+Pearson: -0.022730
+Evaluating for:  11.1871937605 11.6884331809 4.00000001 23.8636465895
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (11.187194) and MIN Pairwise (11.688433)
+Pearson: -0.022730
+Evaluating for:  11.1871937605 11.6884331809 4.0 23.8636465995
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (11.187194) and MIN Pairwise (11.688433)
+Pearson: -0.022730
+basinhopping step 88: f 0.0227301 trial_f 0.0227301 accepted 1  lowest_f -0.896906
+Evaluating for:  11.1281855202 12.4545159302 5.34397421209 24.1935573743
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (11.128186) and MIN Pairwise (12.454516)
+Pearson: 0.049868
+Evaluating for:  11.1281855202 12.4545159302 5.34397421209 24.1935573743
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (11.128186) and MIN Pairwise (12.454516)
+Pearson: 0.049868
+Evaluating for:  11.1281855302 12.4545159302 5.34397421209 24.1935573743
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (11.128186) and MIN Pairwise (12.454516)
+Pearson: 0.049868
+Evaluating for:  11.1281855202 12.4545159402 5.34397421209 24.1935573743
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (11.128186) and MIN Pairwise (12.454516)
+Pearson: 0.049868
+Evaluating for:  11.1281855202 12.4545159302 5.34397422209 24.1935573743
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (11.128186) and MIN Pairwise (12.454516)
+Pearson: 0.049868
+Evaluating for:  11.1281855202 12.4545159302 5.34397421209 24.1935573843
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (11.128186) and MIN Pairwise (12.454516)
+Pearson: 0.049868
+basinhopping step 89: f -0.0498682 trial_f -0.0498682 accepted 1  lowest_f -0.896906
+Evaluating for:  13.9471444951 15.1082041867 4.0 23.6574668467
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (13.947144) and MIN Pairwise (15.108204)
+Pearson: -0.558908
+Evaluating for:  13.9471444951 15.1082041867 4.0 23.6574668467
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (13.947144) and MIN Pairwise (15.108204)
+Pearson: -0.558908
+Evaluating for:  13.9471445051 15.1082041867 4.0 23.6574668467
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (13.947145) and MIN Pairwise (15.108204)
+Pearson: -0.558908
+Evaluating for:  13.9471444951 15.1082041967 4.0 23.6574668467
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (13.947144) and MIN Pairwise (15.108204)
+Pearson: -0.558908
+Evaluating for:  13.9471444951 15.1082041867 4.00000001 23.6574668467
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (13.947144) and MIN Pairwise (15.108204)
+Pearson: -0.558908
+Evaluating for:  13.9471444951 15.1082041867 4.0 23.6574668567
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (13.947144) and MIN Pairwise (15.108204)
+Pearson: -0.558908
+basinhopping step 90: f -0.0498682 trial_f 0.558908 accepted 0  lowest_f -0.896906
+Evaluating for:  13.7410845713 9.47653460666 6.92605526499 21.9358443006
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (13.741085) and MIN Pairwise (9.476535)
+Pearson: -0.550971
+Evaluating for:  13.7410845713 9.47653460666 6.92605526499 21.9358443006
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (13.741085) and MIN Pairwise (9.476535)
+Pearson: -0.550971
+Evaluating for:  13.7410845813 9.47653460666 6.92605526499 21.9358443006
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (13.741085) and MIN Pairwise (9.476535)
+Pearson: -0.550971
+Evaluating for:  13.7410845713 9.47653461666 6.92605526499 21.9358443006
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (13.741085) and MIN Pairwise (9.476535)
+Pearson: -0.550971
+Evaluating for:  13.7410845713 9.47653460666 6.92605527499 21.9358443006
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (13.741085) and MIN Pairwise (9.476535)
+Pearson: -0.550971
+Evaluating for:  13.7410845713 9.47653460666 6.92605526499 21.9358443106
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (13.741085) and MIN Pairwise (9.476535)
+Pearson: -0.550971
+basinhopping step 91: f 0.550971 trial_f 0.550971 accepted 1  lowest_f -0.896906
+Evaluating for:  12.4753600392 7.66265673444 7.82342930568 18.9652277854
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (12.475360) and MIN Pairwise (7.662657)
+Pearson: -0.378244
+Evaluating for:  12.4753600392 7.66265673444 7.82342930568 18.9652277854
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (12.475360) and MIN Pairwise (7.662657)
+Pearson: -0.378244
+Evaluating for:  12.4753600492 7.66265673444 7.82342930568 18.9652277854
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (12.475360) and MIN Pairwise (7.662657)
+Pearson: -0.378244
+Evaluating for:  12.4753600392 7.66265674444 7.82342930568 18.9652277854
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (12.475360) and MIN Pairwise (7.662657)
+Pearson: -0.378244
+Evaluating for:  12.4753600392 7.66265673444 7.82342931568 18.9652277854
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (12.475360) and MIN Pairwise (7.662657)
+Pearson: -0.378244
+Evaluating for:  12.4753600392 7.66265673444 7.82342930568 18.9652277954
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (12.475360) and MIN Pairwise (7.662657)
+Pearson: -0.378244
+basinhopping step 92: f 0.378244 trial_f 0.378244 accepted 1  lowest_f -0.896906
+Evaluating for:  12.2543385177 5.36383180275 9.77286528755 19.7246824005
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (12.254339) and MIN Pairwise (5.363832)
+Pearson: 0.255312
+Evaluating for:  12.2543385177 5.36383180275 9.77286528755 19.7246824005
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (12.254339) and MIN Pairwise (5.363832)
+Pearson: 0.255312
+Evaluating for:  12.2543385277 5.36383180275 9.77286528755 19.7246824005
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (12.254339) and MIN Pairwise (5.363832)
+Pearson: 0.255312
+Evaluating for:  12.2543385177 5.36383181275 9.77286528755 19.7246824005
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (12.254339) and MIN Pairwise (5.363832)
+Pearson: 0.255312
+Evaluating for:  12.2543385177 5.36383180275 9.77286529755 19.7246824005
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (12.254339) and MIN Pairwise (5.363832)
+Pearson: 0.255312
+Evaluating for:  12.2543385177 5.36383180275 9.77286528755 19.7246824105
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (12.254339) and MIN Pairwise (5.363832)
+Pearson: 0.255312
+basinhopping step 93: f -0.255312 trial_f -0.255312 accepted 1  lowest_f -0.896906
+Evaluating for:  10.5415175605 4.21083307356 8.16361916666 16.8763602884
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (10.541518) and MIN Pairwise (4.210833)
+Pearson: -0.099947
+Evaluating for:  10.5415175605 4.21083307356 8.16361916666 16.8763602884
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (10.541518) and MIN Pairwise (4.210833)
+Pearson: -0.099947
+Evaluating for:  10.5415175705 4.21083307356 8.16361916666 16.8763602884
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (10.541518) and MIN Pairwise (4.210833)
+Pearson: -0.099947
+Evaluating for:  10.5415175605 4.21083308356 8.16361916666 16.8763602884
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (10.541518) and MIN Pairwise (4.210833)
+Pearson: -0.099947
+Evaluating for:  10.5415175605 4.21083307356 8.16361917666 16.8763602884
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (10.541518) and MIN Pairwise (4.210833)
+Pearson: -0.099947
+Evaluating for:  10.5415175605 4.21083307356 8.16361916666 16.8763602984
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (10.541518) and MIN Pairwise (4.210833)
+Pearson: -0.099947
+basinhopping step 94: f 0.099947 trial_f 0.099947 accepted 1  lowest_f -0.896906
+Evaluating for:  13.5105643812 1.87172408857 9.46989333089 19.2388218134
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (13.510564) and MIN Pairwise (1.871724)
+Pearson: -0.167526
+Evaluating for:  13.5105643812 1.87172408857 9.46989333089 19.2388218134
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (13.510564) and MIN Pairwise (1.871724)
+Pearson: -0.167526
+Evaluating for:  13.5105643912 1.87172408857 9.46989333089 19.2388218134
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (13.510564) and MIN Pairwise (1.871724)
+Pearson: -0.167526
+Evaluating for:  13.5105643812 1.87172409857 9.46989333089 19.2388218134
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (13.510564) and MIN Pairwise (1.871724)
+Pearson: -0.167526
+Evaluating for:  13.5105643812 1.87172408857 9.46989334089 19.2388218134
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (13.510564) and MIN Pairwise (1.871724)
+Pearson: -0.167526
+Evaluating for:  13.5105643812 1.87172408857 9.46989333089 19.2388218234
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (13.510564) and MIN Pairwise (1.871724)
+Pearson: -0.167526
+basinhopping step 95: f 0.167526 trial_f 0.167526 accepted 1  lowest_f -0.896906
+Evaluating for:  11.6925247715 0.0 7.51270557987 16.2938844389
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (11.692525) and MIN Pairwise (0.000000)
+Pearson: 0.105474
+Evaluating for:  11.6925247715 0.0 7.51270557987 16.2938844389
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (11.692525) and MIN Pairwise (0.000000)
+Pearson: 0.105474
+Evaluating for:  11.6925247815 0.0 7.51270557987 16.2938844389
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (11.692525) and MIN Pairwise (0.000000)
+Pearson: 0.105474
+Evaluating for:  11.6925247715 1e-08 7.51270557987 16.2938844389
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (11.692525) and MIN Pairwise (0.000000)
+Pearson: 0.105474
+Evaluating for:  11.6925247715 0.0 7.51270558987 16.2938844389
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (11.692525) and MIN Pairwise (0.000000)
+Pearson: 0.105474
+Evaluating for:  11.6925247715 0.0 7.51270557987 16.2938844489
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (11.692525) and MIN Pairwise (0.000000)
+Pearson: 0.105474
+basinhopping step 96: f -0.105474 trial_f -0.105474 accepted 1  lowest_f -0.896906
+Evaluating for:  8.99468778778 1.33403538856 6.91504072558 17.2853307981
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (8.994688) and MIN Pairwise (1.334035)
+Pearson: 0.355119
+Evaluating for:  8.99468778778 1.33403538856 6.91504072558 17.2853307981
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (8.994688) and MIN Pairwise (1.334035)
+Pearson: 0.355119
+Evaluating for:  8.99468779778 1.33403538856 6.91504072558 17.2853307981
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (8.994688) and MIN Pairwise (1.334035)
+Pearson: 0.355119
+Evaluating for:  8.99468778778 1.33403539856 6.91504072558 17.2853307981
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (8.994688) and MIN Pairwise (1.334035)
+Pearson: 0.355119
+Evaluating for:  8.99468778778 1.33403538856 6.91504073558 17.2853307981
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (8.994688) and MIN Pairwise (1.334035)
+Pearson: 0.355119
+Evaluating for:  8.99468778778 1.33403538856 6.91504072558 17.2853308081
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (8.994688) and MIN Pairwise (1.334035)
+Pearson: 0.355119
+basinhopping step 97: f -0.355119 trial_f -0.355119 accepted 1  lowest_f -0.896906
+Evaluating for:  10.2526336216 1.97331097389 4.00636492934 14.9251145486
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (10.252634) and MIN Pairwise (1.973311)
+Pearson: -0.049394
+Evaluating for:  10.2526336216 1.97331097389 4.00636492934 14.9251145486
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (10.252634) and MIN Pairwise (1.973311)
+Pearson: -0.049394
+Evaluating for:  10.2526336316 1.97331097389 4.00636492934 14.9251145486
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (10.252634) and MIN Pairwise (1.973311)
+Pearson: -0.049394
+Evaluating for:  10.2526336216 1.97331098389 4.00636492934 14.9251145486
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (10.252634) and MIN Pairwise (1.973311)
+Pearson: -0.049394
+Evaluating for:  10.2526336216 1.97331097389 4.00636493934 14.9251145486
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (10.252634) and MIN Pairwise (1.973311)
+Pearson: -0.049394
+Evaluating for:  10.2526336216 1.97331097389 4.00636492934 14.9251145586
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (10.252634) and MIN Pairwise (1.973311)
+Pearson: -0.049394
+basinhopping step 98: f -0.355119 trial_f 0.0493938 accepted 0  lowest_f -0.896906
+Evaluating for:  9.39152726104 2.14296706212 6.33247161485 19.630639108
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (9.391527) and MIN Pairwise (2.142967)
+Pearson: -0.023023
+Evaluating for:  9.39152726104 2.14296706212 6.33247161485 19.630639108
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (9.391527) and MIN Pairwise (2.142967)
+Pearson: -0.023023
+Evaluating for:  9.39152727104 2.14296706212 6.33247161485 19.630639108
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (9.391527) and MIN Pairwise (2.142967)
+Pearson: -0.023023
+Evaluating for:  9.39152726104 2.14296707212 6.33247161485 19.630639108
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (9.391527) and MIN Pairwise (2.142967)
+Pearson: -0.023023
+Evaluating for:  9.39152726104 2.14296706212 6.33247162485 19.630639108
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (9.391527) and MIN Pairwise (2.142967)
+Pearson: -0.023023
+Evaluating for:  9.39152726104 2.14296706212 6.33247161485 19.630639118
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (9.391527) and MIN Pairwise (2.142967)
+Pearson: -0.023023
+basinhopping step 99: f 0.0230235 trial_f 0.0230235 accepted 1  lowest_f -0.896906
+adaptive stepsize: acceptance rate 0.860000 target 0.500000 new stepsize 3.7037 old stepsize 3.33333
+Evaluating for:  11.7895159019 1.29682296326 6.78444186285 22.7180414358
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (11.789516) and MIN Pairwise (1.296823)
+Pearson: -0.074475
+Evaluating for:  11.7895159019 1.29682296326 6.78444186285 22.7180414358
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (11.789516) and MIN Pairwise (1.296823)
+Pearson: -0.074475
+Evaluating for:  11.7895159119 1.29682296326 6.78444186285 22.7180414358
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (11.789516) and MIN Pairwise (1.296823)
+Pearson: -0.074475
+Evaluating for:  11.7895159019 1.29682297326 6.78444186285 22.7180414358
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (11.789516) and MIN Pairwise (1.296823)
+Pearson: -0.074475
+Evaluating for:  11.7895159019 1.29682296326 6.78444187285 22.7180414358
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (11.789516) and MIN Pairwise (1.296823)
+Pearson: -0.074475
+Evaluating for:  11.7895159019 1.29682296326 6.78444186285 22.7180414458
+Sorting by smallest motifs in the protein and then filtering out motifs that are too close...
+Using MEAN Pairwise (11.789516) and MIN Pairwise (1.296823)
+Pearson: -0.074475
+basinhopping step 100: f 0.0744751 trial_f 0.0744751 accepted 1  lowest_f -0.896906
+                  nfev: 606
+ minimization_failures: 0
+                   fun: -0.89690559264448411
+                     x: array([  6.73278675,   8.05876754,   4.        ,  20.11906332])
+               message: ['requested number of basinhopping iterations completed successfully']
+                   nit: 100
+
+Process finished with exit code 0

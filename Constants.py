@@ -10,6 +10,12 @@ TINKER_ENERGY_MINIMIZATION = "minimize"
 TINKER_TO_PDB = "xyzpdb"
 TINKER_POTENTIAL_PARAMETER = "/Users/jnainaparampil/Home/Tinker/amber99.prm"
 
+# For the Indexator, choosing the best values
+
+# For the analyzePdbVolumes analysis
+# The number between which we'll filter out the actual volumes
+MIN_ACTUAL_VOL = 5
+MAX_ACTUAL_VOL = 17.5
 
 # When using the Lowest Std method
 # The top number of Amino Acids motifs to include when deciding
@@ -19,7 +25,8 @@ NUMBER_OF_TOP_MOTIFS = 1000000
 # When using the Lowest Vol method
 # The threshold of the std. of the index values such that
 # the motif amino acid are far enough part in the protein
-STD_THRESHOLD = 10
+MEAN_PAIRWISE = 3
+MIN_PAIRWISE = 2
 # The N_MULTIPLE * sizeOfProtein number of motifs chosen
 N_MULTIPLE = 3
 

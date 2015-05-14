@@ -8,6 +8,8 @@
 
 import re
 import numpy
+import itertools
+import math
 
 import Constants
 import StuartFindAllPossibleMotifs
@@ -70,9 +72,15 @@ def filterOutUnneededMotifs(listOfMotifsWithVolumes, sizeOfProtein):
 def filterOutUnnededMotifsLowestVol(listOfMotifsWithVolumes, sizeOfProtein):
 
     def filterFunc(motif):
-        return numpy.std(motif["index"]) > Constants.STD_THRESHOLD
+        pairwiseDiff = []
+        for comb in itertools.combinations(motif["index"], r=2):
+            diff = math.fabs(comb[0] - comb[1])
+            pairwiseDiff.append(diff)
+        return (numpy.mean(pairwiseDiff) > Constants.MEAN_PAIRWISE) and \
+               (numpy.min(pairwiseDiff) > Constants.MIN_PAIRWISE)
 
     print "Sorting by smallest motifs in the protein and then filtering out motifs that are too close..."
+    print "Using MEAN Pairwise (%f) and MIN Pairwise (%f)" % (Constants.MEAN_PAIRWISE, Constants.MIN_PAIRWISE)
     sortedMotifs = sorted(listOfMotifsWithVolumes, key=lambda motif: motif["unVol"])
     filteredMotifs = filter(filterFunc, sortedMotifs)
 
