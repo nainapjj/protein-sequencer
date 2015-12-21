@@ -1,12 +1,13 @@
+import math
+import random
+import re
+
 import scipy
 import scipy.linalg
 import scipy.optimize
-import random
-import re
-import math
 
 import Constants
-import ReadCoordinatesFile
+from ..model_util_p2 import ReadCoordinatesFile
 
 findResidualsCount = 0
 

@@ -1,6 +1,7 @@
-import MotifsWithLowestStd
 import MotifsLeastSquares
-import PdbUtilityFunctions
+import MotifsWithLowestStd
+
+from ..model_util_p2 import PdbUtilityFunctions
 
 PDB_FILE = "data/3ZOB-one.pdb"
 TEN_COORDINATES_FILE_NAME = "HamidMethod.txt"
@@ -13,7 +14,7 @@ def main(tenCoordinatesFileName):
         listOfMotifsWithVolumes, sizeOfProtein)
     print "Visited AA indices: ", filteredOutput["visited"]    
     tenCoordinates = MotifsLeastSquares.generateTenCoordinates(filteredOutput["motifs"],
-                                            filteredOutput["visited"])
+                                                               filteredOutput["visited"])
 
 
     with open(tenCoordinatesFileName, 'w') as f:

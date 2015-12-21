@@ -1,4 +1,4 @@
-import ReadCoordinatesFile
+from model_util_p2 import ReadCoordinatesFile
 
 COORDINATES_FILE = "HamidMethod.txt"
 

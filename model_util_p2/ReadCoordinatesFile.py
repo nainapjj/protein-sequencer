@@ -1,7 +1,9 @@
 import ast
+
 import numpy
 
-import StuartFindAverageDistance
+from model_analysis_p2 import StuartFindAverageDistance
+
 
 def readCoordinateFileOld(fileName):
     with open(fileName, 'r') as f:

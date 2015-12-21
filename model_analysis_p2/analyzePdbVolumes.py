@@ -1,15 +1,13 @@
-import Constants
-import PdbUtilityFunctions
-import MotifsLeastSquares
-import MotifsWithLowestStd
-import StuartFindAllPossibleMotifs
-
 import itertools
-import scipy as sp
-import scipy.stats
-import scipy.optimize
-import multiprocessing
 import math
+import multiprocessing
+
+import scipy as sp
+import scipy.optimize
+import scipy.stats
+
+from ..model_generation_p2 import Constants, MotifsLeastSquares, MotifsWithLowestStd, StuartFindAllPossibleMotifs
+from ..model_util_p2 import PdbUtilityFunctions
 
 PDB_FILE_NATIVE = "data/3ZOB-one.pdb"
 PDB_FILE_GENERATED = "HamidMethod.pdb"
@@ -38,7 +36,7 @@ def volumeOfMotifs(coordList):
 
     pool = multiprocessing.Pool(processes=4)
     #pool.map(index_coordinate_assignment, enumerate(aminoAcidCoordinateMotifs(coordList)))
-    volumes = sp.array(pool.map( MotifsLeastSquares.findVolumeByCoordinates, aminoAcidCoordinateMotifs(coordList)))
+    volumes = sp.array(pool.map(MotifsLeastSquares.findVolumeByCoordinates, aminoAcidCoordinateMotifs(coordList)))
     #map(index_coordinate_assignment, enumerate(aminoAcidCoordinateMotifs(coordList)))
     return volumes
 

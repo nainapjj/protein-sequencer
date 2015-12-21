@@ -6,14 +6,15 @@
 
 # Modules that is useful for filtering out unnecessary motifs.
 
-import re
-import numpy
 import itertools
 import math
+import re
+
+import numpy
 
 import Constants
-import StuartFindAllPossibleMotifs
 import Indexator
+import StuartFindAllPossibleMotifs
 
 STD_DEV_PATTERN = "(?<=standard deviation:)[0-9\.]+"
 MEAN_PATTERN = "(?<=mean:)[0-9\.]+"

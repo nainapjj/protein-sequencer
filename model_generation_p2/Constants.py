@@ -1,14 +1,7 @@
 # Configuration Files
-meansAndStdDevFile = "data/loweststd.txt"
-differenceInAminoFile = "data/differenceInAmino.txt"
-hydrophobicFile = "data/hydrophobic.txt"
-
-PULCHRA_EXEC = "pulchra"
-
-TINKER_PROTEIN_EXEC = "protein"
-TINKER_ENERGY_MINIMIZATION = "minimize"
-TINKER_TO_PDB = "xyzpdb"
-TINKER_POTENTIAL_PARAMETER = "/Users/jnainaparampil/Home/Tinker/amber99.prm"
+meansAndStdDevFile = "../data/loweststd.txt"
+differenceInAminoFile = "../data/differenceInAmino.txt"
+hydrophobicFile = "../data/hydrophobic.txt"
 
 # For the Indexator, choosing the best values
 

@@ -1,6 +1,6 @@
-import Constants
-
 import re
+
+from model_generation_p2 import Constants
 
 
 def returnHydrophobicAminos():

@@ -1,16 +1,15 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-import os
-
-import MotifsWithLowestStd
-import MotifsLeastSquares
-import PdbUtilityFunctions
-
-import scipy as sp
-import random
 import cPickle
 import glob
+import os
+import random
+
+import scipy as sp
+
+from model_generation_p2 import MotifsLeastSquares, MotifsWithLowestStd
+from model_util_p2 import PdbUtilityFunctions
 
 print "Start", os.getcwd()
 
@@ -107,8 +106,8 @@ def hamidMethod(pdbFile):
 
         # Perform least squares.
         current_coordinates = MotifsLeastSquares.findCoordinatesFromInitial(new_motifs,
-                                                                 filtered_output["visited"],
-                                                                 current_coordinates)
+                                                                            filtered_output["visited"],
+                                                                            current_coordinates)
 
         # Chunk it into coordinates
         current_coordinates_grouped = []

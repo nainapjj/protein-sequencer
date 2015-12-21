@@ -1,8 +1,7 @@
-import numpy as np
-import numpy
 import itertools
 
-import Constants
+import numpy as np
+import numpy
 
 dict = {'GLY': 'G', 'PRO': 'P', 'ALA': 'A', 'VAL': 'V', 'LEU': 'L', 'ILE': 'I', 'AILE': 'I', 'BILE': 'I', 'MET': 'M', 'CYS': 'C', 'PHE': 'F', 'TYR': 'Y', 'TRP': 'W', 'HIS': 'H', 'LYS': 'K', 'ARG': 'R', 'GLN': 'Q', 'ASN': 'N', 'GLU': 'E', 'ASP': 'D', 'SER': 'S', 'THR': 'T', 'ATHR': 'T', 'BTHR': 'T', 'ACYS': 'C', 'BCYS': 'C', 'CCYS': 'C', 'ASER': 'S', 'BSER': 'S', 'AVAL': 'V', 'BVAL': 'V', 'AARG': 'R', 'BARG': 'R', 'AASN': 'N', 'BASN': 'N',
 'AGLN': 'Q', 'BGLN': 'Q', 'ALYS': 'K', 'BLYS': 'K'}

@@ -2,3 +2,11 @@
 __pycache__/
 *.py[cod]
 .DS_Store
+
+# Python Notebooks
+.ipynb_checkpoints/
+
+# JetBrains Gitignore
+*.iml
+## Directory-based project format:
+.idea/

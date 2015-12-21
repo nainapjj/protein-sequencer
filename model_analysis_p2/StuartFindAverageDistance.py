@@ -1,4 +1,3 @@
-import cPickle as pickle
 import numpy as np
 
 #Unpickle source file

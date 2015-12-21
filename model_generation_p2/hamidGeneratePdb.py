@@ -1,7 +1,8 @@
-import PdbUtilityFunctions
-import cPickle
 import glob
 import os
+import pickle
+
+from model_util_p2 import PdbUtilityFunctions
 
 globString = os.getcwd() + "/pdbs/*.pdb"
 
@@ -12,7 +13,7 @@ GEN_PATH = os.getcwd() + "/hamidMethod/"
 
 def main():
     with open(PICKLE_FILE, 'r') as f:
-        returnObj = cPickle.load(f)
+        returnObj = pickle.load(f)
 
     # Convert the stats file into a normal coordinates file.
     coordinates = []
@@ -38,12 +39,12 @@ def gen_make(tub):
     
 if __name__ == "__main__":
     for file in PDB_GLOB:
-        print "Formatting...", file
+        print("Formatting...", file)
         try:
             PDB_FILE = file
             PICKLE_FILE = tub_make(file)
             GEN_PDB_FILE = gen_make(file)        
             main()
         except:
-            print file, "failed."
+            print(file, "failed.")
             continue
