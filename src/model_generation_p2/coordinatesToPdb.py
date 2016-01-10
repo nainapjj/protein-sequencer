@@ -1,4 +1,4 @@
-from model_util_p2 import ReadCoordinatesFile, PdbUtilityFunctions
+from src.model_util_p2 import ReadCoordinatesFile, PdbUtilityFunctions
 
 ORIGINAL_PDB = ""
 COORDINATES_FILE = "HamidMethod.txt"

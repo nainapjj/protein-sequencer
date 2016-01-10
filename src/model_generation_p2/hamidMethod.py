@@ -7,9 +7,9 @@ import os
 import random
 
 import scipy as sp
-
 from model_generation_p2 import MotifsLeastSquares, MotifsWithLowestStd
-from model_util_p2 import PdbUtilityFunctions
+
+from src.model_util_p2 import PdbUtilityFunctions
 
 print "Start", os.getcwd()
 

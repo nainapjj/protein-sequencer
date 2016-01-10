@@ -1,6 +1,7 @@
 import numpy
 
-def indexator((a, b, c, d)):
+
+def indexator_new((a, b, c, d)):
     u = abs(a - d) * 5.28
     v = abs(a - c) * 5.28
     w = abs(a - b) * 5.28
@@ -13,7 +14,8 @@ def indexator((a, b, c, d)):
     volume = round(volume, 7)
     return volume
 
-def indexator_old((a, b, c, d)):
+
+def indexator((a, b, c, d)):
     u = abs(a - d)
     v = abs(a - c)
     w = abs(a - b)

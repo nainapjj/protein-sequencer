@@ -2,7 +2,7 @@ import glob
 import os
 import pickle
 
-from model_util_p2 import PdbUtilityFunctions
+from src.model_util_p2 import PdbUtilityFunctions
 
 globString = os.getcwd() + "/pdbs/*.pdb"
 

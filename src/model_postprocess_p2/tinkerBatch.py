@@ -2,8 +2,9 @@ import glob
 import multiprocessing
 import os.path
 
-from model_generation_p2 import Constants
 from model_postprocess_p2 import tinkerReconstructAndEnergyMinimize
+
+from src.model_generation_p2 import Constants
 
 GLOB_STRING = "hamidMethod/*.pdb"
 TINKER_DIRECTORY = "tinker/"

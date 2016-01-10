@@ -1,11 +1,10 @@
 import os.path
 import re
 
-from ..model_analysis_p2 import CalculatePhiPsi
-from ..model_util_p2 import PdbUtilityFunctions
-
 import Constants
 import ExecuteCommands
+from ..model_analysis_p2 import CalculatePhiPsi
+from ..model_util_p2 import PdbUtilityFunctions
 
 TEMP_XYZ_OUTPUT_NAME = "outputFile"
 TINKER_OUTPUT_PATTERN = r"(.*)_[0-9]+"
