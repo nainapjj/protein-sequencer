@@ -20,26 +20,30 @@ import math
 # -----------------
 
 # Constants
-ROOT = "../.."
+ROOT = "../../"
 PDB_FOLDER = ROOT + "pdb_temp"
-OUTPUT_CSV_TETRAHEDRAL = ROOT + "analysis_output/tetrahedral.db"
-OUTPUT_CSV_TRIANGULAR = ROOT + "analysis_output/triangular.db"
+OUTPUT_DB_TETRAHEDRAL = ROOT + "analysis_output/tetrahedral.db"
+OUTPUT_DB_TRIANGULAR = ROOT + "analysis_output/triangular.db"
 
 # -----
 # SQLLite Type Conversion Functions
+
 def __adapt_list(lst):
     out = io.BytesIO()
     pickle.dump(lst, out)
     out.seek(0)
     return buffer(out.read())
 
+
 def __convert_list(text):
     out = io.BytesIO(text)
     return pickle.load(out)
+
 # -----
 
 # ----
 # Helper Classes
+
 class CarbonAtom():
     def __init__(self, res_name, coord, index):
         self.res = res_name
@@ -82,16 +86,62 @@ class Motif():
             motif.coords.append(atom.coord)
             motif.indices.append(atom.index)
 
+        return motif
+
     @classmethod
     def area_from_coords(cls, coords):
         """
         For size-3 motifs, calcuates the area of the 3D triangle formed by the CA atoms.
+        Uses Heron's formula.
+
+        Source: http://math.stackexchange.com/questions/128991/how-to-calculate-area-of-3d-triangle
         :return: (float) area
         """
-        return 0.0
+        a = np.linalg.norm(coords[0] - coords[1])
+        b = np.linalg.norm(coords[0] - coords[2])
+        c = np.linalg.norm(coords[1] - coords[2])
+
+        return cls.area_from_lengths((a, b, c))
 
     @classmethod
-    def volumes_from_coords(cls, coords):
+    def area_from_lengths(cls, (a, b, c)):
+        """
+        Uses Heron's formula to calculate the area of the triangle from three sides.
+
+        Source: http://mathworld.wolfram.com/HeronsFormula.html
+        :return:
+        """
+        s = (a + b + c) / 2.0
+        area = math.sqrt(s * (s - a) * (s - b) * (s - c))
+        return area
+
+    @classmethod
+    def area_scaling_factor(cls, (c1, c2, c3)):
+        """
+        Calculates the expected area of the triangle given a Markovian polymer model, calculated simply from
+        the deltas of the indices.  Assumes a constant bond length B = 1.
+
+        Formula: R_f^2 = (b^2)N. Source: Teroka's Polymer Solutions
+
+        This area can be used to the normalize the motif volumes calculated.
+        :return:
+        """
+        a = math.sqrt(math.fabs(c1 - c2))
+        b = math.sqrt(math.fabs(c1 - c3))
+        c = math.sqrt(math.fabs(c2 - c3))
+
+        area = cls.area_from_lengths((a, b, c))
+        return area
+
+    def calculate_scaled_area(self):
+        """
+        Scale the area based on the beads-on-a-string model, and return that value
+        :return:
+        """
+        return self.get_measure() / self.area_scaling_factor(self.indices)
+
+    @classmethod
+    def volume_from_coords(cls, coords):
         """
         For size-4 motifs, calcuates the area of the 3D tetrahedron formed by the CA atoms.
         :return: (float) volume
@@ -127,37 +177,22 @@ class Motif():
                       [d14_sq, d24_sq, d34_sq, 0, 1], [1, 1, 1, 1, 0]])
         volume = (np.linalg.det(M) / 288) ** .5
 
+        assert volume > 0
         return volume
-
-    def __doesnotwork_calculate_scaled_volume(self):
-        """
-        Scale the volume based on the beads-on-a-string model, and return that value
-        :return:
-        """
-        # Calculate the sclaing factors for each of the vectors
-        s1 = math.sqrt(abs(self.indices[0] - self.indices[3]))
-        s2 = math.sqrt(abs(self.indices[1] - self.indices[3]))
-        s3 = math.sqrt(abs(self.indices[2] - self.indices[3]))
-
-        c1 = (self.coords[0] - self.coords[3]).reshape(3, 1) / s1
-        c2 = (self.coords[1] - self.coords[3]).reshape(3, 1) / s2
-        c3 = (self.coords[2] - self.coords[3]).reshape(3, 1) / s3
-
-        return 1.0 / 6.0 * abs(np.linalg.det(np.concatenate((c1, c2, c3), axis=1)))
 
     def calculate_scaled_volume(self):
         """
         Scale the volume based on the beads-on-a-string model, and return that value
         :return:
         """
-        return self.get_measure() / self.indexator(self.indices)
+        return self.get_measure() / self.volume_scaling_factor(self.indices)
 
     def get_measure(self):
-        if self.__measure == None:
+        if self.__measure is None:
             if len(self.indices) == 3:
-                self.__measure = self.area_from_coords()
+                self.__measure = self.area_from_coords(self.coords)
             elif len(self.indices) == 4:
-                self.__measure = self.volumes_from_coords()
+                self.__measure = self.volume_from_coords(self.coords)
             else:
                 print "Motifs of size %d are not supported" % len(self.indices)
                 raise NotImplementedError()
@@ -165,15 +200,17 @@ class Motif():
         return self.__measure
 
     def get_scaled_measure(self):
-        if self.__scaled_measure == None:
+        if self.__scaled_measure is None:
             if len(self.indices) == 3:
-                self.__scaled_measure = self.calculate_scaled_area(self.coords)
+                self.__scaled_measure = self.calculate_scaled_area()
             elif len(self.indices) == 4:
-                self.__scaled_measure = self.calculate_scaled_volume(self.coords)
+                self.__scaled_measure = self.calculate_scaled_volume()
             else:
                 print "Motifs of size %d are not supported" % len(self.indices)
                 raise NotImplementedError()
-#---
+
+        return self.__scaled_measure
+# ---
 
 
 def analyze_motifs(pdb_dir, db_file, N):
@@ -198,34 +235,35 @@ def analyze_motifs(pdb_dir, db_file, N):
     sqlite3.register_adapter(list, __adapt_list)
     sqlite3.register_converter("LIST", __convert_list)
 
-    conn.execute("CREATE TABLE data (motif_name TEXT, measure REAL, indices LIST, coordinates LIST)")
+    conn.execute("CREATE TABLE data (motif_name TEXT, measure REAL, scaled_measure REAL, indices LIST, coordinates LIST)")
     conn.commit()
 
     pdb_parser = Bio.PDB.PDBParser()
     for pdb_file in glob.glob("%s/*.pdb" % pdb_dir):
         pdb = pdb_parser.get_structure(pdb_file, pdb_file)
 
-        for triangle in itertools.combinations([residue for residue in pdb.get_residues() if
+        for polygon in itertools.combinations([residue for residue in pdb.get_residues() if
                                                 residue.get_resname() != "HOH"], N):
             atoms = []
 
-            for residue in triangle:
+            for residue in polygon:
                 # Obtain the CA atom
                 ca_atoms = [atom for atom in residue.get_atom() if atom.get_id() == "CA"]
-                if len(ca_atoms) != 1: import pdb; pdb.set_trace()
                 assert len(ca_atoms) == 1
                 ca_atom = ca_atoms[0]
 
                 atoms.append(CarbonAtom(res_name=Bio.SeqUtils.seq1(residue.get_resname()), coord=ca_atom.get_coord(),
                                         index=residue.get_id()[1]))
 
-            motif = Motif(atoms)
-            conn.execute("INSERT INTO data (motif_name, measure, indices, coordinates) VALUES (?, ?, ?, ?)",
-                         [motif.name, motif.get_measure(), motif.indicies, motif.coords])
-            conn.commit()
+            motif = Motif.generate_from_carbon_atoms(atoms)
+            conn.execute("INSERT INTO data (motif_name, measure, scaled_measure, indices, coordinates) VALUES (?, ?, ?, ?, ?)",
+                         [motif.name, motif.get_measure(), motif.get_scaled_measure(), motif.indices, motif.coords])
+        conn.commit()
 
-#analyze_motifs("../pdb_temp", "test.db", 3)
 
+
+analyze_motifs(PDB_FOLDER, OUTPUT_DB_TRIANGULAR, 3)
+analyze_motifs(PDB_FOLDER, OUTPUT_DB_TETRAHEDRAL, 4)
 
 
 

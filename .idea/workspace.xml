@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ed04282-e0cb-4a41-a34b-068bb48bc350" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdb_analysis_p2/test/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdb_analysis_p2/test/test_motif_analysis.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pdb_analysis_p2/motif_analysis.py" afterPath="$PROJECT_DIR$/pdb_analysis_p2/motif_analysis.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pdb_analysis_p2/motif_analysis.py" afterPath="$PROJECT_DIR$/src/pdb_analysis_p2/motif_analysis.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pdb_analysis_p2/test/test_motif_analysis.py" afterPath="$PROJECT_DIR$/src/pdb_analysis_p2/test/test_motif_analysis.py" />
     </list>
     <ignored path="protein-sequence.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,56 +26,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="motif_analysis.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pdb_analysis_p2/motif_analysis.py">
+        <entry file="file://$PROJECT_DIR$/src/pdb_analysis_p2/motif_analysis.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.2947761">
-              <caret line="101" column="33" selection-start-line="101" selection-start-column="33" selection-end-line="101" selection-end-column="33" />
+            <state vertical-scroll-proportion="0.59381044">
+              <caret line="265" column="52" selection-start-line="265" selection-start-column="52" selection-end-line="265" selection-end-column="52" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_motif_analysis.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pdb_analysis_p2/test/test_motif_analysis.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Indexator.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model_generation_p2/Indexator.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="26" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PROTEINVOLUME.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example_scripts/PROTEINVOLUME.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="31" column="32" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JEFFMODELLER.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example_scripts/JEFFMODELLER.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -112,14 +67,19 @@
         <option value="$PROJECT_DIR$/model_generation_p2/Constants.py" />
         <option value="$PROJECT_DIR$/model_postprocess_p2/tinkerReconstructAndEnergyMinimize.py" />
         <option value="$PROJECT_DIR$/pdb_analysis/motif_analysis.py" />
-        <option value="$PROJECT_DIR$/pdb_analysis_p2/motif_analysis.py" />
+        <option value="$PROJECT_DIR$/model_generation_p2/Indexator.py" />
         <option value="$PROJECT_DIR$/pdb_analysis_p2/test/test_motif_analysis.py" />
+        <option value="$PROJECT_DIR$/pdb_analysis_p2/motif_analysis.py" />
+        <option value="$PROJECT_DIR$/src/pdb_analysis_p2/test/test_motif_analysis.py" />
+        <option value="$PROJECT_DIR$/src/pdb_analysis_p2/motif_analysis.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="x" value="-1920" />
+    <option name="y" value="-180" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -146,7 +106,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -203,7 +162,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="pdbs" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -217,17 +176,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="pdb_temp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="protein-sequence" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="protein-sequence" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -242,6 +191,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="protein-sequence" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -263,7 +216,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="example_scripts" />
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model_util_p2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -277,12 +234,67 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model_postprocess_p2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protein-sequence" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protein-sequence" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model_generation_p2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protein-sequence" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protein-sequence" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model_analysis_p2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protein-sequence" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protein-sequence" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="analysis_output" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -290,40 +302,23 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="FullScreen" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="indexator&#9;FILE&#9;file:///Users/jeffnainap/dev/protein-sequence/model_generation_p2/Indexator.py" />
+    <property name="SearchEverywhereHistoryKey" value="indexat&#9;FILE&#9;file:///Users/jeffnainap/dev/protein-sequence/src/model_generation_p2/Indexator.py&#10;indexator&#9;FILE&#9;file:///Users/jeffnainap/dev/protein-sequence/model_generation_p2/Indexator.py" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/model_analysis_p2" />
-      <recent name="$PROJECT_DIR$/model_postprocess_p2" />
-      <recent name="$PROJECT_DIR$/model_util_p2" />
-      <recent name="$PROJECT_DIR$/protein_postprocess_p2" />
-      <recent name="$PROJECT_DIR$/model_postprocessing_p2" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/pdb_temp" />
       <recent name="$PROJECT_DIR$/model_postprocess_p2" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/model_analysis_p2" />
+      <recent name="$PROJECT_DIR$/model_postprocess_p2" />
+      <recent name="$PROJECT_DIR$/model_util_p2" />
+      <recent name="$PROJECT_DIR$/protein_postprocess_p2" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python tests.Nosetests in test_motif_analysis">
-    <configuration default="false" name="motif_analysis" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pdb_analysis_p2" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="protein-sequence" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pdb_analysis_p2/motif_analysis.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Nosetests in test_motif_analysis" type="tests" factoryName="Nosetests" temporary="true" show_console_on_std_out="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.motif_analysis">
+    <configuration default="false" name="Nosetest TestMotifClass.test_calculate_scaling_volume" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -334,6 +329,48 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="protein-sequence" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pdb_analysis_p2/test/test_motif_analysis.py" />
+      <option name="CLASS_NAME" value="TestMotifClass" />
+      <option name="METHOD_NAME" value="test_calculate_scaling_volume" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Nosetest TestMotifClass.test_calculate_scaling_volume (1)" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/pdb_analysis_p2/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="protein-sequence" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/pdb_analysis_p2/test/test_motif_analysis.py" />
+      <option name="CLASS_NAME" value="TestMotifClass" />
+      <option name="METHOD_NAME" value="test_calculate_scaling_volume" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Nosetests in test_motif_analysis (1)" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/pdb_analysis_p2/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="protein-sequence" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/pdb_analysis_p2/test/test_motif_analysis.py" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
       <option name="FOLDER_NAME" value="" />
@@ -342,6 +379,44 @@
       <option name="USE_PATTERN" value="false" />
       <option name="PARAMS" value="" />
       <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Nosetest TestMotifClass.test_calculate_area_from_coords" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/pdb_analysis_p2/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="protein-sequence" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/pdb_analysis_p2/test/test_motif_analysis.py" />
+      <option name="CLASS_NAME" value="TestMotifClass" />
+      <option name="METHOD_NAME" value="test_calculate_area_from_coords" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="motif_analysis" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/pdb_analysis_p2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="protein-sequence" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/pdb_analysis_p2/motif_analysis.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -466,14 +541,20 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Python.motif_analysis" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Nosetests in test_motif_analysis" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Nosetest TestMotifClass.test_calculate_scaling_volume" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Nosetest TestMotifClass.test_calculate_scaling_volume (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Nosetests in test_motif_analysis (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Nosetest TestMotifClass.test_calculate_area_from_coords" />
+      <item index="4" class="java.lang.String" itemvalue="Python.motif_analysis" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Nosetests in test_motif_analysis" />
-        <item index="1" class="java.lang.String" itemvalue="Python.motif_analysis" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.motif_analysis" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Nosetests in test_motif_analysis (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Nosetest TestMotifClass.test_calculate_area_from_coords" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Nosetest TestMotifClass.test_calculate_scaling_volume (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Nosetest TestMotifClass.test_calculate_scaling_volume" />
       </list>
     </recent_temporary>
   </component>
@@ -491,58 +572,58 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Nosetests_in_test_motif_analysis - 2015.12.29 at 13h 35m 24s.xml">
-      <configuration name="Nosetests in test_motif_analysis" configurationId="tests" />
+    <history-entry file="Nosetest_TestMotifClass_test_calculate_area_from_coords - 2016.01.10 at 16h 30m 40s.xml">
+      <configuration name="Nosetest TestMotifClass.test_calculate_area_from_coords" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_in_test_motif_analysis - 2015.12.29 at 13h 35m 41s.xml">
-      <configuration name="Nosetests in test_motif_analysis" configurationId="tests" />
+    <history-entry file="Nosetest_TestMotifClass_test_calculate_area_from_coords - 2016.01.10 at 16h 31m 58s.xml">
+      <configuration name="Nosetest TestMotifClass.test_calculate_area_from_coords" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_in_test_motif_analysis - 2015.12.29 at 13h 37m 14s.xml">
-      <configuration name="Nosetests in test_motif_analysis" configurationId="tests" />
+    <history-entry file="Nosetest_TestMotifClass_test_calculate_area_from_coords - 2016.01.10 at 16h 32m 18s.xml">
+      <configuration name="Nosetest TestMotifClass.test_calculate_area_from_coords" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_in_test_motif_analysis - 2015.12.29 at 13h 39m 23s.xml">
-      <configuration name="Nosetests in test_motif_analysis" configurationId="tests" />
+    <history-entry file="Nosetests_in_test_motif_analysis_(1) - 2016.01.10 at 16h 30m 57s.xml">
+      <configuration name="Nosetests in test_motif_analysis (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_in_test_motif_analysis - 2015.12.29 at 13h 45m 59s.xml">
-      <configuration name="Nosetests in test_motif_analysis" configurationId="tests" />
+    <history-entry file="Nosetests_in_test_motif_analysis_(1) - 2016.01.10 at 16h 36m 12s.xml">
+      <configuration name="Nosetests in test_motif_analysis (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_in_test_motif_analysis - 2015.12.29 at 13h 46m 28s.xml">
-      <configuration name="Nosetests in test_motif_analysis" configurationId="tests" />
+    <history-entry file="Nosetests_in_test_motif_analysis_(1) - 2016.01.10 at 16h 43m 36s.xml">
+      <configuration name="Nosetests in test_motif_analysis (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_in_test_motif_analysis - 2015.12.29 at 13h 53m 52s.xml">
-      <configuration name="Nosetests in test_motif_analysis" configurationId="tests" />
+    <history-entry file="Nosetests_in_test_motif_analysis_(1) - 2016.01.10 at 16h 44m 31s.xml">
+      <configuration name="Nosetests in test_motif_analysis (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_in_test_motif_analysis - 2015.12.29 at 13h 54m 52s.xml">
-      <configuration name="Nosetests in test_motif_analysis" configurationId="tests" />
+    <history-entry file="Nosetests_in_test_motif_analysis_(1) - 2016.01.10 at 16h 44m 46s.xml">
+      <configuration name="Nosetests in test_motif_analysis (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_in_test_motif_analysis - 2015.12.29 at 13h 55m 08s.xml">
-      <configuration name="Nosetests in test_motif_analysis" configurationId="tests" />
+    <history-entry file="Nosetests_in_test_motif_analysis_(1) - 2016.01.10 at 16h 56m 45s.xml">
+      <configuration name="Nosetests in test_motif_analysis (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_in_test_motif_analysis - 2015.12.29 at 13h 55m 25s.xml">
-      <configuration name="Nosetests in test_motif_analysis" configurationId="tests" />
+    <history-entry file="Nosetests_in_test_motif_analysis_(1) - 2016.01.10 at 16h 57m 07s.xml">
+      <configuration name="Nosetests in test_motif_analysis (1)" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
+    <frame x="-1920" y="-180" width="1920" height="1080" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947146" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18694049" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44457832" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="1.0" sideWeight="0.5024665" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32673267" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32772276" sideWeight="0.49753347" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43366337" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39903846" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43373495" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328125" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39903846" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -563,14 +644,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/model_analysis_p2/StuartPairwiseAnalysis.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/start.py">
+    <entry file="file://$PROJECT_DIR$/src/start.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -584,21 +658,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model_postprocess_p2/tinkerBatch.py">
+    <entry file="file://$PROJECT_DIR$/src/model_postprocess_p2/tinkerBatch.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model_postprocess_p2/tinkerReconstructAndEnergyMinimize.py">
+    <entry file="file://$PROJECT_DIR$/src/model_postprocess_p2/tinkerReconstructAndEnergyMinimize.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="147" column="107" selection-start-line="147" selection-start-column="107" selection-end-line="147" selection-end-column="107" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model_analysis_p2/analyzePdbVolumes.py">
+    <entry file="file://$PROJECT_DIR$/src/model_analysis_p2/analyzePdbVolumes.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
@@ -612,84 +686,77 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model_generation_p2/hamidGeneratePdb.py">
+    <entry file="file://$PROJECT_DIR$/src/model_generation_p2/hamidGeneratePdb.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model_generation_p2/coordinatesToPdb.py">
+    <entry file="file://$PROJECT_DIR$/src/model_generation_p2/coordinatesToPdb.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model_util_p2/PdbUtilityFunctions.py">
+    <entry file="file://$PROJECT_DIR$/src/model_util_p2/PdbUtilityFunctions.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model_analysis_p2/processCoordinates.py">
+    <entry file="file://$PROJECT_DIR$/src/model_analysis_p2/processCoordinates.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model_util_p2/ReadCoordinatesFile.py">
+    <entry file="file://$PROJECT_DIR$/src/model_util_p2/ReadCoordinatesFile.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model_analysis_p2/__init__.py">
+    <entry file="file://$PROJECT_DIR$/src/model_analysis_p2/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model_generation_p2/__init__.py">
+    <entry file="file://$PROJECT_DIR$/src/model_generation_p2/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model_postprocess_p2/__init__.py">
+    <entry file="file://$PROJECT_DIR$/src/model_postprocess_p2/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/__init__.py">
+    <entry file="file://$PROJECT_DIR$/src/model_analysis_p2/StuartFindAverageDistance.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model_analysis_p2/StuartFindAverageDistance.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model_generation_p2/MotifsLeastSquares.py">
+    <entry file="file://$PROJECT_DIR$/src/model_generation_p2/MotifsLeastSquares.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.26184538">
           <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model_analysis_p2/hamidStat.py">
+    <entry file="file://$PROJECT_DIR$/src/model_analysis_p2/hamidStat.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="13" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="13" />
@@ -703,70 +770,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model_generation_p2/obtainAminoAcidCoordinates.py">
+    <entry file="file://$PROJECT_DIR$/src/model_generation_p2/obtainAminoAcidCoordinates.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4488778">
           <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model_postprocess_p2/SWISSPASS.txt">
+    <entry file="file://$PROJECT_DIR$/src/model_postprocess_p2/SWISSPASS.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model_postprocess_p2/ExecuteCommands.py">
+    <entry file="file://$PROJECT_DIR$/src/model_postprocess_p2/ExecuteCommands.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model_generation_p2/Constants.py">
+    <entry file="file://$PROJECT_DIR$/src/model_generation_p2/Constants.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.028355388">
           <caret line="3" column="43" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model_postprocess_p2/Constants.py">
+    <entry file="file://$PROJECT_DIR$/src/model_postprocess_p2/Constants.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.17013232">
           <caret line="6" column="59" selection-start-line="6" selection-start-column="59" selection-end-line="6" selection-end-column="59" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model_analysis_p2/analyzing_indexator.ipynb">
+    <entry file="file://$PROJECT_DIR$/src/model_analysis_p2/analyzing_indexator.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
           <selected id="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model_analysis_p2/CalculatePhiPsi.py">
+    <entry file="file://$PROJECT_DIR$/src/model_analysis_p2/CalculatePhiPsi.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.2985075">
           <caret line="58" column="15" selection-start-line="58" selection-start-column="15" selection-end-line="58" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model_analysis_p2/analyzePdbVolumes.py">
+    <entry file="file://$PROJECT_DIR$/src/model_analysis_p2/analyzePdbVolumes.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.02238806">
           <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model_postprocess_p2/tinkerReconstructAndEnergyMinimize.py">
+    <entry file="file://$PROJECT_DIR$/src/model_postprocess_p2/tinkerReconstructAndEnergyMinimize.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.14925373">
           <caret line="132" column="52" selection-start-line="132" selection-start-column="52" selection-end-line="132" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model_postprocess_p2/tinkerBatch.py">
+    <entry file="file://$PROJECT_DIR$/src/model_postprocess_p2/tinkerBatch.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -780,21 +847,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/start.py">
+    <entry file="file://$PROJECT_DIR$/src/start.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model_analysis_p2/StuartPairwiseAnalysis.py">
+    <entry file="file://$PROJECT_DIR$/src/model_analysis_p2/StuartPairwiseAnalysis.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model_generation_p2/hamidMethod.py">
+    <entry file="file://$PROJECT_DIR$/src/model_generation_p2/hamidMethod.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2835821">
           <caret line="132" column="26" selection-start-line="132" selection-start-column="26" selection-end-line="132" selection-end-column="26" />
@@ -878,18 +945,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model_generation_p2/MotifsWithLowestStd.py">
+    <entry file="file://$PROJECT_DIR$/src/model_generation_p2/MotifsWithLowestStd.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.2316384">
           <caret line="56" column="15" selection-start-line="56" selection-start-column="15" selection-end-line="56" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example_scripts/PROTEINVOLUME.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="31" column="32" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -898,33 +957,57 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
           <folding>
-            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#0#11#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model_generation_p2/Indexator.py">
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm50/python_stubs/-87552934/math.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="26" selection-end-column="17" />
+        <state vertical-scroll-proportion="2.2560976">
+          <caret line="148" column="4" selection-start-line="148" selection-start-column="4" selection-end-line="148" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pdb_analysis_p2/test/test_motif_analysis.py">
+    <entry file="file://$PROJECT_DIR$/example_scripts/PROTEINVOLUME.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
+        <state vertical-scroll-proportion="0.7131902">
+          <caret line="31" column="32" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model_generation_p2/Indexator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11029412">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm50/python_stubs/-87552934/__builtin__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33272058">
+          <caret line="509" column="4" selection-start-line="509" selection-start-column="4" selection-end-line="509" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pdb_analysis_p2/test/test_motif_analysis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.6617647">
+          <caret line="139" column="22" selection-start-line="139" selection-start-column="22" selection-end-line="139" selection-end-column="22" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pdb_analysis_p2/motif_analysis.py">
+    <entry file="file://$PROJECT_DIR$/src/pdb_analysis_p2/motif_analysis.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.2947761">
-          <caret line="101" column="33" selection-start-line="101" selection-start-column="33" selection-end-line="101" selection-end-column="33" />
+        <state vertical-scroll-proportion="0.59381044">
+          <caret line="265" column="52" selection-start-line="265" selection-start-column="52" selection-end-line="265" selection-end-column="52" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
           </folding>
