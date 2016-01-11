@@ -1,0 +1,1 @@
+The db files storing the pdb file analysis will go into this folder.

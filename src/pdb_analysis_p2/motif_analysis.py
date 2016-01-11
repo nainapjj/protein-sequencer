@@ -2,6 +2,7 @@ import Bio.PDB
 import Bio.SeqUtils
 
 import numpy as np
+import progressbar
 
 import os.path
 import glob
@@ -20,8 +21,8 @@ import math
 # -----------------
 
 # Constants
-ROOT = "../../"
-PDB_FOLDER = ROOT + "pdb_temp"
+ROOT = "./"
+PDB_FOLDER = ROOT + "pdbs"
 OUTPUT_DB_TETRAHEDRAL = ROOT + "analysis_output/tetrahedral.db"
 OUTPUT_DB_TRIANGULAR = ROOT + "analysis_output/triangular.db"
 
@@ -231,15 +232,17 @@ def analyze_motifs(pdb_dir, db_file, N):
         return
 
     # Initialize the database
+    print("Initalizing the db at (%s)" % db_file)
     conn = sqlite3.connect(db_file, detect_types=sqlite3.PARSE_DECLTYPES)
     sqlite3.register_adapter(list, __adapt_list)
     sqlite3.register_converter("LIST", __convert_list)
 
-    conn.execute("CREATE TABLE data (motif_name TEXT, measure REAL, scaled_measure REAL, indices LIST, coordinates LIST)")
+    conn.execute("CREATE TABLE data (pdb_name TEXT, motif_name TEXT, measure REAL, scaled_measure REAL, indices LIST, coordinates LIST)")
     conn.commit()
 
     pdb_parser = Bio.PDB.PDBParser()
     for pdb_file in glob.glob("%s/*.pdb" % pdb_dir):
+        print("Begin processing of (%s)..." % pdb_file)
         pdb = pdb_parser.get_structure(pdb_file, pdb_file)
 
         for polygon in itertools.combinations([residue for residue in pdb.get_residues() if
@@ -256,13 +259,17 @@ def analyze_motifs(pdb_dir, db_file, N):
                                         index=residue.get_id()[1]))
 
             motif = Motif.generate_from_carbon_atoms(atoms)
-            conn.execute("INSERT INTO data (motif_name, measure, scaled_measure, indices, coordinates) VALUES (?, ?, ?, ?, ?)",
-                         [motif.name, motif.get_measure(), motif.get_scaled_measure(), motif.indices, motif.coords])
+            conn.execute("INSERT INTO data (pdb_name, motif_name, measure, scaled_measure, indices, coordinates) VALUES (?, ?, ?, ?, ?, ?)",
+                         [pdb_file, motif.name, motif.get_measure(), motif.get_scaled_measure(), motif.indices, motif.coords])
         conn.commit()
 
+        print("End processing of (%s)" % pdb_file)
 
 
+print ("Begin the processing of triangular motifs...")
 analyze_motifs(PDB_FOLDER, OUTPUT_DB_TRIANGULAR, 3)
+
+print("Begin the processsing of tetrahedral motifs...")
 analyze_motifs(PDB_FOLDER, OUTPUT_DB_TETRAHEDRAL, 4)
 
 
